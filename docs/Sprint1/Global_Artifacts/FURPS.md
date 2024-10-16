@@ -6,7 +6,8 @@ _Specifies functionalities that:
 &nbsp; &nbsp; (i) are common across several US/UC;  
 &nbsp; &nbsp; (ii) are not related to US/UC, namely: Audit, Reporting and Security._
 
-(fill in here)
+- Security:
+ -
 
 ## Usability
 
@@ -24,7 +25,8 @@ _Refers to the integrity, compliance and interoperability of the software. The r
 ## Performance
 _Evaluates the performance requirements of the software, namely: response time, start-up time, recovery time, memory consumption, CPU usage, load capacity and application availability._
 
-(fill in here)
+- The system should start up in less than 10 seconds.
+- Under heavy load, the response time must be no more than 5 seconds.
 
 ## Supportability
 _The supportability requirements gathers several characteristics, such as:
