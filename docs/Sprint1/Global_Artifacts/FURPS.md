@@ -17,7 +17,7 @@ _Evaluates the user interface. It has several subcategories,
 among them: error prevention; interface aesthetics and design; help and
 documentation; consistency and standards._
 
-- Error messages should be descriptive and offer helpful suggestions for correcting the problem (e.g., invalid input for client registration).
+- Error messages should be descriptive and offer helpful suggestions for correcting the problem.
 - The system must provide a simple, clear, and consistent user interface across all platforms (web, mobile, console).
 - Provide a help section or FAQ for common user issues (e.g., property search filters, how to contact agents).
 - Consistent labeling and icons should be used across all screens to ensure uniformity and ease of use.
@@ -27,7 +27,6 @@ _Refers to the integrity, compliance and interoperability of the software. The r
 - The system must have an uptime of 99% or more per year to ensure high availability.
 - In the event of system failure, the system should automatically recover without data loss.
 - Failures should be logged, and administrators should be alerted for quick recovery actions.
-- 
 ## Performance
 _Evaluates the performance requirements of the software, namely: response time, start-up time, recovery time, memory consumption, CPU usage, load capacity and application availability._
 
@@ -51,7 +50,9 @@ configurability, instability, scalability and more._
 
 _Specifies or constraints the system design process. Examples may include: programming languages, software process, mandatory standards/patterns, use of development tools, class library, etc._
 
-(fill in here)
+- The core application must be developed in C++ and use the CLion IDE for development.
+- The design must follow a modular architecture to support the separation of concerns.
+- Development must adhere to MVC (Model-View-Controller) for the user interface.
 
 ### Implementation Constraints
 
@@ -59,16 +60,22 @@ _Specifies or constraints the code or construction of a system
 such as: mandatory standards/patterns, implementation languages,
 database integrity, resource limits, operating system._
 
-(fill in here)
+- The system should be optimized to operate efficiently on standard hardware setups without requiring high resource consumption.
+- The system must support cross-platform functionality (web, iOS, Android).
+- The codebase must be managed in a version control system (GitHub), and all changes must follow established branching and merging practices.
 
 ### Interface Constraints
 _Specifies or constraints the features inherent to the interaction of the
 system being developed with other external systems._
 
-(fill in here)
+- The APIs should follow standard HTTP methods (GET, POST, PUT, DELETE) for data manipulation.
+- The system must expose RESTful APIs for interaction between client-side applications (web/mobile) and the core server-side application.
+- There must be a clear separation of concerns between the API and the business logic to ensure smooth interaction between components.
 
 ### Physical Constraints
 
 _Specifies a limitation or physical requirement regarding the hardware used to house the system, as for example: material, shape, size or weight._
 
-(fill in here)
+- Backup storage devices must be used to store critical data redundantly to avoid data loss.
+- Physical servers should have sufficient memory and storage to support data growth and high availability
+- The system must be deployable on cloud infrastructure as well as on-premise servers, depending on Dream House’s operational needs.
