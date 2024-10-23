@@ -6,10 +6,10 @@ The team is formed by the students identified in the following table.
 
 | Student Number	 | Name              |
 |-----------------|-------------------|
-| **1221432**          | Luís Martins      |
-| **1220002**     | Name of student 2 |
-| **1220003**     | Name of student 3 |
-| **1220004**     | Name of student 4 |
+| **1221432**     | Luís Martins      |
+| **1221923**     | Gonçalo Maia      |
+| **1230773**     | Pedro Sousa       |
+| **1220004**     |  |
 
 
 # 2. Task Distribution ###
