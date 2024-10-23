@@ -6,17 +6,16 @@ _Specifies functionalities that:
 &nbsp; &nbsp; (i) are common across several US/UC;  
 &nbsp; &nbsp; (ii) are not related to US/UC, namely: Audit, Reporting and Security._
 
-- Security:
- -
-
 ## Usability
 
 _Evaluates the user interface. It has several subcategories,
 among them: error prevention; interface aesthetics and design; help and
 documentation; consistency and standards._
 
-(fill in here)
-
+- Error messages should be descriptive and offer helpful suggestions for correcting the problem (e.g., invalid input for client registration).
+- The system must provide a simple, clear, and consistent user interface across all platforms (web, mobile, console).
+- Provide a help section or FAQ for common user issues (e.g., property search filters, how to contact agents).
+- Consistent labeling and icons should be used across all screens to ensure uniformity and ease of use.
 ## Reliability
 _Refers to the integrity, compliance and interoperability of the software. The requirements to be considered are: frequency and severity of failure, possibility of recovery, possibility of prediction, accuracy, average time between failures._
 
