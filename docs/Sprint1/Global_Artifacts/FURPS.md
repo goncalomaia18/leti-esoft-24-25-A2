@@ -38,7 +38,7 @@ _Evaluates the performance requirements of the software, namely: response time, 
 ## Supportability
 _The supportability requirements gathers several characteristics, such as:
 testability, adaptability, maintainability, compatibility,
-configurability, installability, scalability and more._
+configurability, instability, scalability and more._
 
 - The system must be easily testable with automated unit and regression tests using the Google Testing Framework.
 - The system must be compatible with multiple data persistence solutions (relational databases, NoSQL, in-memory databases).
@@ -55,7 +55,7 @@ _Specifies or constraints the system design process. Examples may include: progr
 
 ### Implementation Constraints
 
-_Specifies or constraints the code or construction of a system such
+_Specifies or constraints the code or construction of a system
 such as: mandatory standards/patterns, implementation languages,
 database integrity, resource limits, operating system._
 
