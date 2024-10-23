@@ -1,15 +1,15 @@
-# LETI-ESOFT Project
+# LETI-ESOFT Project A2
 
 # 1. Team Members
 
 The team is formed by the students identified in the following table. 
 
-| Student Number	 | Name              |
-|-----------------|-------------------|
-| **1221432**     | Luís Martins      |
-| **1221923**     | Gonçalo Maia      |
-| **1230773**     | Pedro Sousa       |
-| **1220004**     |  |
+| Student Number	 | Name           |
+|-----------------|----------------|
+| **1221432**     | Luís Martins   |
+| **1221923**     | Gonçalo Maia   |
+| **1230773**     | Pedro Sousa    |
+| **1231479**     | José Figueiras |
 
 
 # 2. Task Distribution ###
