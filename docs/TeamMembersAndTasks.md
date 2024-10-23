@@ -1,4 +1,4 @@
-# LETI-ESOFT Project
+# LETI-ESOFT Project A2
 
 # 1. Team Members
 
