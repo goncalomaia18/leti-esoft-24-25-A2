@@ -1,25 +1,36 @@
 @startuml
-'https://plantuml.com/use-case-diagram
+left to right direction
 
-title This is a Default Use Case Diagram to serve as an example
+actor "Proprietário" as owner
+actor "Agente" as agent
+actor "Cliente" as client
+actor "Gestor de Rede de Lojas" as manager
 
-:Main Admin: as Admin
-(UC01 - Start) as (Start)
-(UC02 - Use the application) as (Use)
+rectangle "Sistema Dream House" {
 
-User -> (Start)
-User --> (Use)
+    usecase "UC1 - Registar Propriedade" as UC1
+    usecase "UC2 - Escolher ou Atribuir Agente" as UC2
+    usecase "UC3 - Publicar Anúncio de Imóvel" as UC3
+    usecase "UC4 - Consultar Propriedades Disponíveis" as UC4
+    usecase "UC5 - Marcar Visita a uma Propriedade" as UC5
+    usecase "UC6 - Gerir Pedidos de Visita" as UC6
+    usecase "UC7 - Enviar Pedido de Compra/Arrendamento" as UC7
+    usecase "UC8 - Aprovar/Rejeitar Pedido de Compra/Arrendamento" as UC8
+    usecase "UC9 - Registar Loja e Agentes" as UC9
+    usecase "UC10 - Gerir Propriedades e Lojas" as UC10
+}
 
-Admin ---> (Use)
+' Relacionamentos dos atores com os casos de uso
+owner -- UC1
+owner -- UC2
+agent -- UC3
+client -- UC4
+client -- UC5
+agent -- UC6
+client -- UC7
+agent -- UC8
+manager -- UC9
+manager -- UC10
 
-note right of Admin : This is an example.
-
-note right of (Use)
-A note can also
-be on several lines
-end note
-
-note "This note is connected\nto several objects." as N2
-(Start) .. N2
-N2 .. (Use)
 @enduml
+
