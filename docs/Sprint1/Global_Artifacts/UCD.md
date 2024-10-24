@@ -1,4 +1,4 @@
-# Use Case Diagram (UCD)
+1# Use Case Diagram (UCD)
 
 **In the scope of this project, there is a direct relationship of _1 to 1_ between Use Cases (UC) and User Stories (US).**
 
@@ -13,9 +13,9 @@ However, be aware, this is a pedagogical simplification. On further projects and
 (Tip: organize the content of each US in a dedicated folder)
 
 # Use Cases / User Stories
-| UC/US | Description                     |                   
-|:------|:--------------------------------|
-| US01  | [ShortNameOfUS01](US01/US01.md) |
-| US02  | [ShortNameOfUS02](US02/US02.md) |
-| ...   | ...                             |
-| US99  | [ShortNameOfUS99](US99/US99.md) |
+| UC/US | Description                           |                   
+|:------|:--------------------------------------|
+| US01  | [Update all artifacts ](US01/US01.md) |
+| US02  | [ShortNameOfUS02](US02/US02.md)       |
+| ...   | ...                                   |
+| US99  | [ShortNameOfUS99](US99/US99.md)       |
