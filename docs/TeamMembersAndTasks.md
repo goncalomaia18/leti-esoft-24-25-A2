@@ -2,14 +2,14 @@
 
 # 1. Team Members
 
-The team is formed by the students identified in the following table. 
+The team is formed by the students identified in the following table.
 
-| Student Number	 | Name           |
-|-----------------|----------------|
-| **1221432**     | Luís Martins   |
-| **1231479**     | José Figueiras |
-| ****            | Gonçalo Maia   |
-| ****     | Pedro Sousa    |
+| Student Number	 | Name |
+|-----------------|----------------------------|
+| **1220001**     | Name of student 1          |
+| **1220002**     | Name of student 2          |
+| **1220003**     | Name of student 3          |
+| **1220004**     | Name of student 4          |
 
 
 # 2. Task Distribution ###
@@ -38,5 +38,3 @@ At last, remember that each User Story does not stand alone... it needs to be in
 | US 11 (SDP Activities)      |                                             | [1220002](Sprint2/US11/US11.md)             |                                             |                                             |
 | US 12 (SDP Activities)      |                                             | [1220003](Sprint2/US12/US12.md)             |                                             |                                             |
 | US 13 (SDP Activities)      |                                             | [1220004](Sprint2/US13/US13.md)             |                                             |                                             |
-
-
