@@ -2,7 +2,8 @@
 
 # 1. Team Members
 
-The team is formed by the students identified in the following table. 
+The team is formed by the students identified in the following table.
+
 
 | Student Number	 | Name           |
 |-----------------|----------------|
@@ -38,5 +39,3 @@ At last, remember that each User Story does not stand alone... it needs to be in
 | US 11 (SDP Activities)      |                                              | [1220002](Sprint2/US11/US11.md)             |                                             |                                             |
 | US 12 (SDP Activities)      |                                              | [1220003](Sprint2/US12/US12.md)             |                                             |                                             |
 | US 13 (SDP Activities)      |                                              | [1220004](Sprint2/US13/US13.md)             |                                             |                                             |
-
-

@@ -113,27 +113,23 @@ To identify domain conceptual classes, start by making a list of candidate conce
 
 ## Rationale to identify associations between conceptual classes
 
-An association is a relationship between instances of objects that indicates a relevant connection and that is worth of remembering, or it is derivable from the List of Common Associations:
-
-- **_A_** is physically or logically part of **_B_**
-- **_A_** is physically or logically contained in/on **_B_**
-- **_A_** is a description for **_B_**
-- **_A_** is known/logged/recorded/reported/captured in **_B_**
-- **_A_** uses or manages or owns **_B_**
-- **_A_** is related with a transaction (item) of **_B_**
-- etc.
 
 
-| Concept (A) 		|  Association   	|  Concept (B) |
-|----------	   		|:-------------:		|------:       |
-| C1  	| verb1    		 	| C2  |
-| ...  	| ...    		 	| ...  |
+| Concept (A) 		  |  Association   	   |   Concept (B)   |
+|-----------------|:------------------:|:---------------:|
+| Company  	      |        Owns        |     Branch      |
+| Branch  	       |  Employs    		 	   | RealEstateAgent |
+| Branch   	      |     Employs 	      |    Employee     |
+| RealEstateAgent |  Handles    		 	   |      Sale       |
+| RealEstateAgent |  Manages    		 	   |     Listing     |
+| Client  	       | Schedules    		 	  |      Visit      |
+| Client  	       |    Buys    		 	    |      Sale       |
+| Sale  	         | isLinkedTo    		 	 |     Listing     |
+| Owner  	        |    Owns    		 	    |    Property     |
+| Listing  	      | Advertises    		 	 |    Property     |
+
 
 
 ## Domain Model
-
-**Don't forget to also identify the attributes of concepts.**
-
-**Insert below the Domain Model Diagram in a SVG format.**
 
 ![DM.svg](DM.svg)
