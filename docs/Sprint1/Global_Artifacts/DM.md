@@ -10,7 +10,7 @@ To identify domain conceptual classes, start by making a list of candidate conce
 
 **Business Transactions**
 
--
+- Classe: Listing
 
 ---
 
@@ -22,49 +22,49 @@ To identify domain conceptual classes, start by making a list of candidate conce
 
 **Product/Service related to a Transaction or Transaction Line Item**
 
--
+- Classes: Proprety, House, Apartment, Land
 
 ---
 
 **Transaction Records**
 
--
+- Classes: Visit
 
 ---
 
 **Roles of People or Organizations**
 
--
+- Classes: Client, RealEstateAgent, Employee, Owner, Company
 
 ---
 
 **Places**
 
--
+- Classes: Branch, Property
 
 ---
 
 **Noteworthy Events**
 
--
+- Classes: Visit
 
 ---
 
 **Physical Objects**
 
--
+- Classes: Property, House, Apartment, Land
 
 ---
 
 **Descriptions of Things**
 
--
+- Classes: Property, Listing
 
 ---
 
 **Catalogs**
 
--
+- Classe: Listing 
 
 ---
 
@@ -82,7 +82,7 @@ To identify domain conceptual classes, start by making a list of candidate conce
 
 **Organizations**
 
--
+- Classes: Company, Branch
 
 ---
 
@@ -94,7 +94,7 @@ To identify domain conceptual classes, start by making a list of candidate conce
 
 **Records of finance, work, contracts, legal matters**
 
--
+- Classe: Listing
 
 ---
 
