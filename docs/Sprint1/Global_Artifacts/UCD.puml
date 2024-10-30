@@ -16,8 +16,9 @@ rectangle "Sistema Dream House" {
     usecase "UC6 - Gerir Pedidos de Visita" as UC6
     usecase "UC7 - Enviar Pedido de Compra/Arrendamento" as UC7
     usecase "UC8 - Aprovar/Rejeitar Pedido de Compra/Arrendamento" as UC8
-    usecase "UC9 - Registar Loja e Agentes" as UC9
-    usecase "UC10 - Gerir Propriedades e Lojas" as UC10
+    usecase "UC10 - Registar Loja" as UC10
+    usecase "UC11 - Registar Agente" as UC11
+    usecase "UC19 - Gerir Propriedades e Lojas" as UC19
 }
 
 ' Relacionamentos dos atores com os casos de uso
@@ -29,7 +30,8 @@ client -- UC5
 agent -- UC6
 client -- UC7
 agent -- UC8
-manager -- UC9
+manager -- UC19
 manager -- UC10
+manager -- UC11
 
 @enduml
