@@ -1,0 +1,106 @@
+@startuml
+
+class Client {
+  +name : String
+  +citizenCardNumber : String
+  +taxIdNumber : String
+  +email : String
+  +phoneNumber : String
+}
+
+class Property {
+  +type : String
+  +area : Float
+  +location : String
+  +distanceFromCityCenter : Float
+  +price : Float
+  +photos : String[]
+}
+
+class House {
+  +hasBasement : Boolean
+  +hasAttic : Boolean
+  +sunExposure : String
+  +numberOfBedrooms : int
+  +numberOfBathrooms : int
+  +parkingSpaces : int
+  +equipment : String[]
+}
+
+class Apartment {
+  +floorNumber : int
+  +numberOfBedrooms : int
+  +numberOfBathrooms : int
+  +parkingSpaces : int
+  +equipment : String[]
+}
+
+class Land {
+}
+
+class Owner {
+  +name : String
+  +taxIdNumber : String
+  +phoneNumber : String
+}
+
+class RealEstateAgent {
+  +name : String
+  +citizenCardNumber : String
+  +email : String
+  +phoneNumber : String
+}
+
+class Listing {
+  +publishDate : Date
+  +businessType : String
+  +commission : Float
+}
+
+class Visit {
+  +preferredDates : Date[]
+  +preferredTimes : Time[]
+}
+
+class Branch {
+  +code : String
+  +name : String
+  +address : String
+  +openingHours : String
+}
+
+class Company {
+  +name : String
+  +registrationNumber : String
+}
+
+class Employee {
+  +name : String
+  +citizenCardNumber : String
+  +email : String
+  +phoneNumber : String
+  +role : String
+}
+
+class Sale {
+  +saleValue : Float
+  +responsibleAgent : RealEstateAgent
+  +buyerClient : Client
+}
+
+Client "1" --> "0..*" Visit : schedules
+Owner "1" --> "0..*" Property : owns
+Property <|-- House
+Property <|-- Apartment
+Property <|-- Land
+RealEstateAgent "1" --> "0..*" Listing : manages
+Listing "1" --> "1" Property : advertises
+Branch "1" --> "0..*" RealEstateAgent : employs
+Company "1" --> "0..*" Branch : owns
+Branch "1" --> "0..*" Employee : employs
+Client "1" --> "0..*" Sale : buys
+Sale "1" --> "1" Listing : isLinkedTo
+RealEstateAgent "1" --> "0..*" Sale : handles
+
+@enduml
+
