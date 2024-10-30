@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="970px" preserveAspectRatio="none" style="width:628px;height:970px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 628 970" width="628px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster Sistema Dream House-->
+        <g id="cluster_Sistema Dream House">
+            <rect fill="none" height="957" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="416"
+                  x="206" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="147.8408" x="340.0796" y="24.1074">Sistema Dream House
+            </text>
+        </g>
+        <g id="elem_UC1">
+            <ellipse cx="413.9396" cy="68.1879" fill="#F1F1F1" rx="106.4396" ry="23.6879"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172.7441"
+                  x="327.5676" y="71.9848">UC1 - Registar Propriedade
+            </text>
+        </g>
+        <g id="elem_UC2">
+            <ellipse cx="413.7703" cy="154.1541" fill="#F1F1F1" rx="123.7703" ry="27.1541"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210.875"
+                  x="308.3328" y="157.9509">UC2 - Escolher ou Atribuir Agente
+            </text>
+        </g>
+        <g id="elem_UC3">
+            <ellipse cx="413.9109" cy="360.0822" fill="#F1F1F1" rx="123.4109" ry="27.0822"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210.0957"
+                  x="308.863" y="363.8791">UC3 - Publicar An&#250;ncio de Im&#243;vel
+            </text>
+        </g>
+        <g id="elem_UC4">
+            <ellipse cx="414.0387" cy="740.1077" fill="#F1F1F1" rx="148.5387" ry="32.1077"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="263.7852"
+                  x="282.1461" y="743.9046">UC4 - Consultar Propriedades Dispon&#237;veis
+            </text>
+        </g>
+        <g id="elem_UC5">
+            <ellipse cx="414.2176" cy="536.8435" fill="#F1F1F1" rx="139.7176" ry="30.3435"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="245.0957"
+                  x="291.6698" y="540.6404">UC5 - Marcar Visita a uma Propriedade
+            </text>
+        </g>
+        <g id="elem_UC6">
+            <ellipse cx="413.8265" cy="447.1653" fill="#F1F1F1" rx="111.3265" ry="24.6653"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183.627"
+                  x="322.013" y="450.9622">UC6 - Gerir Pedidos de Visita
+            </text>
+        </g>
+        <g id="elem_UC7">
+            <ellipse cx="414.1214" cy="637.9243" fill="#F1F1F1" rx="162.6214" ry="34.9243"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="293.3643"
+                  x="267.4393" y="641.7212">UC7 - Enviar Pedido de Compra/Arrendamento
+            </text>
+        </g>
+        <g id="elem_UC8">
+            <ellipse cx="414.2321" cy="256.8464" fill="#F1F1F1" rx="192.2321" ry="40.8464"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="354.833"
+                  x="236.8156" y="260.6433">UC8 - Aprovar/Rejeitar Pedido de Compra/Arrendamento
+            </text>
+        </g>
+        <g id="elem_UC9">
+            <ellipse cx="414.1555" cy="832.2311" fill="#F1F1F1" rx="114.1555" ry="25.2311"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189.875"
+                  x="319.218" y="836.028">UC9 - Registar Loja e Agentes
+            </text>
+        </g>
+        <g id="elem_UC10">
+            <ellipse cx="413.9277" cy="920.0855" fill="#F1F1F1" rx="125.9277" ry="27.5855"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215.5439"
+                  x="306.1557" y="923.8824">UC10 - Gerir Propriedades e Lojas
+            </text>
+        </g><!--entity owner-->
+        <g id="elem_owner">
+            <ellipse cx="84.1826" cy="80" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M84.1826,88 L84.1826,115 M71.1826,96 L97.1826,96 M84.1826,115 L71.1826,130 M84.1826,115 L97.1826,130 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72.3652"
+                  x="48" y="146.6074">Propriet&#225;rio
+            </text>
+        </g><!--entity agent-->
+        <g id="elem_agent">
+            <ellipse cx="84.186" cy="329" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M84.186,337 L84.186,364 M71.186,345 L97.186,345 M84.186,364 L71.186,379 M84.186,364 L97.186,379 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44.3721"
+                  x="62" y="395.6074">Agente
+            </text>
+        </g><!--entity client-->
+        <g id="elem_client">
+            <ellipse cx="83.7896" cy="607" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M83.7896,615 L83.7896,642 M70.7896,623 L96.7896,623 M83.7896,642 L70.7896,657 M83.7896,642 L96.7896,657 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43.5791"
+                  x="62" y="673.6074">Cliente
+            </text>
+        </g><!--entity manager-->
+        <g id="elem_manager">
+            <ellipse cx="83.8271" cy="845" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M83.8271,853 L83.8271,880 M70.8271,861 L96.8271,861 M83.8271,880 L70.8271,895 M83.8271,880 L96.8271,895 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155.6543"
+                  x="6" y="911.6074">Gestor de Rede de Lojas
+            </text>
+        </g><!--link owner to UC1-->
+        <g id="link_owner_UC1">
+            <path d="M120.1,106.4 C167.86,100.14 255.03,88.71 321.89,79.94 " fill="none" id="owner-UC1"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link owner to UC2-->
+        <g id="link_owner_UC2">
+            <path d="M120.1,115.6 C164.48,121.42 242.86,131.69 307.38,140.15 " fill="none" id="owner-UC2"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to UC3-->
+        <g id="link_agent_UC3">
+            <path d="M106.02,360 C142.85,360 221.67,360 290.22,360 " fill="none" id="agent-UC3"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to UC4-->
+        <g id="link_client_UC4">
+            <path d="M106.13,649.3 C128.44,660.85 164.9,678.67 198,690 C231.36,701.42 268.5,711.09 302.41,718.79 "
+                  fill="none" id="client-UC4" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to UC5-->
+        <g id="link_client_UC5">
+            <path d="M106.08,626.4 C128.35,614.56 164.78,596.35 198,585 C232.29,573.29 270.65,563.67 305.37,556.2 "
+                  fill="none" id="client-UC5" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to UC6-->
+        <g id="link_agent_UC6">
+            <path d="M106.28,369.57 C128.71,379.35 165.26,394.43 198,404 C238.56,415.85 284.36,425.51 323.24,432.65 "
+                  fill="none" id="agent-UC6" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to UC7-->
+        <g id="link_client_UC7">
+            <path d="M106.02,638 C135.99,638 193.78,638 251.2,638 " fill="none" id="client-UC7"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to UC8-->
+        <g id="link_agent_UC8">
+            <path d="M106.39,350.62 C128.91,340.95 165.54,325.8 198,315 C226.98,305.36 258.55,296.14 288.35,288.01 "
+                  fill="none" id="agent-UC8" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link manager to UC9-->
+        <g id="link_manager_UC9">
+            <path d="M162.32,865.63 C208.34,859.45 267.14,851.57 316.23,844.98 " fill="none" id="manager-UC9"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link manager to UC10-->
+        <g id="link_manager_UC10">
+            <path d="M162.32,886.37 C205.21,892.13 259.22,899.37 306.1,905.66 " fill="none" id="manager-UC10"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--SRC=[ZPEzRjj03CVtUmh2IoOZJVmz2awG5aW18qMxCnBhC92E1k_a34KVfW_GgLjNlrXv-aXaPQcWZwF87qNo_YhfUuGeeBn_Yb2mKXvPl7EOHr6Ox5GEoXHFlvHb0XX0NZnfxyxsv2Crxp4j-_VRabyTURFkFNSKqhCWU22xsNalpnYQo0gzPL7dKXNezoN1v0k7I1N2ZH9My57gO5b_E0Tss3h7O45VjrSmjOHx2qQ5hkW2YxO2Su_Zhot-DkHIFf62r915vSUQ5GOTMTGOcncsgnzBpkqpcJ_zzJbBQk9JTVfpfBBZPcDkRjnMVAZBKNq1RZWSn9z-7ub3Xy_7-CBmpwZfezyuS4H0g6qexnjTZD6beNUarjcE2Yuaf6hR91so72EhD1j_PEoPX6obEYXUPgha2wniIDBngp6_DZuxg1nHBn_ecJZ-PwRrEDDckAj99q3T1lMZshmJmeUtXeTZ7keiHRcVpbrOyX9j1trRXit6BZHz6f1B1MPPtdPcTH3NQ1-cqqPH0-FQDUflZPbh5TzQypDhCGnSdhbMGzVQTVz2QsxEJQl-7m00]-->
+    </g>
+</svg>

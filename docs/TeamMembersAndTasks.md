@@ -1,15 +1,16 @@
-# LETI-ESOFT Project
+# LETI-ESOFT Project A2
 
 # 1. Team Members
 
-The team is formed by the students identified in the following table. 
+The team is formed by the students identified in the following table.
 
-| Student Number	 | Name |
-|-----------------|----------------------------|
-| **1220001**     | Name of student 1          |
-| **1220002**     | Name of student 2          |
-| **1220003**     | Name of student 3          |
-| **1220004**     | Name of student 4          |
+
+| Student Number	 | Name           |
+|-----------------|----------------|
+| **1221432**     | Luís Martins   |
+| **1221923**     | Gonçalo Maia   |
+| **1230773**     | Pedro Sousa    |
+| **1231479**     | José Figueiras |
 
 
 # 2. Task Distribution ###
@@ -28,15 +29,13 @@ At last, remember that each User Story does not stand alone... it needs to be in
 
 **This table must be always up-to-date.**
 
-| Task                        | [Sprint 1](Sprint1/README.md)               | [Sprint 2](Sprint2/README.md)               | [Sprint 3](Sprint3/README.md)               | [Sprint 4](Sprint4/README.md)               |
-|-----------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
-| Glossary                    | [all](Sprint1/Global_Artifacts/Glossary.md) | [all](Sprint2/Global_Artifacts/Glossary.md) | [all](Sprint3/Global_Artifacts/Glossary.md) | [all](Sprint4/Global_Artifacts/Glossary.md) |
-| Use Case Diagram (UCD)      | [all](Sprint1/Global_Artifacts/UCD.md)      | [all](Sprint2/Global_Artifacts/UCD.md)      | [all](Sprint3/Global_Artifacts/UCD.md)      | [all](Sprint4/Global_Artifacts/UCD.md)      |
-| Supplementary Specification | [all](Sprint1/Global_Artifacts/FURPS.md)    | [all](Sprint2/Global_Artifacts/FURPS.md)    | [all](Sprint3/Global_Artifacts/FURPS.md)    | [all](Sprint4/Global_Artifacts/FURPS.md)    |
-| Domain Model                | [all](Sprint1/Global_Artifacts/DM.md)       | [all](Sprint2/Global_Artifacts/DM.md)       | [all](Sprint3/Global_Artifacts/DM.md)       | [all](Sprint4/Global_Artifacts/DM.md)       |
-| US 10 (SDP Activities)      |                                             | [1220001](Sprint2/US10/US10.md)             |                                             |                                             |
-| US 11 (SDP Activities)      |                                             | [1220002](Sprint2/US11/US11.md)             |                                             |                                             |
-| US 12 (SDP Activities)      |                                             | [1220003](Sprint2/US12/US12.md)             |                                             |                                             |
-| US 13 (SDP Activities)      |                                             | [1220004](Sprint2/US13/US13.md)             |                                             |                                             |
-
-
+| Task                        | [Sprint 1](Sprint1/README.md)                | [Sprint 2](Sprint2/README.md)               | [Sprint 3](Sprint3/README.md)               | [Sprint 4](Sprint4/README.md)               |
+|-----------------------------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+| Glossary                    | [all](Sprint1/Global_Artifacts/Glossary.md)  | [all](Sprint2/Global_Artifacts/Glossary.md) | [all](Sprint3/Global_Artifacts/Glossary.md) | [all](Sprint4/Global_Artifacts/Glossary.md) |
+| Use Case Diagram (UCD)      | [all](Sprint1/Global_Artifacts/UCD.md)       | [all](Sprint2/Global_Artifacts/UCD.md)      | [all](Sprint3/Global_Artifacts/UCD.md)      | [all](Sprint4/Global_Artifacts/UCD.md)      |
+| Supplementary Specification | [1230773](Sprint1/Global_Artifacts/FURPS.md) | [all](Sprint2/Global_Artifacts/FURPS.md)    | [all](Sprint3/Global_Artifacts/FURPS.md)    | [all](Sprint4/Global_Artifacts/FURPS.md)    |
+| Domain Model                | [all](Sprint1/Global_Artifacts/DM.md)        | [all](Sprint2/Global_Artifacts/DM.md)       | [all](Sprint3/Global_Artifacts/DM.md)       | [all](Sprint4/Global_Artifacts/DM.md)       |
+| US 10 (SDP Activities)      |                                              | [1220001](Sprint2/US10/US10.md)             |                                             |                                             |
+| US 11 (SDP Activities)      |                                              | [1220002](Sprint2/US11/US11.md)             |                                             |                                             |
+| US 12 (SDP Activities)      |                                              | [1220003](Sprint2/US12/US12.md)             |                                             |                                             |
+| US 13 (SDP Activities)      |                                              | [1220004](Sprint2/US13/US13.md)             |                                             |                                             |
