@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class AgentView {
+}
+
+class RegisterAgentController {
+    +createAgent(string name, string citizenCardNumber): RealEstateAgent
+    +assignAgentToBranch(RealEstateAgent agent, Branch branch): Result
+}
+
+class RealEstateAgent {
+    - id: String
+    - name: String
+    - citizenCardNumber: String
+    +validateData(): Boolean
+}
+
+class Branch {
+    - id: String
+    - name: String
+    +addAgent(agent: RealEstateAgent): Result
+    +checkCapacity(): Boolean
+}
+
+class AgentContainer {
+    +createAgent(string name, string citizenCardNumber): RealEstateAgent
+    +saveAgent(RealEstateAgent agent): Result
+    +isAgentUnique(RealEstateAgent agent): Boolean
+}
+
+class BranchContainer {
+    +findBranch(string branchId): Branch
+    +validateBranchAgent(RealEstateAgent agent, Branch branch): Boolean
+}
+
+Person "1" -right-> "1" BranchContainer : manages branches
+AgentContainer "1" -right-> "0..*" RealEstateAgent : records agents
+
+AgentView ..> RegisterAgentController
+RegisterAgentController ..> RealEstateAgent
+RegisterAgentController ..> BranchContainer
+RegisterAgentController ..> AgentContainer
+RegisterAgentController ..> Branch
+
+@enduml

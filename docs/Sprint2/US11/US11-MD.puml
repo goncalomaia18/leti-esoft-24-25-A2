@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam classAttributeIconSize 0
+
+class RegisterAgentController {
+}
+
+class RegisterAgentView {
+    - agentData
+}
+
+class Branch {
+    - agents
+}
+
+class RealEstateAgent {
+    - name
+    - citizenCardNumber
+    - email
+    - phoneNumber
+}
+
+' Relationships
+admin --> RegisterAgentView : "Fill Agent Form"
+RegisterAgentView --> RegisterAgentController : "Submit Agent Data"
+RegisterAgentController --> Branch : "Add Agent"
+Branch "1" --> "0..*" RealEstateAgent : manages
+@enduml
