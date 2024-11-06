@@ -1,0 +1,48 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+actor Person
+
+participant RegisterAgentView
+participant RegisterAgentController
+participant BranchContainer
+participant AgentContainer
+participant RealEstateAgent
+
+Person -> RegisterAgentView : asks to register a new agent
+RegisterAgentView -> RegisterAgentController : createAgent()
+
+RegisterAgentController -> BranchContainer : getAgentContainer()
+BranchContainer --> RegisterAgentController : agentContainer
+
+RegisterAgentController -> AgentContainer : create()
+AgentContainer --> RegisterAgentController : agent : RealEstateAgent
+
+RegisterAgentView -> Person : requests data (name, citizen card)
+Person -> RegisterAgentView : enters data
+
+RegisterAgentView -> RegisterAgentController : setData(name, citizen card)
+RegisterAgentController -> RealEstateAgent : setName(name)
+RealEstateAgent --> RegisterAgentController : ok
+RegisterAgentController -> RealEstateAgent : setCitizenCard(citizen card)
+RealEstateAgent --> RegisterAgentController : ok
+
+RegisterAgentController -> RealEstateAgent : validate()
+RealEstateAgent -> RealEstateAgent : isValid()
+RealEstateAgent --> RegisterAgentController : ok
+
+RegisterAgentController -> AgentContainer : validate(agent)
+AgentContainer -> AgentContainer : checkDuplicates(agent)
+AgentContainer --> RegisterAgentController : ok
+
+RegisterAgentView -> Person : shows data and requests confirmation
+Person -> RegisterAgentView : confirms
+
+RegisterAgentController -> AgentContainer : save(agent)
+AgentContainer -> AgentContainer : add(agent)
+AgentContainer --> RegisterAgentController : ok
+
+RegisterAgentView -> Person : informs operation success
+
+@enduml
