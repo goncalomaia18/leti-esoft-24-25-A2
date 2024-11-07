@@ -4,7 +4,7 @@
 hide circle
 skinparam classAttributeIconSize 0
 
-class AgentView {
+class RegisterAgentView {
 }
 
 class RegisterAgentController {
@@ -37,10 +37,10 @@ class BranchContainer {
     +validateBranchAgent(RealEstateAgent agent, Branch branch): Boolean
 }
 
-Person "1" -right-> "1" BranchContainer : manages branches
+Administrator "1" -right-> "1" BranchContainer : manages branches
 AgentContainer "1" -right-> "0..*" RealEstateAgent : records agents
 
-AgentView ..> RegisterAgentController
+RegisterAgentView ..> RegisterAgentController
 RegisterAgentController ..> RealEstateAgent
 RegisterAgentController ..> BranchContainer
 RegisterAgentController ..> AgentContainer
