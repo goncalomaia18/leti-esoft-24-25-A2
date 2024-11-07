@@ -22,7 +22,7 @@ class RealEstateAgent {
 }
 
 ' Relationships
-admin --> RegisterAgentView : "Fill Agent Form"
+Administrator --> RegisterAgentView : "Fill Agent Form"
 RegisterAgentView --> RegisterAgentController : "Submit Agent Data"
 RegisterAgentController --> Branch : "Add Agent"
 Branch "1" --> "0..*" RealEstateAgent : manages
