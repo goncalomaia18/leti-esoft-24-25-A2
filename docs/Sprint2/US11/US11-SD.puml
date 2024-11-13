@@ -1,48 +1,56 @@
-@startuml
-hide circle
-skinparam classAttributeIconSize 0
+    @startuml
+    hide circle
+        skinparam classAttributeIconSize 0
 
-actor Administrator
+        actor Administrator
 
-participant RegisterAgentView
-participant RegisterAgentController
-participant BranchContainer
-participant AgentContainer
-participant RealEstateAgent
+        participant RegisterAgentView
+        participant RegisterAgentController
+        participant BranchContainer
+        participant AgentContainer
+        participant RealEstateAgent
+        participant StoreContainer
 
-Administrator -> RegisterAgentView : asks to register a new agent
-RegisterAgentView -> RegisterAgentController : createAgent()
+        Administrator -> RegisterAgentView : asks to register a new agent
+        RegisterAgentView -> RegisterAgentController : createAgent()
 
-RegisterAgentController -> BranchContainer : getAgentContainer()
-BranchContainer --> RegisterAgentController : agentContainer
+        RegisterAgentController -> BranchContainer : getAgentContainer()
+        BranchContainer --> RegisterAgentController : agentContainer
 
-RegisterAgentController -> AgentContainer : create()
-AgentContainer --> RegisterAgentController : agent : RealEstateAgent
+        RegisterAgentController -> AgentContainer : create()
+        AgentContainer --> RegisterAgentController : agent : RealEstateAgent
 
-RegisterAgentView -> Administrator : requests data (name, citizen card)
-Administrator -> RegisterAgentView : enters data
+        RegisterAgentView -> Administrator : requests data (name, citizen card)
+        Administrator -> RegisterAgentView : enters data
 
-RegisterAgentView -> RegisterAgentController : setData(name, citizen card)
-RegisterAgentController -> RealEstateAgent : setName(name)
-RealEstateAgent --> RegisterAgentController : ok
-RegisterAgentController -> RealEstateAgent : setCitizenCard(citizen card)
-RealEstateAgent --> RegisterAgentController : ok
+        RegisterAgentView -> RegisterAgentController : setData(name, citizen card)
+        RegisterAgentController -> RealEstateAgent : setName(name)
+        RealEstateAgent --> RegisterAgentController : ok
+        RegisterAgentController -> RealEstateAgent : setCitizenCard(citizen card)
+        RealEstateAgent --> RegisterAgentController : ok
 
-RegisterAgentController -> RealEstateAgent : validate()
-RealEstateAgent -> RealEstateAgent : isValid()
-RealEstateAgent --> RegisterAgentController : ok
+        RegisterAgentView -> RegisterAgentController : request store list
+        RegisterAgentController -> StoreContainer : getStores()
+        StoreContainer --> RegisterAgentController : storeList
+        RegisterAgentController -> RegisterAgentView : display storeList
 
-RegisterAgentController -> AgentContainer : validate(agent)
-AgentContainer -> AgentContainer : checkDuplicates(agent)
-AgentContainer --> RegisterAgentController : ok
+        Administrator -> RegisterAgentView : selects store
+        RegisterAgentView -> RegisterAgentController : setStore(store)
 
-RegisterAgentView -> Person : shows data and requests confirmation
-Administrator -> RegisterAgentView : confirms
+        RegisterAgentController -> RealEstateAgent : validate()
+        RealEstateAgent -> RealEstateAgent : isValid()
+        RealEstateAgent --> RegisterAgentController : ok
 
-RegisterAgentController -> AgentContainer : save(agent)
-AgentContainer -> AgentContainer : add(agent)
-AgentContainer --> RegisterAgentController : ok
+        RegisterAgentController -> AgentContainer : validate(agent)
+        AgentContainer -> AgentContainer : checkDuplicates(agent)
+        AgentContainer --> RegisterAgentController : ok
 
-RegisterAgentView -> Administrator : informs operation success
+        RegisterAgentView -> App : shows data and requests confirmation
+        Administrator -> RegisterAgentView : confirms
 
-@enduml
+        RegisterAgentController -> AgentContainer : save(agent)
+        AgentContainer -> AgentContainer : add(agent)
+        AgentContainer --> RegisterAgentController : ok
+
+        RegisterAgentView -> Administrator : informs operation success
+    @enduml
