@@ -1,0 +1,49 @@
+@startuml
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class ListAgentView {
+}
+
+class ListAgentController {
+    +getAllGroupedByStore(): Map<Store, List<Agent>>
+}
+
+class NetworkManager {
+    - name
+    +getStoreContainer(): StoreContainer
+}
+
+class StoreContainer {
+    +getAllStores(): List<Store>
+}
+
+class Store {
+    - storeName
+    - location
+    +getStoreName(): string
+    +getLocation(): string
+}
+
+class Agent {
+    - name
+    - employeeId
+    Agent(string name, string employeeId)
+    +getName(): string
+    +getEmployeeId(): string
+}
+
+NetworkManager "1" -right-> "1" StoreContainer: maintains
+StoreContainer "1" -right-> "0..*" Store: contains
+Store "1" -right-> "0..*" Agent: employs
+
+ListAgentView ..> ListAgentController
+ListAgentView ..> Store
+ListAgentView ..> Agent
+ListAgentController ..> NetworkManager
+ListAgentController ..> StoreContainer
+ListAgentController ..> Store
+ListAgentController ..> Agent
+
+@enduml

@@ -1,106 +1,88 @@
 @startuml
 
 class Client {
-  +name : String
-  +citizenCardNumber : String
-  +taxIdNumber : String
-  +email : String
-  +phoneNumber : String
+  +name
+  +citizenCardNumber
+  +taxIdNumber
+  +email
+  +phoneNumber
 }
 
 class Property {
-  +type : String
-  +area : Float
-  +location : String
-  +distanceFromCityCenter : Float
-  +price : Float
-  +photos : String[]
+  +type
+  +area
+  +location
+  +distanceFromCityCenter
+  +price
+  +photos
 }
 
 class House {
-  +hasBasement : Boolean
-  +hasAttic : Boolean
-  +sunExposure : String
-  +numberOfBedrooms : int
-  +numberOfBathrooms : int
-  +parkingSpaces : int
-  +equipment : String[]
+  +hasBasement
+  +hasAttic
+  +sunExposure
+  +numberOfBedrooms
+  +numberOfBathrooms
+  +parkingSpaces
+  +equipment
 }
 
 class Apartment {
-  +floorNumber : int
-  +numberOfBedrooms : int
-  +numberOfBathrooms : int
-  +parkingSpaces : int
-  +equipment : String[]
+  +floorNumber
+  +numberOfBedrooms
+  +numberOfBathrooms
+  +parkingSpaces
+  +equipment
 }
 
 class Land {
 }
 
 class Owner {
-  +name : String
-  +taxIdNumber : String
-  +phoneNumber : String
+  +name
+  +taxIdNumber
+  +phoneNumber
 }
 
 class RealEstateAgent {
-  +name : String
-  +citizenCardNumber : String
-  +email : String
-  +phoneNumber : String
+  +name
+  +citizenCardNumber
+  +email
+  +phoneNumber
 }
 
 class Listing {
-  +publishDate : Date
-  +businessType : String
-  +commission : Float
+  +publishDate
+  +businessType
+  +commission
 }
 
 class Visit {
-  +preferredDates : Date[]
-  +preferredTimes : Time[]
 }
 
 class Branch {
-  +code : String
-  +name : String
-  +address : String
-  +openingHours : String
-}
-
-class Company {
-  +name : String
-  +registrationNumber : String
-}
-
-class Employee {
-  +name : String
-  +citizenCardNumber : String
-  +email : String
-  +phoneNumber : String
-  +role : String
+  +code
+  +name
+  +address
+  +openingHours
 }
 
 class Sale {
-  +saleValue : Float
-  +responsibleAgent : RealEstateAgent
-  +buyerClient : Client
+  +% saleValue
+  +responsibleAgent
+  +buyerClient
 }
 
-Client "1" --> "0..*" Visit : schedules
-Owner "1" --> "0..*" Property : owns
-Property <|-- House
-Property <|-- Apartment
-Property <|-- Land
-RealEstateAgent "1" --> "0..*" Listing : manages
-Listing "1" --> "1" Property : advertises
-Branch "1" --> "0..*" RealEstateAgent : employs
-Company "1" --> "0..*" Branch : owns
-Branch "1" --> "0..*" Employee : employs
-Client "1" --> "0..*" Sale : buys
-Sale "1" --> "1" Listing : isLinkedTo
-RealEstateAgent "1" --> "0..*" Sale : handles
+Client "1" -- "0..*" Visit : schedules
+Owner "1" -- "0..*" Property : owns
+Property -- House
+Property -- Apartment
+Property -- Land
+RealEstateAgent "1" -- "0..*" Listing : manages
+Listing "0..*" -- "1" Property : advertises
+Branch "1" -- "0..*" RealEstateAgent : employs
+Client "1" -- "0..*" Sale : buys
+Sale "1" -- "1" Listing : isLinkedTo
 
 @enduml
 
