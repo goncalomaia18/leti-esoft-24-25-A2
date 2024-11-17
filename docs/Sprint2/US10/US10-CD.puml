@@ -29,9 +29,12 @@ class RegisterStoreView {
     + RegisterStoreView(controller: RegisterStoreController)
     + show(): void
 }
+class Admin {
+
+}
 
 StoreContainer "1" -right-> "0..*" Store: contains
-RegisterStoreController "1" --> "1" StoreContainer: manages
+RegisterStoreController "1" --> "1" StoreContainer
 RegisterStoreView ..> RegisterStoreController: interacts with
-
+Admin "1" --> "1" StoreContainer: manages
 @enduml
