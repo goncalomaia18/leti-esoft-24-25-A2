@@ -10,7 +10,19 @@ class RegisterAgentView {
     - agentData
 }
 
+class StoreSelectionView {
+    - storeData
+    + displayStores()
+    + selectStore(storeId: String)
+}
+
 class Branch {
+    - stores
+    - agents
+    + findStore(storeId: String): Store
+}
+
+class Store {
     - agents
 }
 
@@ -25,5 +37,10 @@ class RealEstateAgent {
 Administrator --> RegisterAgentView : "Fill Agent Form"
 RegisterAgentView --> RegisterAgentController : "Submit Agent Data"
 RegisterAgentController --> Branch : "Add Agent"
+Administrator --> StoreSelectionView : "Select Store"
+StoreSelectionView --> Branch : "Retrieve Stores"
+Branch "1" --> "0..*" Store : manages
 Branch "1" --> "0..*" RealEstateAgent : manages
+Store "1" --> "0..*" RealEstateAgent : manages
 @enduml
+
