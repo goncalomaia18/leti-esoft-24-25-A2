@@ -1,0 +1,25 @@
+@startuml
+
+autoactivate on
+autonumber
+
+actor "Unregistered User" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Request to register a new client
+System --> User: Request for client details (Citizen Card, Phone, etc.)
+
+User -> System: Submit client details (Citizen Card, Phone, etc.)
+System -> System: Check if Citizen Card and Phone are unique
+alt If not unique
+    System --> User: Error message (e.g., "Citizen Card or Phone already exists")
+    User -> System: Submit new unique details
+else If unique
+    System -> System: Generate Internal Code (sequential)
+    System -> System: Register new client (with unique Citizen Card, Phone, and Internal Code)
+    System --> User: Confirmation of successful registration
+end
+
+@enduml

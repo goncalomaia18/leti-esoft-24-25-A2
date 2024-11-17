@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="305.9px" preserveAspectRatio="none" style="width:654px;height:305px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 654 305" width="654.5px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--class RegisterClientView-->
+        <g id="elem_RegisterClientView">
+            <rect codeLine="4" fill="#F1F1F1" height="31.2348" id="RegisterClientView" rx="1.75" ry="1.75"
+                  style="stroke:#181818;stroke-width:0.3499999999999999;" width="86.8" x="306.25" y="4.9"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="82.6"
+                  x="308.35" y="18.9752">RegisterClientView
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="306.95" x2="392.35" y1="24.9348"
+                  y2="24.9348"/>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="306.95" x2="392.35" y1="30.5348"
+                  y2="30.5348"/>
+        </g><!--class RegisterClientController-->
+        <g id="elem_RegisterClientController">
+            <rect codeLine="7" fill="#F1F1F1" height="57.3043" id="RegisterClientController" rx="1.75" ry="1.75"
+                  style="stroke:#181818;stroke-width:0.3499999999999999;" width="380.8" x="159.25" y="79.1"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="105.7"
+                  x="296.8" y="93.1752">RegisterClientController
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="159.95" x2="539.35" y1="99.1348"
+                  y2="99.1348"/>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="159.95" x2="539.35" y1="104.7348"
+                  y2="104.7348"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="372.4"
+                  x="163.45" y="118.11">+createClient(name: String, citizenCardNumber: String, phoneNumber: String):
+                Client
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="208.6"
+                  x="163.45" y="131.1447">+assignClientToDatabase(client: Client): Result
+            </text>
+        </g><!--class Client-->
+        <g id="elem_Client">
+            <rect codeLine="12" fill="#F1F1F1" height="109.4434" id="Client" rx="1.75" ry="1.75"
+                  style="stroke:#181818;stroke-width:0.3499999999999999;" width="126.7" x="522.9" y="191.8"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="25.2"
+                  x="573.65" y="205.8752">Client
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="523.6" x2="648.9" y1="211.8348"
+                  y2="211.8348"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="27.3"
+                  x="527.1" y="225.21">-id: int
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="59.5"
+                  x="527.1" y="238.2447">-name: String
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="118.3"
+                  x="527.1" y="251.2795">-citizenCardNumber: String
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="97.3"
+                  x="527.1" y="264.3143">-phoneNumber: String
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.1"
+                  x="527.1" y="277.349">-email: String
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="523.6" x2="648.9" y1="282.6086"
+                  y2="282.6086"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="109.9"
+                  x="527.1" y="295.9838">+validateData(): Boolean
+            </text>
+        </g><!--class ClientDatabase-->
+        <g id="elem_ClientDatabase">
+            <rect codeLine="21" fill="#F1F1F1" height="70.3391" id="ClientDatabase" rx="1.75" ry="1.75"
+                  style="stroke:#181818;stroke-width:0.3499999999999999;" width="266.7" x="4.9" y="211.4"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="67.9"
+                  x="104.3" y="225.4752">ClientDatabase
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="5.6" x2="270.9" y1="231.4348"
+                  y2="231.4348"/>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="5.6" x2="270.9" y1="237.0348"
+                  y2="237.0348"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="146.3"
+                  x="9.1" y="250.41">+saveClient(client: Client): Result
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="258.3"
+                  x="9.1" y="263.4447">+isCitizenCardUnique(citizenCardNumber: String): Boolean
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="249.2"
+                  x="9.1" y="276.4795">+isPhoneNumberUnique(phoneNumber: String): Boolean
+            </text>
+        </g><!--class InternalCodeGenerator-->
+        <g id="elem_InternalCodeGenerator">
+            <rect codeLine="27" fill="#F1F1F1" height="44.2695" id="InternalCodeGenerator" rx="1.75" ry="1.75"
+                  style="stroke:#181818;stroke-width:0.3499999999999999;" width="106.4" x="296.45" y="224.35"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="102.2"
+                  x="298.55" y="238.4252">InternalCodeGenerator
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="297.15" x2="402.15" y1="244.3848"
+                  y2="244.3848"/>
+            <line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="297.15" x2="402.15" y1="249.9848"
+                  y2="249.9848"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="92.4"
+                  x="300.65" y="263.36">+generateCode(): int
+            </text>
+        </g><!--link RegisterClientView to RegisterClientController-->
+        <g id="link_RegisterClientView_RegisterClientController">
+            <path codeLine="31" d="M349.65,36.484 C349.65,48.216 349.65,60.599 349.65,74.753 " fill="none"
+                  id="RegisterClientView-to-RegisterClientController"
+                  style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="349.65,78.953,352.45,72.653,349.65,75.453,346.85,72.653,349.65,78.953"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        </g><!--link RegisterClientController to Client-->
+        <g id="link_RegisterClientController_Client">
+            <path codeLine="32" d="M398.097,136.598 C434.133,157.486 479.9968,184.0859 519.1758,206.8079 " fill="none"
+                  id="RegisterClientController-to-Client"
+                  style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="522.809,208.915,518.7639,203.3322,519.7813,207.1591,515.9545,208.1765,522.809,208.915"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        </g><!--link RegisterClientController to ClientDatabase-->
+        <g id="link_RegisterClientController_ClientDatabase">
+            <path codeLine="33"
+                  d="M302.813,136.507 C291.718,143.283 279.965,150.57 269.15,157.5 C242.158,174.797 215.9633,192.3407 191.7083,208.8607 "
+                  fill="none" id="RegisterClientController-to-ClientDatabase"
+                  style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="188.237,211.225,195.0202,209.9928,191.1298,209.2547,191.8678,205.3643,188.237,211.225"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        </g><!--link RegisterClientController to InternalCodeGenerator-->
+        <g id="link_RegisterClientController_InternalCodeGenerator">
+            <path codeLine="34" d="M349.65,136.598 C349.65,162.547 349.65,196.343 349.65,219.961 " fill="none"
+                  id="RegisterClientController-to-InternalCodeGenerator"
+                  style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="349.65,224.161,352.45,217.861,349.65,220.661,346.85,217.861,349.65,224.161"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        </g><!--link ClientDatabase to Client-->
+        <g id="link_ClientDatabase_Client">
+            <path codeLine="36"
+                  d="M187.187,211.351 C212.114,195.629 243.67,178.829 274.75,170.8 C360.416,148.659 456.0294,181.4105 519.0644,210.7545 "
+                  fill="none" id="ClientDatabase-to-Client" style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+            <polygon fill="#181818"
+                     points="522.872,212.527,518.3422,207.3298,519.699,211.0499,515.9789,212.4066,522.872,212.527"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="54.6"
+                  x="275.45" y="168.0198">stores clients
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="4.9"
+                  x="188.8242" y="203.4958">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="14"
+                  x="503.2638" y="207.2718">0..*
+            </text>
+        </g><!--link InternalCodeGenerator to Client-->
+        <g id="link_InternalCodeGenerator_Client">
+            <path codeLine="37" d="M403.046,246.4 C438.55,246.4 481.152,246.4 518.56,246.4 " fill="none"
+                  id="InternalCodeGenerator-to-Client" style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+            <polygon fill="#181818" points="522.76,246.4,516.46,243.6,519.26,246.4,516.46,249.2,522.76,246.4"
+                     style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="94.5"
+                  x="415.625" y="241.5198">generates internal code
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="4.9"
+                  x="408.3688" y="243.7543">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="14"
+                  x="503.3631" y="256.6739">0..*
+            </text>
+        </g><!--SRC=[ZLBBJiCm4BpxAwoSoYDHkUPG2OA4Ua6e1UvRPvMkSEnYEqK2yUyuSKpQabJuEBEpdftTBPN81HaXaTatKZimK7CXmTfRvmnj6eTBeTMQFf7F6UiOliAAh4DJI4BbNWa_-1Vx7cSBhPpHKgBnDTo_As4G70Psfg36dA_zLwgwzawS_qWLOCh7fjwW6QZTLYiy1Yzo7hg4llvlgbH0dlKzEDY0nPdeW5ZgDIkqZNI3tq3qxb8gSqvzo_JGNK0c7GPwn6KWi0QIHz3L7YILFedMwSpxkjDQ8gXJOt6G69-5VGnlQhIkZcmnU7rHzDxuBARS7tpVYv-6INhn-0R-k5uglti5ij0bFg120qx_xhuA0BPaEtERj5UE75IMBIOlYKsUMAlgR-8VDJ7QyxMZ0p5sifta9k6feMhhqWLFvbbscSJBohdr2hGyxCkoyOZETeZ1sJQoJio5LxCV]-->
+    </g>
+</svg>

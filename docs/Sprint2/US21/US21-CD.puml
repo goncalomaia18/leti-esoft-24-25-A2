@@ -1,0 +1,40 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class RegisterClientView {
+}
+
+class RegisterClientController {
+    +createClient(name: String, citizenCardNumber: String, phoneNumber: String): Client
+    +assignClientToDatabase(client: Client): Result
+}
+
+class Client {
+    -id: int
+    -name: String
+    -citizenCardNumber: String
+    -phoneNumber: String
+    -email: String
+    +validateData(): Boolean
+}
+
+class ClientDatabase {
+    +saveClient(client: Client): Result
+    +isCitizenCardUnique(citizenCardNumber: String): Boolean
+    +isPhoneNumberUnique(phoneNumber: String): Boolean
+}
+
+class InternalCodeGenerator {
+    +generateCode(): int
+}
+
+RegisterClientView ..> RegisterClientController
+RegisterClientController ..> Client
+RegisterClientController ..> ClientDatabase
+RegisterClientController ..> InternalCodeGenerator
+
+ClientDatabase "1" -right-> "0..*" Client : stores clients
+InternalCodeGenerator "1" -right-> "0..*" Client : generates internal code
+
+@enduml

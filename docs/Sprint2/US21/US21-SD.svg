@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="705.6px" preserveAspectRatio="none" style="width:760px;height:705px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 760 705" width="760.9px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="44.1" x2="44.1"
+              y1="58.5348" y2="647.4275"/>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="229.6" x2="229.6"
+              y1="58.5348" y2="647.4275"/>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="388.15" x2="388.15"
+              y1="58.5348" y2="647.4275"/>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="556.85" x2="556.85"
+              y1="58.5348" y2="647.4275"/>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="659.05" x2="659.05"
+              y1="58.5348" y2="647.4275"/>
+        <line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="739.55" x2="739.55"
+              y1="58.5348" y2="647.4275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="77" x="3.5"
+              y="56.0752">UnregisteredUser
+        </text>
+        <ellipse cx="44.1" cy="9.45" fill="#E2E2F0" rx="5.6" ry="5.6"
+                 style="stroke:#181818;stroke-width:0.3499999999999999;"/>
+        <path d="M44.1,15.05 L44.1,33.95 M35,20.65 L53.2,20.65 M44.1,33.95 L35,44.45 M44.1,33.95 L53.2,44.45 "
+              fill="none" style="stroke:#181818;stroke-width:0.3499999999999999;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="77" x="3.5"
+              y="657.3027">UnregisteredUser
+        </text>
+        <ellipse cx="44.1" cy="665.7123" fill="#E2E2F0" rx="5.6" ry="5.6"
+                 style="stroke:#181818;stroke-width:0.3499999999999999;"/>
+        <path d="M44.1,671.3123 L44.1,690.2123 M35,676.9123 L53.2,676.9123 M44.1,690.2123 L35,700.7123 M44.1,690.2123 L53.2,700.7123 "
+              fill="none" style="stroke:#181818;stroke-width:0.3499999999999999;"/>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="92.4" x="183.4" y="35"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="82.6" x="188.3"
+              y="50.4752">RegisterClientView
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="92.4" x="183.4" y="646.7275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="82.6" x="188.3"
+              y="662.2027">RegisterClientView
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="115.5" x="330.75" y="35"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="105.7"
+              x="335.65" y="50.4752">RegisterClientController
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="115.5" x="330.75" y="646.7275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="105.7"
+              x="335.65" y="662.2027">RegisterClientController
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="77.7" x="518.35" y="35"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="67.9"
+              x="523.25" y="50.4752">ClientDatabase
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="77.7" x="518.35" y="646.7275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="67.9"
+              x="523.25" y="662.2027">ClientDatabase
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="112" x="603.05" y="35"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="102.2"
+              x="607.95" y="50.4752">InternalCodeGenerator
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="112" x="603.05" y="646.7275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="102.2"
+              x="607.95" y="662.2027">InternalCodeGenerator
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="35" x="722.05" y="35"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="25.2"
+              x="726.95" y="50.4752">Client
+        </text>
+        <rect fill="#E2E2F0" height="22.8348" rx="1.75" ry="1.75"
+              style="stroke:#181818;stroke-width:0.3499999999999999;" width="35" x="722.05" y="646.7275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="25.2"
+              x="726.95" y="662.2027">Client
+        </text>
+        <polygon fill="#181818" points="221.2,79.0385,228.2,81.8385,221.2,84.6385,224,81.8385"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="44.1" x2="225.4" y1="81.8385" y2="81.8385"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="114.1" x="49"
+              y="78.1546">asks to register a new client
+        </text>
+        <polygon fill="#181818" points="380.1,100.9422,387.1,103.7422,380.1,106.5422,382.9,103.7422"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="229.6" x2="384.3" y1="103.7422"
+              y2="103.7422"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="53.9" x="234.5"
+              y="100.0583">createClient()
+        </text>
+        <polygon fill="#181818" points="650.65,122.8459,657.65,125.6459,650.65,128.4459,653.45,125.6459"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="654.85" y1="125.6459"
+              y2="125.6459"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="61.6" x="393.4"
+              y="121.962">generateCode()
+        </text>
+        <polygon fill="#181818" points="396.2,144.7496,389.2,147.5496,396.2,150.3496,393.4,147.5496"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="658.35"
+              y1="147.5496" y2="147.5496"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="19.6" x="400.4"
+              y="143.8657">code
+        </text>
+        <polygon fill="#181818" points="51.8,166.6533,44.8,169.4533,51.8,172.2533,49,169.4533"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="47.6" x2="228.9" y1="169.4533" y2="169.4533"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="168.7" x="56"
+              y="165.7694">requests data (name, citizen card, phone)
+        </text>
+        <polygon fill="#181818" points="221.2,188.557,228.2,191.357,221.2,194.157,224,191.357"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="44.1" x2="225.4" y1="191.357" y2="191.357"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="45.5" x="49"
+              y="187.6731">enters data
+        </text>
+        <polygon fill="#181818" points="380.1,210.4607,387.1,213.2607,380.1,216.0607,382.9,213.2607"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="229.6" x2="384.3" y1="213.2607"
+              y2="213.2607"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="142.1"
+              x="234.5" y="209.5769">setData(name, citizen card, phone)
+        </text>
+        <polygon fill="#181818" points="731.15,232.3645,738.15,235.1645,731.15,237.9645,733.95,235.1645"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="735.35" y1="235.1645"
+              y2="235.1645"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="64.4" x="393.4"
+              y="231.4806">setName(name)
+        </text>
+        <polygon fill="#181818" points="396.2,254.2682,389.2,257.0682,396.2,259.8682,393.4,257.0682"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="738.85"
+              y1="257.0682" y2="257.0682"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="253.3843">ok
+        </text>
+        <polygon fill="#181818" points="731.15,276.1719,738.15,278.9719,731.15,281.7719,733.95,278.9719"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="735.35" y1="278.9719"
+              y2="278.9719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="112" x="393.4"
+              y="275.288">setCitizenCard(citizen card)
+        </text>
+        <polygon fill="#181818" points="396.2,298.0756,389.2,300.8756,396.2,303.6756,393.4,300.8756"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="738.85"
+              y1="300.8756" y2="300.8756"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="297.1917">ok
+        </text>
+        <polygon fill="#181818" points="731.15,319.9793,738.15,322.7793,731.15,325.5793,733.95,322.7793"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="735.35" y1="322.7793"
+              y2="322.7793"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="100.1"
+              x="393.4" y="319.0954">setPhoneNumber(phone)
+        </text>
+        <polygon fill="#181818" points="396.2,341.883,389.2,344.683,396.2,347.483,393.4,344.683"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="738.85"
+              y1="344.683" y2="344.683"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="340.9991">ok
+        </text>
+        <polygon fill="#181818" points="548.8,363.7867,555.8,366.5867,548.8,369.3867,551.6,366.5867"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="553" y1="366.5867" y2="366.5867"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="151.9"
+              x="393.4" y="362.9028">checkUniqueCitizenCard(citizen card)
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.2" x2="586.6" y1="388.4904"
+              y2="388.4904"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="586.6" x2="586.6" y1="388.4904"
+              y2="397.5904"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.9" x2="586.6" y1="397.5904"
+              y2="397.5904"/>
+        <polygon fill="#181818" points="564.9,394.7904,557.9,397.5904,564.9,400.3904,562.1,397.5904"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="69.3" x="562.1"
+              y="384.8065">verify uniqueness
+        </text>
+        <polygon fill="#181818" points="396.2,416.6941,389.2,419.4941,396.2,422.2941,393.4,419.4941"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="556.5"
+              y1="419.4941" y2="419.4941"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="415.8103">ok
+        </text>
+        <polygon fill="#181818" points="548.8,438.5979,555.8,441.3979,548.8,444.1979,551.6,441.3979"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="553" y1="441.3979" y2="441.3979"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="140" x="393.4"
+              y="437.714">checkUniquePhoneNumber(phone)
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.2" x2="586.6" y1="463.3016"
+              y2="463.3016"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="586.6" x2="586.6" y1="463.3016"
+              y2="472.4016"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.9" x2="586.6" y1="472.4016"
+              y2="472.4016"/>
+        <polygon fill="#181818" points="564.9,469.6016,557.9,472.4016,564.9,475.2016,562.1,472.4016"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="69.3" x="562.1"
+              y="459.6177">verify uniqueness
+        </text>
+        <polygon fill="#181818" points="396.2,491.5053,389.2,494.3053,396.2,497.1053,393.4,494.3053"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="556.5"
+              y1="494.3053" y2="494.3053"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="490.6214">ok
+        </text>
+        <polygon fill="#181818" points="51.8,513.409,44.8,516.209,51.8,519.009,49,516.209"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="47.6" x2="228.9" y1="516.209" y2="516.209"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="153.3" x="56"
+              y="512.5251">shows data and requests confirmation
+        </text>
+        <polygon fill="#181818" points="221.2,535.3127,228.2,538.1127,221.2,540.9127,224,538.1127"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="44.1" x2="225.4" y1="538.1127" y2="538.1127"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="34.3" x="49"
+              y="534.4288">confirms
+        </text>
+        <polygon fill="#181818" points="548.8,557.2164,555.8,560.0164,548.8,562.8164,551.6,560.0164"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="388.5" x2="553" y1="560.0164" y2="560.0164"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="68.6" x="393.4"
+              y="556.3325">saveClient(client)
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.2" x2="586.6" y1="581.9201"
+              y2="581.9201"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="586.6" x2="586.6" y1="581.9201"
+              y2="591.0201"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="557.9" x2="586.6" y1="591.0201"
+              y2="591.0201"/>
+        <polygon fill="#181818" points="564.9,588.2201,557.9,591.0201,564.9,593.8201,562.1,591.0201"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="42" x="562.1"
+              y="578.2362">add(client)
+        </text>
+        <polygon fill="#181818" points="396.2,610.1238,389.2,612.9238,396.2,615.7238,393.4,612.9238"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="392" x2="556.5"
+              y1="612.9238" y2="612.9238"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="9.8" x="400.4"
+              y="609.2399">ok
+        </text>
+        <polygon fill="#181818" points="51.8,632.0275,44.8,634.8275,51.8,637.6275,49,634.8275"
+                 style="stroke:#181818;stroke-width:0.6999999999999998;"/>
+        <line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="47.6" x2="228.9" y1="634.8275" y2="634.8275"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="106.4" x="56"
+              y="631.1437">informs operation success
+        </text><!--SRC=[lLJ1Ri8m3BtdAtm42QITEKoQEcdYWgPDx6vI0n75ON4Ashv-BYc3ZG956hj5iT_ByuljkSi9h0ks82CBnoiCk0HReCX3ZC5DoaX3w_dLVHBS6OCs-W1Z3ZHp4YbGFXOAnYWkEkjMo15UwbXMEEBuvcXp9fnvZi4NXP8S9gNW8qQSeD2Fq90Lp5XaFgSdOWgeaXh0nloM2Vtx1d4m09I5GFImImS4re1DF0sG8w9z6Kfd0s6a5EXqZJcPgZIDrIZ7B9sfkbUEvhJ-1HsQR4x8F_9ceDM_boHH85VReSEuf9xsHjIlPx0OyXwivfwfszvOgcGdGdEzZqBR3ZYdv9orwIxnZ9HYozCrzVK5x_oYDNUMX6MggtCeyWPFFLTLZyhbX4AdTg3r6oqUsSrRrJjpieinEss9I_LzevfurXJSz0FABHEJo17eTi9FklNFYi_CdCpzfXuuv7m_WhfofouiCJhFxSUjHicLbWckTzighRnMFc6Udqp_GuSSJxsM17vLBJsr0wIqLh_b2m00]-->
+    </g>
+</svg>

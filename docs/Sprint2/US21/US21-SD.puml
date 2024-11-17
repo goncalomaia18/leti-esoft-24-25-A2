@@ -1,0 +1,46 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+actor UnregisteredUser
+
+participant RegisterClientView
+participant RegisterClientController
+participant ClientDatabase
+participant InternalCodeGenerator
+participant Client
+
+UnregisteredUser -> RegisterClientView : asks to register a new client
+RegisterClientView -> RegisterClientController : createClient()
+
+RegisterClientController -> InternalCodeGenerator : generateCode()
+InternalCodeGenerator --> RegisterClientController : code
+
+RegisterClientView -> UnregisteredUser : requests data (name, citizen card, phone)
+UnregisteredUser -> RegisterClientView : enters data
+
+RegisterClientView -> RegisterClientController : setData(name, citizen card, phone)
+RegisterClientController -> Client : setName(name)
+Client --> RegisterClientController : ok
+RegisterClientController -> Client : setCitizenCard(citizen card)
+Client --> RegisterClientController : ok
+RegisterClientController -> Client : setPhoneNumber(phone)
+Client --> RegisterClientController : ok
+
+RegisterClientController -> ClientDatabase : checkUniqueCitizenCard(citizen card)
+ClientDatabase -> ClientDatabase : verify uniqueness
+ClientDatabase --> RegisterClientController : ok
+
+RegisterClientController -> ClientDatabase : checkUniquePhoneNumber(phone)
+ClientDatabase -> ClientDatabase : verify uniqueness
+ClientDatabase --> RegisterClientController : ok
+
+RegisterClientView -> UnregisteredUser : shows data and requests confirmation
+UnregisteredUser -> RegisterClientView : confirms
+
+RegisterClientController -> ClientDatabase : saveClient(client)
+ClientDatabase -> ClientDatabase : add(client)
+ClientDatabase --> RegisterClientController : ok
+
+RegisterClientView -> UnregisteredUser : informs operation success
+@enduml
