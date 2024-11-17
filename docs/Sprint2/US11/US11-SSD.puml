@@ -15,6 +15,11 @@ Person -> System: Request to register a new agent
 System --> Person: Request for agent details
 
 Person -> System: Submit agent details (name, citizen card, etc.)
+System --> Person: Provide list of available stores
+
+Person -> System: Select a store
+System --> Person: Confirm store selection
+
 System --> Person: Confirmation of successful registration
 
 @enduml

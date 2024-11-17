@@ -47,6 +47,11 @@ class StoreContainer {
     +validateStoreAgent(agent: RealEstateAgent, store: Store): Boolean
 }
 
+class StoreSelectionView {
+    +displayStores(): void
+    +selectStore(storeId: String): Store
+}
+
 Administrator "1" -right-> "1" BranchContainer : manages branches
 AgentContainer "1" -right-> "0..*" RealEstateAgent : records agents
 StoreContainer "1" -right-> "0..*" Store : manages stores
@@ -57,4 +62,6 @@ RegisterAgentController ..> BranchContainer
 RegisterAgentController ..> AgentContainer
 RegisterAgentController ..> Branch
 RegisterAgentController ..> StoreContainer
+StoreSelectionView ..> StoreContainer : interacts with
+Administrator --> StoreSelectionView : selects store
 @enduml
