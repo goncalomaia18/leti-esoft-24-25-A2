@@ -1,0 +1,28 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class RegisterClientController {
+}
+
+class RegisterClientView {
+    - clientData
+}
+
+class ClientDatabase {
+    - clients
+}
+
+class Client {
+    - name
+    - citizenCardNumber
+    - email
+    - phoneNumber
+}
+
+' Relationships
+UnregisteredUser --> RegisterClientView : "Fill Client Form"
+RegisterClientView --> RegisterClientController : "Submit Client Data"
+RegisterClientController --> ClientDatabase : "Save Client"
+ClientDatabase "1" --> "0..*" Client : stores
+@enduml
