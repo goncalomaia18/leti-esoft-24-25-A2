@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class NetworkManager {
+    - name
+}
+
+class Store {
+    - storeName
+    - location
+}
+
+class Agent {
+    - name
+    - employeeId
+}
+
+NetworkManager "1" -right-- "0..*" Store: manages >
+Store "1" -right-- "0..*" Agent: employs >
+
+@enduml
