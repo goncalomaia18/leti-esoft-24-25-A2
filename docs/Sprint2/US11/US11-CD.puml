@@ -1,0 +1,60 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class RegisterAgentView {
+}
+
+class RegisterAgentController {
+    +createAgent(name: String, citizenCard: String): RealEstateAgent
+    +assignAgentToBranch(agent: RealEstateAgent, branch: Branch): Result
+    +assignAgentToStore(agent: RealEstateAgent, store: Store): Result
+}
+
+class RealEstateAgent {
+    -id: String
+    -name: String
+    -citizenCardNumber: String
+    +validateData(): Boolean
+}
+
+class Branch {
+    -id: String
+    -name: String
+    +addAgent(agent: RealEstateAgent): Result
+    +checkCapacity(): Boolean
+}
+
+class AgentContainer {
+    +createAgent(name: String, citizenCard: String): RealEstateAgent
+    +saveAgent(agent: RealEstateAgent): Result
+    +isAgentUnique(agent: RealEstateAgent): Boolean
+}
+
+class BranchContainer {
+    +findBranch(branchId: String): Branch
+    +validateBranchAgent(agent: RealEstateAgent, branch: Branch): Boolean
+}
+
+class Store {
+    -id: String
+    -name: String
+    +checkCapacity(): Boolean
+}
+
+class StoreContainer {
+    +findStore(storeId: String): Store
+    +validateStoreAgent(agent: RealEstateAgent, store: Store): Boolean
+}
+
+Administrator "1" -right-> "1" BranchContainer : manages branches
+AgentContainer "1" -right-> "0..*" RealEstateAgent : records agents
+StoreContainer "1" -right-> "0..*" Store : manages stores
+
+RegisterAgentView ..> RegisterAgentController
+RegisterAgentController ..> RealEstateAgent
+RegisterAgentController ..> BranchContainer
+RegisterAgentController ..> AgentContainer
+RegisterAgentController ..> Branch
+RegisterAgentController ..> StoreContainer
+@enduml
