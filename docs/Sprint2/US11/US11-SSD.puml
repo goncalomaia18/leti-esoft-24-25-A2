@@ -7,7 +7,7 @@ autoactivate on
 autonumber
 
 actor "Administrator" as Person
-participant ":System" as System
+participant ":RegisterAgentView" as System
 
 activate Person
 
