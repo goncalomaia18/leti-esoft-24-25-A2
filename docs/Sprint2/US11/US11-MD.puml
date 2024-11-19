@@ -4,6 +4,8 @@ hide circle
 skinparam classAttributeIconSize 0
 
 class RegisterAgentController {
++submitAgentData(agentData: String)
+ +addAgent(agent: RealEstateAgent, store: Store): void
 }
 
 class RegisterAgentView {
@@ -19,7 +21,7 @@ class StoreSelectionView {
 class Branch {
     - stores
     - agents
-    + findStore(storeId: String): Store
+    + findStore(storeId: String)
 }
 
 class Store {
@@ -39,6 +41,7 @@ RegisterAgentView --> RegisterAgentController : "Submit Agent Data"
 RegisterAgentController --> Branch : "Add Agent"
 Administrator --> StoreSelectionView : "Select Store"
 StoreSelectionView --> Branch : "Retrieve Stores"
+StoreSelectionView --> RegisterAgentController : "Submit Selected Store"
 Branch "1" --> "0..*" Store : manages
 Branch "1" --> "0..*" RealEstateAgent : manages
 Store "1" --> "0..*" RealEstateAgent : manages
