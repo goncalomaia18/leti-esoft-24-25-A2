@@ -8,6 +8,7 @@ autonumber
 
 actor "Administrator" as Person
 participant ":RegisterAgentView" as System
+participant ":StoreSelectionView" as Syste
 
 activate Person
 
@@ -15,10 +16,10 @@ Person -> System: Request to register a new agent
 System --> Person: Request for agent details
 
 Person -> System: Submit agent details (name, citizen card, etc.)
-System --> Person: Provide list of available stores
+Syste --> Person: Provide list of available stores
 
-Person -> System: Select a store
-System --> Person: Confirm store selection
+Person -> Syste: Select a store
+Syste --> Person: Confirm store selection
 
 System --> Person: Confirmation of successful registration
 
