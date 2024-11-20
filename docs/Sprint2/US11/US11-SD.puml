@@ -1,6 +1,8 @@
 @startuml
 hide circle
 skinparam classAttributeIconSize 0
+autoactivate on
+autonumber
 
 actor Administrator
 
@@ -10,9 +12,7 @@ participant BranchContainer
 participant Branch
 participant AgentContainer
 participant RealEstateAgent
-participant StoreContainer
-participant StoreSelectionView
-participant Store
+
 
 Administrator -> RegisterAgentView : asks to register a new agent
 RegisterAgentView -> RegisterAgentController : createAgent()
@@ -32,21 +32,10 @@ RealEstateAgent --> RegisterAgentController : ok
 RegisterAgentController -> RealEstateAgent : setCitizenCard(citizen card)
 RealEstateAgent --> RegisterAgentController : ok
 
-RegisterAgentView -> StoreSelectionView : request store list
-StoreSelectionView -> RegisterAgentController : request store list
-RegisterAgentController -> StoreContainer : getStores()
-StoreContainer --> RegisterAgentController : storeList
-RegisterAgentController -> StoreSelectionView : pass storeList
-StoreSelectionView -> RegisterAgentView : display storeList
+
 
 Administrator -> RegisterAgentView : selects store
-RegisterAgentView -> StoreSelectionView : select store
-StoreSelectionView -> RegisterAgentController : setStore(store)
-RegisterAgentController -> Store : assignAgent(agent)
-Store -> Store : assignAgent(agent)
-Store --> RegisterAgentController : ok
-Store -> Branch : validateAssignment(agent, store)
-Branch --> Store : validation result
+
 RegisterAgentController -> RealEstateAgent : validate()
 RealEstateAgent -> RealEstateAgent : isValid()
 RealEstateAgent --> RegisterAgentController : ok

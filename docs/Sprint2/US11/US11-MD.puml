@@ -3,20 +3,7 @@
 hide circle
 skinparam classAttributeIconSize 0
 
-class RegisterAgentController {
-+submitAgentData(agentData: String)
- +addAgent(agent: RealEstateAgent, store: Store): void
-}
 
-class RegisterAgentView {
-    - agentData
-}
-
-class StoreSelectionView {
-    - storeData
-    + displayStores()
-    + selectStore(storeId: String)
-}
 
 class Branch {
     - stores
@@ -24,9 +11,6 @@ class Branch {
     + findStore(storeId: String)
 }
 
-class Store {
-    - agents
-}
 
 class RealEstateAgent {
     - name
@@ -36,14 +20,8 @@ class RealEstateAgent {
 }
 
 ' Relationships
-Administrator --> RegisterAgentView : "Fill Agent Form"
-RegisterAgentView --> RegisterAgentController : "Submit Agent Data"
-RegisterAgentController --> Branch : "Add Agent"
-Administrator --> StoreSelectionView : "Select Store"
-StoreSelectionView --> Branch : "Retrieve Stores"
-StoreSelectionView --> RegisterAgentController : "Submit Selected Store"
-Branch "1" --> "0..*" Store : manages
-Branch "1" --> "0..*" RealEstateAgent : manages
-Store "1" --> "0..*" RealEstateAgent : manages
+
+Branch "1" -- "0..*" RealEstateAgent : employs
+
 @enduml
 

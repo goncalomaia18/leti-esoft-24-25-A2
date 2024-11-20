@@ -36,32 +36,16 @@ class BranchContainer {
     +validateBranchAgent(agent: RealEstateAgent, branch: Branch): Boolean
 }
 
-class Store {
-    -id: String
-    -name: String
-    +checkCapacity(): Boolean
-}
 
-class StoreContainer {
-    +findStore(storeId: String): Store
-    +validateStoreAgent(agent: RealEstateAgent, store: Store): Boolean
-}
 
-class StoreSelectionView {
-    +displayStores(): void
-    +selectStore(storeId: String): Store
-}
 
-Administrator "1" -right-> "1" BranchContainer : manages branches
 AgentContainer "1" -right-> "0..*" RealEstateAgent : records agents
-StoreContainer "1" -right-> "0..*" Store : manages stores
+
 
 RegisterAgentView ..> RegisterAgentController
 RegisterAgentController ..> RealEstateAgent
 RegisterAgentController ..> BranchContainer
 RegisterAgentController ..> AgentContainer
 RegisterAgentController ..> Branch
-RegisterAgentController ..> StoreContainer
-StoreSelectionView ..> StoreContainer : interacts with
-Administrator --> StoreSelectionView : selects store
+
 @enduml
