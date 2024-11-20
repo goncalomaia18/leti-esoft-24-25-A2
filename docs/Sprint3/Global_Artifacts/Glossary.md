@@ -1,0 +1,20 @@
+# Glossary
+
+**Terms, Expressions and Acronyms (TEA) must be organized alphabetically.**
+
+
+| **_TEA_** (EN)                   | **_TEA_** (PT)                           | **_Description_** (EN)                                                                                                                                                |                                       
+|:---------------------------------|:-----------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Dream House**                  | **...**                                  | A company with a network of real estate agencies that aims to develop software for managing property leases and sales.                                                |
+| **Real Estate Agency**           | **...**                                  | A branch of Dream House where business transactions take place.                                                                                                       |
+| **Core Server-Side Application** | **...**                                  | A critical part of the system responsible for managing data and ensuring business logic, such as showing/hiding advertisements and handling property listings.        |
+| **Client-Side Application**      | **...**                                  | Software used by Dream House staff and clients to interact with the system. Examples include web or mobile applications.                                              |                                                                                                                                                            
+| **Property Advertisement**       | **...**                                  | A listing in the system showcasing properties for rent or sale, including details like type, size, location, and price.                                               |
+| **Property Owner**               | **...**                                  | An individual who sells or rents out their property through Dream House.                                                                                              |
+| **Commission**                   | **...**                                  | The fee (fixed or percentage) that Dream House agents earn for facilitating property sales or leases.                                                                 |
+| **Client Registration**          | **...**                                  | The process where a client provides personal details such as name, ID, email, and phone number to access Dream House services.                                        |
+| **DHMS**                         | **...**                                  | Acronym for Dream House Management System. It is the name of the software system being developed to manage real estate transactions (lease and sale) for Dream House. |
+| **Real Estate Agent**            | **...**                                  | A staff member of Dream House responsible for managing property listings, scheduling client visits, and handling lease or sale transactions.                          |
+| **Property Type**                | **...**                                  | The classification of properties in the system, such as apartment, house, or land.                                                                                    |
+| **Store Network Manager**        | **...**                                  | A person responsible for overseeing all branches of Dream House, managing agents, and ensuring smooth operations across the network.                                  |
+| **Branch**                       |                                          |                                                                                                                                                                       |

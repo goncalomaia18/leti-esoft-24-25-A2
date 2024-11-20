@@ -1,0 +1,92 @@
+@startuml
+
+class Client {
+  +name
+  +citizenCardNumber
+  +taxIdNumber
+  +email
+  +phoneNumber
+}
+
+class Property {
+  +type
+  +area
+  +location
+  +distanceFromCityCenter
+  +price
+  +photos
+}
+
+class House {
+  +hasBasement
+  +hasAttic
+  +sunExposure
+  +numberOfBedrooms
+  +numberOfBathrooms
+  +parkingSpaces
+  +equipment
+}
+
+class Apartment {
+  +floorNumber
+  +numberOfBedrooms
+  +numberOfBathrooms
+  +parkingSpaces
+  +equipment
+}
+
+class Land {
+}
+
+class Owner {
+  +name
+  +taxIdNumber
+  +phoneNumber
+}
+
+class RealEstateAgent {
+  +name
+  +citizenCardNumber
+  +email
+  +phoneNumber
+}
+
+class Listing {
+  +publishDate
+  +businessType
+  +commission
+}
+
+class Visit {
+}
+
+class Branch {
+  +code
+  +name
+  +address
+  +openingTime
+  +closingTime
+}
+
+class Sale {
+  +saleValue
+  +responsibleAgent
+  +buyerClient
+  +transactionType
+}
+
+
+Client "1" -- "0..*" Visit : schedules
+Owner "1" -- "0..*" Property : owns
+Property -- House
+Property -- Apartment
+Property -- Land
+RealEstateAgent "1" -- "0..*" Listing : manages
+Listing "0..*" -- "1" Property : advertises
+Branch "1" -- "0..*" RealEstateAgent : employs
+Client "1" -- "0..*" Sale : buys
+Listing "1" -- "0..1" Sale : isLinkedTo
+Visit "1" -- "1" Property : visits
+
+@enduml
+
