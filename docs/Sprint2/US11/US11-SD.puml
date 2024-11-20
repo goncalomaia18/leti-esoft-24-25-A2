@@ -45,7 +45,8 @@ StoreSelectionView -> RegisterAgentController : setStore(store)
 RegisterAgentController -> Store : assignAgent(agent)
 Store -> Store : assignAgent(agent)
 Store --> RegisterAgentController : ok
-
+Store -> Branch : validateAssignment(agent, store)
+Branch --> Store : validation result
 RegisterAgentController -> RealEstateAgent : validate()
 RealEstateAgent -> RealEstateAgent : isValid()
 RealEstateAgent --> RegisterAgentController : ok
