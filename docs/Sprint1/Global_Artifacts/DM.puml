@@ -72,9 +72,14 @@ class Sale {
   +responsibleAgent
   +buyerClient
 }
+class Store{
++name
++code
+}
 
 Client "1" -- "0..*" Visit : schedules
 Owner "1" -- "0..*" Property : owns
+Branch "1" -- "0..*" Store : manages
 Property -- House
 Property -- Apartment
 Property -- Land
