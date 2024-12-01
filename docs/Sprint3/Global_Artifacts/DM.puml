@@ -1,92 +1,134 @@
 @startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
 
-class Client {
-  +name
-  +citizenCardNumber
-  +taxIdNumber
-  +email
-  +phoneNumber
-}
-
-class Property {
-  +type
-  +area
-  +location
-  +distanceFromCityCenter
-  +price
-  +photos
-}
-
-class House {
-  +hasBasement
-  +hasAttic
-  +sunExposure
-  +numberOfBedrooms
-  +numberOfBathrooms
-  +parkingSpaces
-  +equipment
-}
-
-class Apartment {
-  +floorNumber
-  +numberOfBedrooms
-  +numberOfBathrooms
-  +parkingSpaces
-  +equipment
-}
-
-class Land {
-}
-
-class Owner {
-  +name
-  +taxIdNumber
-  +phoneNumber
-}
-
-class RealEstateAgent {
-  +name
-  +citizenCardNumber
-  +email
-  +phoneNumber
-}
-
-class Listing {
-  +publishDate
-  +businessType
-  +commission
-}
-
-class Visit {
+class StoreNetworkManager {
+    +name
+    +employeeId
+    +email
+    +phoneNumber
 }
 
 class Branch {
-  +code
-  +name
-  +address
-  +openingTime
-  +closingTime
+    +code
+    +name
+    +address
+    +openingTime
+    +closingTime
+}
+
+class RealEstateAgent {
+    +name
+    -citizenCardNumber
+    +email
+    -phoneNumber
+}
+
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
+}
+
+class Apartment {
+    +floorNumber
+    +numberOfBedrooms
+    +numberOfBathrooms
+    +parkingSpaces
+    +equipment
+}
+
+class House {
+    +hasBasement
+    +hasAttic
+    +sunExposure
+    +numberOfBedrooms
+    +numberOfBathrooms
+    +parkingSpaces
+    +equipment
+}
+
+class Land {}
+
+class Owner {
+    +name
+    -taxIdNumber
+    +phoneNumber
+}
+
+class Client {
+    +name
+    -citizenCardNumber
+    -taxIdNumber
+    +email
+    +phoneNumber
 }
 
 class Sale {
-  +saleValue
-  +responsibleAgent
-  +buyerClient
-  +transactionType
+    +saleValue
+    +responsibleAgent
+    +buyerClient
 }
 
+class Lease {
+    +monthlyRent
+    +leasePeriod
+    +leaseStartDate
+    +leaseEndDate
+}
 
-Client "1" -- "0..*" Visit : schedules
+class Advertisement {
+    +id
+    -commission
+    +visibilityStatus
+}
+
+class Visit {
+    +visitDate
+    +visitTime
+    +status
+    +visitAvailability
+}
+
+class Listing {
+    +publishDate
+    +businessType
+    -commission
+}
+
+Branch "1" --> "0..*" RealEstateAgent : employs
+Branch "1" --> "0..*" Property : manages
+
+
+RealEstateAgent "1" --> "0..*" Property : responsible for
 Owner "1" -- "0..*" Property : owns
-Property -- House
+Property "1" --> "0..*" Visit : scheduled for
+Property "1" --> "0..*" Listing : listed as
+
+Listing "0..1" --> "1" Sale : markets
+Listing "0..1" --> "1" Lease : markets
+
+Advertisement "1" --> "1" Listing : promotes
+
 Property -- Apartment
+Property -- House
 Property -- Land
-RealEstateAgent "1" -- "0..*" Listing : manages
-Listing "0..*" -- "1" Property : advertises
-Branch "1" -- "0..*" RealEstateAgent : employs
-Client "1" -- "0..*" Sale : buys
-Listing "1" -- "0..1" Sale : isLinkedTo
-Visit "1" -- "1" Property : visits
 
+Sale "1" --> "1" Client : by
+Sale "1" --> "1" RealEstateAgent : facilitated by
+
+Lease "1" --> "1" Client : tenant
+Lease "1" --> "1" RealEstateAgent : managed by
+
+Client "1" --> "0..*" Visit : requests
+Client "1" --> "0..*" Listing : requests to list
+Visit "1" --> "1" RealEstateAgent : scheduled by
+
+StoreNetworkManager "1" --> "0..*" Branch : registers
+StoreNetworkManager "1" --> "0..*" RealEstateAgent : assigns agents
 @enduml
-

@@ -18,3 +18,4 @@
 | US11  | [Register agent](US11/US11.md)                         |
 | US21  | [Register client](US21/US21.md)                        |
 | US51  | [Get a list of all agents](US51/US51.md)               |
+| US20  | [Get a list of all agents](US20/US20.md) 

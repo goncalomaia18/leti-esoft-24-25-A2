@@ -1,404 +1,579 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
-     height="1017px" preserveAspectRatio="none" style="width:511px;height:1017px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 511 1017" width="511px" zoomAndPan="magnify">
+     height="963px" preserveAspectRatio="none" style="width:604px;height:963px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 604 963" width="604.2px" zoomAndPan="magnify">
     <defs/>
-    <g><!--class Client-->
-        <g id="elem_Client">
-            <rect codeLine="2" fill="#F1F1F1" height="141.1055" id="Client" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="145.8203" x="21" y="7"/>
-            <ellipse cx="71.7637" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M74.5293,18.875 Q74.6855,18.6563 74.873,18.5469 Q75.0605,18.4375 75.2793,18.4375 Q75.6543,18.4375 75.8887,18.7031 Q76.123,18.9531 76.123,19.5625 L76.123,21.0156 Q76.123,21.625 75.8887,21.8906 Q75.6543,22.1563 75.2793,22.1563 Q74.9355,22.1563 74.7324,21.9531 Q74.5293,21.7656 74.4199,21.25 Q74.373,20.8906 74.1855,20.7031 Q73.8574,20.3281 73.248,20.1094 Q72.6387,19.8906 72.0137,19.8906 Q71.248,19.8906 70.6074,20.2188 Q69.9824,20.5469 69.4824,21.2969 Q68.998,22.0469 68.998,23.0781 L68.998,24.1719 Q68.998,25.4063 69.8887,26.2344 Q70.7793,27.0469 72.373,27.0469 Q73.3105,27.0469 73.9668,26.7969 Q74.3574,26.6406 74.7793,26.2031 Q75.0449,25.9375 75.1855,25.8594 Q75.3418,25.7813 75.5449,25.7813 Q75.873,25.7813 76.123,26.0469 Q76.3887,26.2969 76.3887,26.6406 Q76.3887,26.9844 76.0449,27.3906 Q75.5449,27.9688 74.748,28.2969 Q73.6699,28.75 72.373,28.75 Q70.8574,28.75 69.6543,28.125 Q68.6699,27.625 67.9824,26.5625 Q67.2949,25.4844 67.2949,24.2031 L67.2949,23.0469 Q67.2949,21.7188 67.9043,20.5781 Q68.5293,19.4219 69.623,18.8125 Q70.7168,18.1875 71.9512,18.1875 Q72.6855,18.1875 73.3262,18.3594 Q73.9824,18.5156 74.5293,18.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.793"
-                  x="92.2637" y="28.7969">Client
+    <g><!--class StoreNetworkManager-->
+        <g id="elem_StoreNetworkManager">
+            <rect codeLine="5" fill="#F1F1F1" height="66.6633" id="StoreNetworkManager" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="87.6369" x="347.4" y="4.2"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="84.0369"
+                  x="349.2" y="16.2645">StoreNetworkManager
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="22" x2="165.8203" y1="39" y2="39"/>
-            <ellipse cx="32" cy="53.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.0205"
-                  x="41" y="58.1074">name
+            <line style="stroke:#181818;stroke-width:0.3;" x1="348" x2="434.4369" y1="21.3727" y2="21.3727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="25.9178"
+                  x="351" y="32.8371">+name
             </text>
-            <ellipse cx="32" cy="72.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8203"
-                  x="41" y="76.7285">citizenCardNumber
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="48.3328"
+                  x="351" y="44.0098">+employeeId
             </text>
-            <ellipse cx="32" cy="91.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80.1445"
-                  x="41" y="95.3496">taxIdNumber
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.9785"
+                  x="351" y="55.1824">+email
             </text>
-            <ellipse cx="32" cy="109.6738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33.4551"
-                  x="41" y="113.9707">email
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="58.1396"
+                  x="351" y="66.3551">+phoneNumber
             </text>
-            <ellipse cx="32" cy="128.2949" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.7236"
-                  x="41" y="132.5918">phoneNumber
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="22" x2="165.8203" y1="140.1055" y2="140.1055"/>
-        </g><!--class Property-->
-        <g id="elem_Property">
-            <rect codeLine="10" fill="#F1F1F1" height="159.7266" id="Property" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="176.9375" x="239.5" y="611"/>
-            <ellipse cx="297.2637" cy="627" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M300.0293,622.875 Q300.1855,622.6563 300.373,622.5469 Q300.5605,622.4375 300.7793,622.4375 Q301.1543,622.4375 301.3887,622.7031 Q301.623,622.9531 301.623,623.5625 L301.623,625.0156 Q301.623,625.625 301.3887,625.8906 Q301.1543,626.1563 300.7793,626.1563 Q300.4355,626.1563 300.2324,625.9531 Q300.0293,625.7656 299.9199,625.25 Q299.873,624.8906 299.6855,624.7031 Q299.3574,624.3281 298.748,624.1094 Q298.1387,623.8906 297.5137,623.8906 Q296.748,623.8906 296.1074,624.2188 Q295.4824,624.5469 294.9824,625.2969 Q294.498,626.0469 294.498,627.0781 L294.498,628.1719 Q294.498,629.4063 295.3887,630.2344 Q296.2793,631.0469 297.873,631.0469 Q298.8105,631.0469 299.4668,630.7969 Q299.8574,630.6406 300.2793,630.2031 Q300.5449,629.9375 300.6855,629.8594 Q300.8418,629.7813 301.0449,629.7813 Q301.373,629.7813 301.623,630.0469 Q301.8887,630.2969 301.8887,630.6406 Q301.8887,630.9844 301.5449,631.3906 Q301.0449,631.9688 300.248,632.2969 Q299.1699,632.75 297.873,632.75 Q296.3574,632.75 295.1543,632.125 Q294.1699,631.625 293.4824,630.5625 Q292.7949,629.4844 292.7949,628.2031 L292.7949,627.0469 Q292.7949,625.7188 293.4043,624.5781 Q294.0293,623.4219 295.123,622.8125 Q296.2168,622.1875 297.4512,622.1875 Q298.1855,622.1875 298.8262,622.3594 Q299.4824,622.5156 300.0293,622.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52.9102"
-                  x="317.7637" y="632.7969">Property
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="240.5" x2="415.4375" y1="643" y2="643"/>
-            <ellipse cx="250.5" cy="657.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26.4619"
-                  x="259.5" y="662.1074">type
-            </text>
-            <ellipse cx="250.5" cy="676.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28.0205"
-                  x="259.5" y="680.7285">area
-            </text>
-            <ellipse cx="250.5" cy="695.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48.2549"
-                  x="259.5" y="699.3496">location
-            </text>
-            <ellipse cx="250.5" cy="713.6738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150.9375"
-                  x="259.5" y="717.9707">distanceFromCityCenter
-            </text>
-            <ellipse cx="250.5" cy="732.2949" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30.3447"
-                  x="259.5" y="736.5918">price
-            </text>
-            <ellipse cx="250.5" cy="750.916" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42.0342"
-                  x="259.5" y="755.2129">photos
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="240.5" x2="415.4375" y1="762.7266" y2="762.7266"/>
-        </g><!--class House-->
-        <g id="elem_House">
-            <rect codeLine="19" fill="#F1F1F1" height="178.3477" id="House" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="155.9443" x="59" y="832"/>
-            <ellipse cx="112.4878" cy="848" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M115.2534,843.875 Q115.4097,843.6563 115.5972,843.5469 Q115.7847,843.4375 116.0034,843.4375 Q116.3784,843.4375 116.6128,843.7031 Q116.8472,843.9531 116.8472,844.5625 L116.8472,846.0156 Q116.8472,846.625 116.6128,846.8906 Q116.3784,847.1563 116.0034,847.1563 Q115.6597,847.1563 115.4565,846.9531 Q115.2534,846.7656 115.144,846.25 Q115.0972,845.8906 114.9097,845.7031 Q114.5815,845.3281 113.9722,845.1094 Q113.3628,844.8906 112.7378,844.8906 Q111.9722,844.8906 111.3315,845.2188 Q110.7065,845.5469 110.2065,846.2969 Q109.7222,847.0469 109.7222,848.0781 L109.7222,849.1719 Q109.7222,850.4063 110.6128,851.2344 Q111.5034,852.0469 113.0972,852.0469 Q114.0347,852.0469 114.6909,851.7969 Q115.0815,851.6406 115.5034,851.2031 Q115.769,850.9375 115.9097,850.8594 Q116.0659,850.7813 116.269,850.7813 Q116.5972,850.7813 116.8472,851.0469 Q117.1128,851.2969 117.1128,851.6406 Q117.1128,851.9844 116.769,852.3906 Q116.269,852.9688 115.4722,853.2969 Q114.394,853.75 113.0972,853.75 Q111.5815,853.75 110.3784,853.125 Q109.394,852.625 108.7065,851.5625 Q108.019,850.4844 108.019,849.2031 L108.019,848.0469 Q108.019,846.7188 108.6284,845.5781 Q109.2534,844.4219 110.3472,843.8125 Q111.4409,843.1875 112.6753,843.1875 Q113.4097,843.1875 114.0503,843.3594 Q114.7065,843.5156 115.2534,843.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.4688"
-                  x="132.9878" y="853.7969">House
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="60" x2="213.9443" y1="864" y2="864"/>
-            <ellipse cx="70" cy="878.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85.6064"
-                  x="79" y="883.1074">hasBasement
-            </text>
-            <ellipse cx="70" cy="897.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49.7998"
-                  x="79" y="901.7285">hasAttic
-            </text>
-            <ellipse cx="70" cy="916.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.7168"
-                  x="79" y="920.3496">sunExposure
-            </text>
-            <ellipse cx="70" cy="934.6738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.0547"
-                  x="79" y="938.9707">numberOfBedrooms
-            </text>
-            <ellipse cx="70" cy="953.2949" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129.9443"
-                  x="79" y="957.5918">numberOfBathrooms
-            </text>
-            <ellipse cx="70" cy="971.916" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.6133"
-                  x="79" y="976.2129">parkingSpaces
-            </text>
-            <ellipse cx="70" cy="990.5371" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65.3789"
-                  x="79" y="994.834">equipment
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="60" x2="213.9443" y1="1002.3477" y2="1002.3477"/>
-        </g><!--class Apartment-->
-        <g id="elem_Apartment">
-            <rect codeLine="29" fill="#F1F1F1" height="141.1055" id="Apartment" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="155.9443" x="250" y="850.5"/>
-            <ellipse cx="291.7113" cy="866.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M294.4769,862.375 Q294.6332,862.1563 294.8207,862.0469 Q295.0082,861.9375 295.2269,861.9375 Q295.6019,861.9375 295.8363,862.2031 Q296.0707,862.4531 296.0707,863.0625 L296.0707,864.5156 Q296.0707,865.125 295.8363,865.3906 Q295.6019,865.6563 295.2269,865.6563 Q294.8832,865.6563 294.68,865.4531 Q294.4769,865.2656 294.3675,864.75 Q294.3207,864.3906 294.1332,864.2031 Q293.805,863.8281 293.1957,863.6094 Q292.5863,863.3906 291.9613,863.3906 Q291.1957,863.3906 290.555,863.7188 Q289.93,864.0469 289.43,864.7969 Q288.9457,865.5469 288.9457,866.5781 L288.9457,867.6719 Q288.9457,868.9063 289.8363,869.7344 Q290.7269,870.5469 292.3207,870.5469 Q293.2582,870.5469 293.9144,870.2969 Q294.305,870.1406 294.7269,869.7031 Q294.9925,869.4375 295.1332,869.3594 Q295.2894,869.2813 295.4925,869.2813 Q295.8207,869.2813 296.0707,869.5469 Q296.3363,869.7969 296.3363,870.1406 Q296.3363,870.4844 295.9925,870.8906 Q295.4925,871.4688 294.6957,871.7969 Q293.6175,872.25 292.3207,872.25 Q290.805,872.25 289.6019,871.625 Q288.6175,871.125 287.93,870.0625 Q287.2425,868.9844 287.2425,867.7031 L287.2425,866.5469 Q287.2425,865.2188 287.8519,864.0781 Q288.4769,862.9219 289.5707,862.3125 Q290.6644,861.6875 291.8988,861.6875 Q292.6332,861.6875 293.2738,861.8594 Q293.93,862.0156 294.4769,862.375 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.5859"
-                  x="311.6471" y="872.2969">Apartment
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="251" x2="404.9443" y1="882.5" y2="882.5"/>
-            <ellipse cx="261" cy="897.3105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.0273"
-                  x="270" y="901.6074">floorNumber
-            </text>
-            <ellipse cx="261" cy="915.9316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.0547"
-                  x="270" y="920.2285">numberOfBedrooms
-            </text>
-            <ellipse cx="261" cy="934.5527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129.9443"
-                  x="270" y="938.8496">numberOfBathrooms
-            </text>
-            <ellipse cx="261" cy="953.1738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.6133"
-                  x="270" y="957.4707">parkingSpaces
-            </text>
-            <ellipse cx="261" cy="971.7949" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65.3789"
-                  x="270" y="976.0918">equipment
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="251" x2="404.9443" y1="983.6055" y2="983.6055"/>
-        </g><!--class Land-->
-        <g id="elem_Land">
-            <rect codeLine="37" fill="#F1F1F1" height="48" id="Land" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="63.1445" x="441.5" y="897"/>
-            <ellipse cx="456.5" cy="913" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M459.2656,908.875 Q459.4219,908.6563 459.6094,908.5469 Q459.7969,908.4375 460.0156,908.4375 Q460.3906,908.4375 460.625,908.7031 Q460.8594,908.9531 460.8594,909.5625 L460.8594,911.0156 Q460.8594,911.625 460.625,911.8906 Q460.3906,912.1563 460.0156,912.1563 Q459.6719,912.1563 459.4688,911.9531 Q459.2656,911.7656 459.1563,911.25 Q459.1094,910.8906 458.9219,910.7031 Q458.5938,910.3281 457.9844,910.1094 Q457.375,909.8906 456.75,909.8906 Q455.9844,909.8906 455.3438,910.2188 Q454.7188,910.5469 454.2188,911.2969 Q453.7344,912.0469 453.7344,913.0781 L453.7344,914.1719 Q453.7344,915.4063 454.625,916.2344 Q455.5156,917.0469 457.1094,917.0469 Q458.0469,917.0469 458.7031,916.7969 Q459.0938,916.6406 459.5156,916.2031 Q459.7813,915.9375 459.9219,915.8594 Q460.0781,915.7813 460.2813,915.7813 Q460.6094,915.7813 460.8594,916.0469 Q461.125,916.2969 461.125,916.6406 Q461.125,916.9844 460.7813,917.3906 Q460.2813,917.9688 459.4844,918.2969 Q458.4063,918.75 457.1094,918.75 Q455.5938,918.75 454.3906,918.125 Q453.4063,917.625 452.7188,916.5625 Q452.0313,915.4844 452.0313,914.2031 L452.0313,913.0469 Q452.0313,911.7188 452.6406,910.5781 Q453.2656,909.4219 454.3594,908.8125 Q455.4531,908.1875 456.6875,908.1875 Q457.4219,908.1875 458.0625,908.3594 Q458.7188,908.5156 459.2656,908.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.1445"
-                  x="470.5" y="918.7969">Land
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="442.5" x2="503.6445" y1="929" y2="929"/>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="442.5" x2="503.6445" y1="937" y2="937"/>
-        </g><!--class Owner-->
-        <g id="elem_Owner">
-            <rect codeLine="40" fill="#F1F1F1" height="103.8633" id="Owner" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="114.7236" x="345.5" y="428"/>
-            <ellipse cx="379.1702" cy="444" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M381.9358,439.875 Q382.092,439.6563 382.2795,439.5469 Q382.467,439.4375 382.6858,439.4375 Q383.0608,439.4375 383.2952,439.7031 Q383.5295,439.9531 383.5295,440.5625 L383.5295,442.0156 Q383.5295,442.625 383.2952,442.8906 Q383.0608,443.1563 382.6858,443.1563 Q382.342,443.1563 382.1389,442.9531 Q381.9358,442.7656 381.8264,442.25 Q381.7795,441.8906 381.592,441.7031 Q381.2639,441.3281 380.6545,441.1094 Q380.0452,440.8906 379.4202,440.8906 Q378.6545,440.8906 378.0139,441.2188 Q377.3889,441.5469 376.8889,442.2969 Q376.4045,443.0469 376.4045,444.0781 L376.4045,445.1719 Q376.4045,446.4063 377.2952,447.2344 Q378.1858,448.0469 379.7795,448.0469 Q380.717,448.0469 381.3733,447.7969 Q381.7639,447.6406 382.1858,447.2031 Q382.4514,446.9375 382.592,446.8594 Q382.7483,446.7813 382.9514,446.7813 Q383.2795,446.7813 383.5295,447.0469 Q383.7952,447.2969 383.7952,447.6406 Q383.7952,447.9844 383.4514,448.3906 Q382.9514,448.9688 382.1545,449.2969 Q381.0764,449.75 379.7795,449.75 Q378.2639,449.75 377.0608,449.125 Q376.0764,448.625 375.3889,447.5625 Q374.7014,446.4844 374.7014,445.2031 L374.7014,444.0469 Q374.7014,442.7188 375.3108,441.5781 Q375.9358,440.4219 377.0295,439.8125 Q378.1233,439.1875 379.3577,439.1875 Q380.092,439.1875 380.7327,439.3594 Q381.3889,439.5156 381.9358,439.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41.2344"
-                  x="397.3191" y="449.7969">Owner
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="346.5" x2="459.2236" y1="460" y2="460"/>
-            <ellipse cx="356.5" cy="474.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.0205"
-                  x="365.5" y="479.1074">name
-            </text>
-            <ellipse cx="356.5" cy="493.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80.1445"
-                  x="365.5" y="497.7285">taxIdNumber
-            </text>
-            <ellipse cx="356.5" cy="512.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.7236"
-                  x="365.5" y="516.3496">phoneNumber
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="346.5" x2="459.2236" y1="523.8633" y2="523.8633"/>
-        </g><!--class RealEstateAgent-->
-        <g id="elem_RealEstateAgent">
-            <rect codeLine="46" fill="#F1F1F1" height="122.4844" id="RealEstateAgent" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="145.8203" x="269" y="227"/>
-            <ellipse cx="287.9384" cy="243" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M290.704,238.875 Q290.8603,238.6563 291.0478,238.5469 Q291.2353,238.4375 291.454,238.4375 Q291.829,238.4375 292.0634,238.7031 Q292.2978,238.9531 292.2978,239.5625 L292.2978,241.0156 Q292.2978,241.625 292.0634,241.8906 Q291.829,242.1563 291.454,242.1563 Q291.1103,242.1563 290.9071,241.9531 Q290.704,241.7656 290.5946,241.25 Q290.5478,240.8906 290.3603,240.7031 Q290.0321,240.3281 289.4228,240.1094 Q288.8134,239.8906 288.1884,239.8906 Q287.4228,239.8906 286.7821,240.2188 Q286.1571,240.5469 285.6571,241.2969 Q285.1728,242.0469 285.1728,243.0781 L285.1728,244.1719 Q285.1728,245.4063 286.0634,246.2344 Q286.954,247.0469 288.5478,247.0469 Q289.4853,247.0469 290.1415,246.7969 Q290.5321,246.6406 290.954,246.2031 Q291.2196,245.9375 291.3603,245.8594 Q291.5165,245.7813 291.7196,245.7813 Q292.0478,245.7813 292.2978,246.0469 Q292.5634,246.2969 292.5634,246.6406 Q292.5634,246.9844 292.2196,247.3906 Q291.7196,247.9688 290.9228,248.2969 Q289.8446,248.75 288.5478,248.75 Q287.0321,248.75 285.829,248.125 Q284.8446,247.625 284.1571,246.5625 Q283.4696,245.4844 283.4696,244.2031 L283.4696,243.0469 Q283.4696,241.7188 284.079,240.5781 Q284.704,239.4219 285.7978,238.8125 Q286.8915,238.1875 288.1259,238.1875 Q288.8603,238.1875 289.5009,238.3594 Q290.1571,238.5156 290.704,238.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105.0684"
-                  x="302.8136" y="248.7969">RealEstateAgent
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="270" x2="413.8203" y1="259" y2="259"/>
-            <ellipse cx="280" cy="273.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.0205"
-                  x="289" y="278.1074">name
-            </text>
-            <ellipse cx="280" cy="292.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8203"
-                  x="289" y="296.7285">citizenCardNumber
-            </text>
-            <ellipse cx="280" cy="311.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33.4551"
-                  x="289" y="315.3496">email
-            </text>
-            <ellipse cx="280" cy="329.6738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.7236"
-                  x="289" y="333.9707">phoneNumber
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="270" x2="413.8203" y1="341.4844" y2="341.4844"/>
-        </g><!--class Listing-->
-        <g id="elem_Listing">
-            <rect codeLine="53" fill="#F1F1F1" height="103.8633" id="Listing" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="112.3789" x="198" y="428"/>
-            <ellipse cx="230.9596" cy="444" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M233.7252,439.875 Q233.8814,439.6563 234.0689,439.5469 Q234.2564,439.4375 234.4752,439.4375 Q234.8502,439.4375 235.0846,439.7031 Q235.3189,439.9531 235.3189,440.5625 L235.3189,442.0156 Q235.3189,442.625 235.0846,442.8906 Q234.8502,443.1563 234.4752,443.1563 Q234.1314,443.1563 233.9283,442.9531 Q233.7252,442.7656 233.6158,442.25 Q233.5689,441.8906 233.3814,441.7031 Q233.0533,441.3281 232.4439,441.1094 Q231.8346,440.8906 231.2096,440.8906 Q230.4439,440.8906 229.8033,441.2188 Q229.1783,441.5469 228.6783,442.2969 Q228.1939,443.0469 228.1939,444.0781 L228.1939,445.1719 Q228.1939,446.4063 229.0846,447.2344 Q229.9752,448.0469 231.5689,448.0469 Q232.5064,448.0469 233.1627,447.7969 Q233.5533,447.6406 233.9752,447.2031 Q234.2408,446.9375 234.3814,446.8594 Q234.5377,446.7813 234.7408,446.7813 Q235.0689,446.7813 235.3189,447.0469 Q235.5846,447.2969 235.5846,447.6406 Q235.5846,447.9844 235.2408,448.3906 Q234.7408,448.9688 233.9439,449.2969 Q232.8658,449.75 231.5689,449.75 Q230.0533,449.75 228.8502,449.125 Q227.8658,448.625 227.1783,447.5625 Q226.4908,446.4844 226.4908,445.2031 L226.4908,444.0469 Q226.4908,442.7188 227.1002,441.5781 Q227.7252,440.4219 228.8189,439.8125 Q229.9127,439.1875 231.1471,439.1875 Q231.8814,439.1875 232.5221,439.3594 Q233.1783,439.5156 233.7252,439.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40.4688"
-                  x="248.9506" y="449.7969">Listing
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="199" x2="309.3789" y1="460" y2="460"/>
-            <ellipse cx="209" cy="474.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73.9375"
-                  x="218" y="479.1074">publishDate
-            </text>
-            <ellipse cx="209" cy="493.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86.3789"
-                  x="218" y="497.7285">businessType
-            </text>
-            <ellipse cx="209" cy="512.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73.9033"
-                  x="218" y="516.3496">commission
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="199" x2="309.3789" y1="523.8633" y2="523.8633"/>
-        </g><!--class Visit-->
-        <g id="elem_Visit">
-            <rect codeLine="59" fill="#F1F1F1" height="48" id="Visit" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="58.4482" x="7" y="264"/>
-            <ellipse cx="22" cy="280" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M24.7656,275.875 Q24.9219,275.6563 25.1094,275.5469 Q25.2969,275.4375 25.5156,275.4375 Q25.8906,275.4375 26.125,275.7031 Q26.3594,275.9531 26.3594,276.5625 L26.3594,278.0156 Q26.3594,278.625 26.125,278.8906 Q25.8906,279.1563 25.5156,279.1563 Q25.1719,279.1563 24.9688,278.9531 Q24.7656,278.7656 24.6563,278.25 Q24.6094,277.8906 24.4219,277.7031 Q24.0938,277.3281 23.4844,277.1094 Q22.875,276.8906 22.25,276.8906 Q21.4844,276.8906 20.8438,277.2188 Q20.2188,277.5469 19.7188,278.2969 Q19.2344,279.0469 19.2344,280.0781 L19.2344,281.1719 Q19.2344,282.4063 20.125,283.2344 Q21.0156,284.0469 22.6094,284.0469 Q23.5469,284.0469 24.2031,283.7969 Q24.5938,283.6406 25.0156,283.2031 Q25.2813,282.9375 25.4219,282.8594 Q25.5781,282.7813 25.7813,282.7813 Q26.1094,282.7813 26.3594,283.0469 Q26.625,283.2969 26.625,283.6406 Q26.625,283.9844 26.2813,284.3906 Q25.7813,284.9688 24.9844,285.2969 Q23.9063,285.75 22.6094,285.75 Q21.0938,285.75 19.8906,285.125 Q18.9063,284.625 18.2188,283.5625 Q17.5313,282.4844 17.5313,281.2031 L17.5313,280.0469 Q17.5313,278.7188 18.1406,277.5781 Q18.7656,276.4219 19.8594,275.8125 Q20.9531,275.1875 22.1875,275.1875 Q22.9219,275.1875 23.5625,275.3594 Q24.2188,275.5156 24.7656,275.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26.4482"
-                  x="36" y="285.7969">Visit
-            </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="64.4482" y1="296" y2="296"/>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="64.4482" y1="304" y2="304"/>
         </g><!--class Branch-->
         <g id="elem_Branch">
-            <rect codeLine="62" fill="#F1F1F1" height="122.4844" id="Branch" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="113.1719" x="285.5" y="16.5"/>
-            <ellipse cx="317.0661" cy="32.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M319.8317,28.375 Q319.9879,28.1563 320.1754,28.0469 Q320.3629,27.9375 320.5817,27.9375 Q320.9567,27.9375 321.1911,28.2031 Q321.4254,28.4531 321.4254,29.0625 L321.4254,30.5156 Q321.4254,31.125 321.1911,31.3906 Q320.9567,31.6563 320.5817,31.6563 Q320.2379,31.6563 320.0348,31.4531 Q319.8317,31.2656 319.7223,30.75 Q319.6754,30.3906 319.4879,30.2031 Q319.1598,29.8281 318.5504,29.6094 Q317.9411,29.3906 317.3161,29.3906 Q316.5504,29.3906 315.9098,29.7188 Q315.2848,30.0469 314.7848,30.7969 Q314.3004,31.5469 314.3004,32.5781 L314.3004,33.6719 Q314.3004,34.9063 315.1911,35.7344 Q316.0817,36.5469 317.6754,36.5469 Q318.6129,36.5469 319.2692,36.2969 Q319.6598,36.1406 320.0817,35.7031 Q320.3473,35.4375 320.4879,35.3594 Q320.6442,35.2813 320.8473,35.2813 Q321.1754,35.2813 321.4254,35.5469 Q321.6911,35.7969 321.6911,36.1406 Q321.6911,36.4844 321.3473,36.8906 Q320.8473,37.4688 320.0504,37.7969 Q318.9723,38.25 317.6754,38.25 Q316.1598,38.25 314.9567,37.625 Q313.9723,37.125 313.2848,36.0625 Q312.5973,34.9844 312.5973,33.7031 L312.5973,32.5469 Q312.5973,31.2188 313.2067,30.0781 Q313.8317,28.9219 314.9254,28.3125 Q316.0192,27.6875 317.2536,27.6875 Q317.9879,27.6875 318.6286,27.8594 Q319.2848,28.0156 319.8317,28.375 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44.3584"
-                  x="334.7474" y="38.2969">Branch
+            <rect codeLine="12" fill="#F1F1F1" height="77.8359" id="Branch" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="60.668" x="324.3" y="118.2"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="26.615"
+                  x="341.3265" y="130.2645">Branch
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="286.5" x2="397.6719" y1="48.5" y2="48.5"/>
-            <ellipse cx="296.5" cy="63.3105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30.3584"
-                  x="305.5" y="67.6074">code
+            <line style="stroke:#181818;stroke-width:0.3;" x1="324.9" x2="384.368" y1="135.3727" y2="135.3727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="23.1205"
+                  x="327.9" y="146.8371">+code
             </text>
-            <ellipse cx="296.5" cy="81.9316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.0205"
-                  x="305.5" y="86.2285">name
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="25.9178"
+                  x="327.9" y="158.0098">+name
             </text>
-            <ellipse cx="296.5" cy="100.5527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49.8066"
-                  x="305.5" y="104.8496">address
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="34.7895"
+                  x="327.9" y="169.1824">+address
             </text>
-            <ellipse cx="296.5" cy="119.1738" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87.1719"
-                  x="305.5" y="123.4707">openingHours
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="53.468"
+                  x="327.9" y="180.3551">+openingTime
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="286.5" x2="397.6719" y1="130.9844" y2="130.9844"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.7191"
+                  x="327.9" y="191.5277">+closingTime
+            </text>
+        </g><!--class RealEstateAgent-->
+        <g id="elem_RealEstateAgent">
+            <rect codeLine="20" fill="#F1F1F1" height="66.6633" id="RealEstateAgent" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="81.8895" x="386.4" y="243.6"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="63.041"
+                  x="395.8242" y="255.6645">RealEstateAgent
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="387" x2="467.6895" y1="260.7727" y2="260.7727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="25.9178"
+                  x="390" y="272.2371">+name
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="74.6895"
+                  x="390" y="283.4098">-citizenCardNumber
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.9785"
+                  x="390" y="294.5824">+email
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="56.0314"
+                  x="390" y="305.7551">-phoneNumber
+            </text>
+        </g><!--class Property-->
+        <g id="elem_Property">
+            <rect codeLine="27" fill="#F1F1F1" height="100.1812" id="Property" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="102.668" x="199.5" y="357.6"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="31.7461"
+                  x="234.9609" y="369.6645">Property
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="200.1" x2="301.568" y1="374.7727" y2="374.7727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="20.7826"
+                  x="203.1" y="386.2371">+type
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.7178"
+                  x="203.1" y="397.4098">+area
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="33.8584"
+                  x="203.1" y="408.5824">+location
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="95.468"
+                  x="203.1" y="419.7551">+distanceFromCityCenter
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="23.1123"
+                  x="203.1" y="430.9277">+price
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="30.126"
+                  x="203.1" y="442.1004">+photos
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="43.657"
+                  x="203.1" y="453.273">+availability
+            </text>
+        </g><!--class Apartment-->
+        <g id="elem_Apartment">
+            <rect codeLine="37" fill="#F1F1F1" height="77.8359" id="Apartment" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="90.0721" x="4.2" y="516.3"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="38.7516"
+                  x="29.8603" y="528.3645">Apartment
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="4.8" x2="93.6721" y1="533.4727" y2="533.4727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="51.1219"
+                  x="7.8" y="544.9371">+floorNumber
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="80.5383"
+                  x="7.8" y="556.1098">+numberOfBedrooms
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8721"
+                  x="7.8" y="567.2824">+numberOfBathrooms
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="60.4734"
+                  x="7.8" y="578.4551">+parkingSpaces
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="44.1328"
+                  x="7.8" y="589.6277">+equipment
+            </text>
+        </g><!--class House-->
+        <g id="elem_House">
+            <rect codeLine="45" fill="#F1F1F1" height="100.1812" id="House" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="90.0721" x="115.2" y="505.2"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.2813"
+                  x="148.0954" y="517.2645">House
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="115.8" x2="204.6721" y1="522.3727" y2="522.3727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="56.2693"
+                  x="118.8" y="533.8371">+hasBasement
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="34.7854"
+                  x="118.8" y="545.0098">+hasAttic
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="53.9355"
+                  x="118.8" y="556.1824">+sunExposure
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="80.5383"
+                  x="118.8" y="567.3551">+numberOfBedrooms
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8721"
+                  x="118.8" y="578.5277">+numberOfBathrooms
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="60.4734"
+                  x="118.8" y="589.7004">+parkingSpaces
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="44.1328"
+                  x="118.8" y="600.873">+equipment
+            </text>
+        </g><!--class Land-->
+        <g id="elem_Land">
+            <rect codeLine="55" fill="#F1F1F1" height="21.9727" id="Land" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="22.2867" x="226.5" y="544.2"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="18.6867"
+                  x="228.3" y="556.2645">Land
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="227.1" x2="248.1867" y1="561.3727" y2="561.3727"/>
+        </g><!--class Owner-->
+        <g id="elem_Owner">
+            <rect codeLine="57" fill="#F1F1F1" height="55.4906" id="Owner" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="65.3396" x="292.5" y="249.3"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.7406"
+                  x="312.7995" y="261.3645">Owner
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="293.1" x2="357.2396" y1="266.4727" y2="266.4727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="25.9178"
+                  x="296.1" y="277.9371">+name
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="50.884"
+                  x="296.1" y="289.1098">-taxIdNumber
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="58.1396"
+                  x="296.1" y="300.2824">+phoneNumber
+            </text>
+        </g><!--class Client-->
+        <g id="elem_Client">
+            <rect codeLine="63" fill="#F1F1F1" height="77.8359" id="Client" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="81.8895" x="390" y="766.8"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="21.4758"
+                  x="420.2068" y="778.8645">Client
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="390.6" x2="471.2895" y1="783.9727" y2="783.9727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="25.9178"
+                  x="393.6" y="795.4371">+name
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="74.6895"
+                  x="393.6" y="806.6098">-citizenCardNumber
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="50.884"
+                  x="393.6" y="817.7824">-taxIdNumber
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.9785"
+                  x="393.6" y="828.9551">+email
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="58.1396"
+                  x="393.6" y="840.1277">+phoneNumber
+            </text>
         </g><!--class Sale-->
         <g id="elem_Sale">
-            <rect codeLine="69" fill="#F1F1F1" height="103.8633" id="Sale" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="134.1855" x="100" y="236"/>
-            <ellipse cx="148.8325" cy="252" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
-            <path d="M151.5981,247.875 Q151.7544,247.6563 151.9419,247.5469 Q152.1294,247.4375 152.3481,247.4375 Q152.7231,247.4375 152.9575,247.7031 Q153.1919,247.9531 153.1919,248.5625 L153.1919,250.0156 Q153.1919,250.625 152.9575,250.8906 Q152.7231,251.1563 152.3481,251.1563 Q152.0044,251.1563 151.8013,250.9531 Q151.5981,250.7656 151.4888,250.25 Q151.4419,249.8906 151.2544,249.7031 Q150.9263,249.3281 150.3169,249.1094 Q149.7075,248.8906 149.0825,248.8906 Q148.3169,248.8906 147.6763,249.2188 Q147.0513,249.5469 146.5513,250.2969 Q146.0669,251.0469 146.0669,252.0781 L146.0669,253.1719 Q146.0669,254.4063 146.9575,255.2344 Q147.8481,256.0469 149.4419,256.0469 Q150.3794,256.0469 151.0356,255.7969 Q151.4263,255.6406 151.8481,255.2031 Q152.1138,254.9375 152.2544,254.8594 Q152.4106,254.7813 152.6138,254.7813 Q152.9419,254.7813 153.1919,255.0469 Q153.4575,255.2969 153.4575,255.6406 Q153.4575,255.9844 153.1138,256.3906 Q152.6138,256.9688 151.8169,257.2969 Q150.7388,257.75 149.4419,257.75 Q147.9263,257.75 146.7231,257.125 Q145.7388,256.625 145.0513,255.5625 Q144.3638,254.4844 144.3638,253.2031 L144.3638,252.0469 Q144.3638,250.7188 144.9731,249.5781 Q145.5981,248.4219 146.6919,247.8125 Q147.7856,247.1875 149.02,247.1875 Q149.7544,247.1875 150.395,247.3594 Q151.0513,247.5156 151.5981,247.875 Z "
-                  fill="#000000"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28.0205"
-                  x="169.3325" y="257.7969">Sale
+            <rect codeLine="71" fill="#F1F1F1" height="55.4906" id="Sale" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="77.0168" x="353.4" y="658.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="16.8123"
+                  x="383.5022" y="670.5645">Sale
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="101" x2="233.1855" y1="268" y2="268"/>
-            <ellipse cx="111" cy="282.8105" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.8271"
-                  x="120" y="287.1074">% saleValue
+            <line style="stroke:#181818;stroke-width:0.3;" x1="354" x2="429.8168" y1="675.6727" y2="675.6727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="41.799"
+                  x="357" y="687.1371">+saleValue
             </text>
-            <ellipse cx="111" cy="301.4316" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108.1855"
-                  x="120" y="305.7285">responsibleAgent
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="69.8168"
+                  x="357" y="698.3098">+responsibleAgent
             </text>
-            <ellipse cx="111" cy="320.0527" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.8135"
-                  x="120" y="324.3496">buyerClient
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="47.3936"
+                  x="357" y="709.4824">+buyerClient
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="101" x2="233.1855" y1="331.8633" y2="331.8633"/>
-        </g><!--link Client to Visit-->
-        <g id="link_Client_Visit">
-            <path codeLine="75"
-                  d="M59.29,148.16 C55.34,158.01 51.75,168.14 49,178 C40.97,206.82 37.9,241.29 36.73,263.64 "
-                  fill="none" id="Client-Visit" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58.5381"
-                  x="50" y="193.0283">schedules
+        </g><!--class Lease-->
+        <g id="elem_Lease">
+            <rect codeLine="77" fill="#F1F1F1" height="66.6633" id="Lease" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="67.6693" x="451.5" y="652.8"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="22.8867"
+                  x="473.8913" y="664.8645">Lease
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="48.3707" y="170.3613">1
+            <line style="stroke:#181818;stroke-width:0.3;" x1="452.1" x2="518.5693" y1="669.9727" y2="669.9727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="52.0611"
+                  x="455.1" y="681.4371">+monthlyRent
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="15.6002" y="252.6942">0..*
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.268"
+                  x="455.1" y="692.6098">+leasePeriod
             </text>
-        </g><!--link Owner to Property-->
-        <g id="link_Owner_Property">
-            <path codeLine="76" d="M384.65,532.13 C376.15,555.81 365.86,584.5 356.39,610.89 " fill="none"
-                  id="Owner-Property" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30.3481"
-                  x="373" y="577.0283">owns
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="60.4693"
+                  x="455.1" y="703.7824">+leaseStartDate
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="374.8829" y="553.9539">1
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="57.6762"
+                  x="455.1" y="714.9551">+leaseEndDate
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="339.1579" y="599.7756">0..*
+        </g><!--class Advertisement-->
+        <g id="elem_Advertisement">
+            <rect codeLine="84" fill="#F1F1F1" height="55.4906" id="Advertisement" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="64.8557" x="330.6" y="380.1"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="53.6895"
+                  x="336.1831" y="392.1645">Advertisement
             </text>
-        </g><!--link Property to House-->
-        <g id="link_Property_House">
-            <path codeLine="77" d="M261.73,771.1 C245.36,790.65 227.71,811.72 210.99,831.68 " fill="none"
-                  id="Property-House" style="stroke:#181818;stroke-width:1.0;"/>
-        </g><!--link Property to Apartment-->
-        <g id="link_Property_Apartment">
-            <path codeLine="78" d="M328,771.1 C328,796.83 328,825.17 328,850.17 " fill="none" id="Property-Apartment"
-                  style="stroke:#181818;stroke-width:1.0;"/>
-        </g><!--link Property to Land-->
-        <g id="link_Property_Land">
-            <path codeLine="79"
-                  d="M384.13,771.11 C397.55,790.77 411.59,811.96 424,832 C437.35,853.56 451.3,878.92 460.88,896.87 "
-                  fill="none" id="Property-Land" style="stroke:#181818;stroke-width:1.0;"/>
-        </g><!--link RealEstateAgent to Listing-->
-        <g id="link_RealEstateAgent_Listing">
-            <path codeLine="80" d="M314.16,349.12 C302.42,374.45 288.91,403.62 277.67,427.9 " fill="none"
-                  id="RealEstateAgent-Listing" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53.479"
-                  x="299" y="394.0283">manages
+            <line style="stroke:#181818;stroke-width:0.3;" x1="331.2" x2="394.8557" y1="397.2727" y2="397.2727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="11.4434"
+                  x="334.2" y="408.7371">+id
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="303.3654" y="371.6215">1
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="47.1393"
+                  x="334.2" y="419.9098">-commission
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="260.5831" y="416.8139">0..*
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="57.6557"
+                  x="334.2" y="431.0824">+visibilityStatus
             </text>
-        </g><!--link Listing to Property-->
-        <g id="link_Listing_Property">
-            <path codeLine="81" d="M272.1,532.13 C280.49,555.81 290.65,584.5 299.99,610.89 " fill="none"
-                  id="Listing-Property" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59.249"
-                  x="290" y="577.0283">advertises
+        </g><!--class Visit-->
+        <g id="elem_Visit">
+            <rect codeLine="90" fill="#F1F1F1" height="66.6633" id="Visit" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="66.2543" x="397.8" y="892.2"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="15.8689"
+                  x="422.9927" y="904.2645">Visit
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="254.2104" y="553.9539">0..*
+            <line style="stroke:#181818;stroke-width:0.3;" x1="398.4" x2="463.4543" y1="909.3727" y2="909.3727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="37.115"
+                  x="401.4" y="920.8371">+visitDate
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="290.0987" y="599.7756">1
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="38.0379"
+                  x="401.4" y="932.0098">+visitTime
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="27.3164"
+                  x="401.4" y="943.1824">+status
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="59.0543"
+                  x="401.4" y="954.3551">+visitAvailability
+            </text>
+        </g><!--class Listing-->
+        <g id="elem_Listing">
+            <rect codeLine="97" fill="#F1F1F1" height="55.4906" id="Listing" rx="1.5" ry="1.5"
+                  style="stroke:#181818;stroke-width:0.3;" width="63.9328" x="324.9" y="527.7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="24.2813"
+                  x="344.7258" y="539.7645">Listing
+            </text>
+            <line style="stroke:#181818;stroke-width:0.3;" x1="325.5" x2="388.2328" y1="544.8727" y2="544.8727"/>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.268"
+                  x="328.5" y="556.3371">+publishDate
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="56.7328"
+                  x="328.5" y="567.5098">+businessType
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="47.1393"
+                  x="328.5" y="578.6824">-commission
             </text>
         </g><!--link Branch to RealEstateAgent-->
         <g id="link_Branch_RealEstateAgent">
-            <path codeLine="82" d="M342,138.53 C342,166.2 342,198.97 342,226.67 " fill="none"
-                  id="Branch-RealEstateAgent" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48.4072"
-                  x="343" y="193.0283">employs
+            <path codeLine="103"
+                  d="M367.182,196.248 C371.148,206.154 375.984,216.558 381.6,225.6 C385.41,231.732 387.6879,235.0576 392.4579,240.7756 "
+                  fill="none" id="Branch-to-RealEstateAgent" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="394.764,243.54,393.1478,237.856,392.8423,241.2363,389.4619,240.9308,394.764,243.54"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.0443"
+                  x="382.2" y="223.217">employs
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="334.577" y="161.0205">1
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="364.0666" y="209.2352">1
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="321.9416" y="215.613">0..*
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="378.479" y="236.8364">0..*
             </text>
-        </g><!--link Client to Sale-->
-        <g id="link_Client_Sale">
-            <path codeLine="83" d="M118.41,148.22 C128.44,176.87 139.84,209.44 149.08,235.82 " fill="none"
-                  id="Client-Sale" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27.46"
-                  x="136" y="193.0283">buys
+        </g><!--link Branch to Property-->
+        <g id="link_Branch_Property">
+            <path codeLine="104"
+                  d="M324.114,172.722 C298.764,187.008 264.432,211.182 249,243.6 C232.164,278.97 233.444,320.1612 238.718,353.8992 "
+                  fill="none" id="Branch-to-Property" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="239.274,357.456,240.8112,351.7501,238.8107,354.492,236.0688,352.4915,239.274,357.456"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="32.0874"
+                  x="249.6" y="280.217">manages
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="113.4885" y="170.0557">1
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="315.1331" y="172.4946">1
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="126.4174" y="224.7232">0..*
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="226.4039" y="350.9252">0..*
             </text>
-        </g><!--link Sale to Listing-->
-        <g id="link_Sale_Listing">
-            <path codeLine="84" d="M190.43,340.17 C202.86,367.31 218.09,400.58 230.53,427.74 " fill="none"
-                  id="Sale-Listing" style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62.8672"
-                  x="217" y="394.0283">isLinkedTo
+        </g><!--link RealEstateAgent to Property-->
+        <g id="link_RealEstateAgent_Property">
+            <path codeLine="107" d="M386.286,307.56 C361.248,325.956 331.8929,347.5181 305.1389,367.1801 " fill="none"
+                  id="RealEstateAgent-to-Property" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="302.238,369.312,308.0106,368.0481,304.6554,367.5354,305.168,364.1802,302.238,369.312"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="51.1608"
+                  x="355.8" y="337.217">responsible for
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="185.9864" y="361.9991">1
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="377.3731" y="308.5787">1
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="219.8959" y="416.6324">1
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="306.9797" y="363.9356">0..*
             </text>
-        </g><!--SRC=[hLDDRzim3BtxLmW1TjdGehdwbcGTLY1OXxNedP7OcAY-9ifhlM7_VPJjk7PG33li99Ac7f_UexK5PhMpX3whNvLI7pmuBAUcJ3_Hxo2PBwqxO2h532ytinGTa2r1R8B7iVwxgdIF-ZM5Y2bt0sxkOeyB2Q6SDcZ857o93N46h_5J2cv7kTi9cs52JAHnd903lu9_3YtZWDm0Ru7HoQKntUHCkiJS-kkN6BXDFOZl6Tu-Rj6a41mlQf2RgHWXFP4_taNGs1VmUqkndp0ns4XJTfDkZpQ4z2hDVnsr1szaofJVFdjCIxlEd7dJa6y8zbgKphWv_flVVpTuBxO9zG4djWTBt7mKz98UMYQFpFUZxJeuHyp5yEd-0p7b-RksIRQW6V1qC3Zd1yOamIkXh9MNkR82QROHTs37XNYdME87i6r_Kwx5u9aETdZtGA_3DAnzGHX_WDLwfIukrEhgylBzQgHNAzODcjQAEuFkowvfosiLdZrNKouj_P8kAjFIBAh5t-hSdUMOazQrSk3XA6HEbR6XjAuNTC3ya8XOUaTXbv3d0sk5BjhGyTjozFhMIfJZgezFdzTpTiHxyazexaFr1m00]-->
+        </g><!--link Owner to Property-->
+        <g id="link_Owner_Property">
+            <path codeLine="108" d="M309.696,304.512 C300.918,319.794 289.674,339.384 279.366,357.342 " fill="none"
+                  id="Owner-Property" style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="18.2089"
+                  x="295.8" y="337.217">owns
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="302.8156" y="317.9291">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="269.9413" y="350.8014">0..*
+            </text>
+        </g><!--link Property to Visit-->
+        <g id="link_Property_Visit">
+            <path codeLine="109"
+                  d="M261.462,457.884 C270.084,502.344 280.8,569.472 280.8,628.5 C280.8,628.5 280.8,628.5 280.8,806.4 C280.8,865.554 350.1191,898.6034 394.2971,913.9394 "
+                  fill="none" id="Property-to-Visit" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="397.698,915.12,393.3837,911.0818,394.8639,914.1362,391.8096,915.6164,397.698,915.12"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="46.8305"
+                  x="281.4" y="689.417">scheduled for
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="258.0008" y="471.0603">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="381.3299" y="911.3607">0..*
+            </text>
+        </g><!--link Property to Listing-->
+        <g id="link_Property_Listing">
+            <path codeLine="110" d="M286.752,457.866 C303.666,481.176 321.058,505.1541 335.218,524.6721 " fill="none"
+                  id="Property-to-Listing" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="337.332,527.586,336.1036,521.8058,335.5703,525.1577,332.2184,524.6244,337.332,527.586"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="28.614"
+                  x="307.8" y="484.817">listed as
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="285.4642" y="471.0407">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="322.2483" y="520.9749">0..*
+            </text>
+        </g><!--link Listing to Sale-->
+        <g id="link_Listing_Sale">
+            <path codeLine="112"
+                  d="M337.452,582.966 C328.77,598.476 322.104,618.114 330,634.8 C335.166,645.714 341.1605,652.7997 350.5145,660.3897 "
+                  fill="none" id="Listing-to-Sale" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="353.31,662.658,350.629,657.3919,350.9804,660.7677,347.6046,661.1192,353.31,662.658"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="27.738"
+                  x="330.6" y="632.417">markets
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="13.0102"
+                  x="320.9459" y="596.3914">0..1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="344.1583" y="657.3894">1
+            </text>
+        </g><!--link Listing to Lease-->
+        <g id="link_Listing_Lease">
+            <path codeLine="113" d="M383.76,582.912 C403.896,603.234 429.0582,628.6307 450.4542,650.2247 " fill="none"
+                  id="Listing-to-Lease" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="452.988,652.782,450.8921,647.2569,450.8765,650.6509,447.4824,650.6353,452.988,652.782"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="27.738"
+                  x="433.8" y="632.417">markets
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="13.0102"
+                  x="374.3448" y="596.3291">0..1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="444.3834" y="646.0838">1
+            </text>
+        </g><!--link Advertisement to Listing-->
+        <g id="link_Advertisement_Listing">
+            <path codeLine="115" d="M361.89,435.324 C360.816,461.598 359.3377,497.685 358.2577,523.989 " fill="none"
+                  id="Advertisement-to-Listing" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="358.11,527.586,360.7295,522.289,358.2331,524.5885,355.9335,522.0921,358.11,527.586"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="32.514"
+                  x="361.2" y="484.817">promotes
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="357.2048" y="448.743">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="353.7943" y="520.9749">1
+            </text>
+        </g><!--link Property to Apartment-->
+        <g id="link_Property_Apartment">
+            <path codeLine="117"
+                  d="M199.392,439.722 C170.73,457.878 134.79,481.716 104.4,505.2 C99.918,508.662 95.346,512.4 90.846,516.21 "
+                  fill="none" id="Property-Apartment" style="stroke:#181818;stroke-width:0.6;"/>
+        </g><!--link Property to House-->
+        <g id="link_Property_House">
+            <path codeLine="118" d="M220.128,457.866 C210.684,473.13 200.286,489.924 190.842,505.188 " fill="none"
+                  id="Property-House" style="stroke:#181818;stroke-width:0.6;"/>
+        </g><!--link Property to Land-->
+        <g id="link_Property_Land">
+            <path codeLine="119" d="M246.33,457.866 C243.534,488.886 240.162,526.26 238.554,544.152 " fill="none"
+                  id="Property-Land" style="stroke:#181818;stroke-width:0.6;"/>
+        </g><!--link Sale to Client-->
+        <g id="link_Sale_Client">
+            <path codeLine="121" d="M400.746,713.886 C405.9,729.534 411.3257,746.0347 417.0017,763.2667 " fill="none"
+                  id="Sale-to-Client" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="418.128,766.686,418.7181,760.8062,417.1894,763.8366,414.1591,762.3079,418.128,766.686"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="8.238"
+                  x="412.2" y="746.417">by
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="397.5457" y="727.1246">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="412.304" y="760.0856">1
+            </text>
+        </g><!--link Sale to RealEstateAgent-->
+        <g id="link_Sale_RealEstateAgent">
+            <path codeLine="122"
+                  d="M405.96,658.248 C409.194,650.832 412.2,642.666 414,634.8 C421.104,603.732 425.2434,396.1555 426.6294,313.8475 "
+                  fill="none" id="Sale-to-RealEstateAgent" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="426.69,310.248,424.1994,315.6068,426.6395,313.2476,428.9987,315.6876,426.69,310.248"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="43.357"
+                  x="423.6" y="484.817">facilitated by
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="403.4504" y="651.823">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="422.1459" y="323.5983">1
+            </text>
+        </g><!--link Lease to Client-->
+        <g id="link_Lease_Client">
+            <path codeLine="124" d="M470.262,719.55 C463.542,734.142 457.0864,748.1463 450.0844,763.3443 " fill="none"
+                  id="Lease-to-Client" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="448.578,766.614,453.0174,762.7138,449.8333,763.8893,448.6578,760.7052,448.578,766.614"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="21.6861"
+                  x="461.4" y="746.417">tenant
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="463.9775" y="732.6721">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="446.0845" y="760.0057">1
+            </text>
+        </g><!--link Lease to RealEstateAgent-->
+        <g id="link_Lease_RealEstateAgent">
+            <path codeLine="125"
+                  d="M484.728,652.674 C483.564,611.28 480.438,538.002 472.2,475.8 C463.41,409.44 458.376,393.156 442.2,328.2 C440.76,322.41 440.075,319.7498 438.377,313.8458 "
+                  fill="none" id="Lease-to-RealEstateAgent" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="437.382,310.386,436.568,316.239,438.2112,313.2691,441.1811,314.9123,437.382,310.386"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="42.9305"
+                  x="474" y="484.817">managed by
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="480.19" y="645.962">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="434.1578" y="323.5124">1
+            </text>
+        </g><!--link Client to Visit-->
+        <g id="link_Client_Visit">
+            <path codeLine="127" d="M430.8,844.872 C430.8,860.148 430.8,873.93 430.8,888.582 " fill="none"
+                  id="Client-to-Visit" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818" points="430.8,892.182,433.2,886.782,430.8,889.182,428.4,886.782,430.8,892.182"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.9165"
+                  x="431.4" y="871.817">requests
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="426.3756" y="857.8617">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="418.6731" y="885.4838">0..*
+            </text>
+        </g><!--link Visit to RealEstateAgent-->
+        <g id="link_Visit_RealEstateAgent">
+            <path codeLine="128"
+                  d="M463.926,910.302 C500.172,891.804 553.2,856.236 553.2,806.4 C553.2,407.1 553.2,407.1 553.2,407.1 C553.2,357.36 508.0045,321.3526 471.2125,299.7526 "
+                  fill="none" id="Visit-to-RealEstateAgent" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="468.108,297.93,471.5497,302.7336,470.6951,299.4488,473.9799,298.5942,468.108,297.93"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="45.9659"
+                  x="553.8" y="632.417">scheduled by
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="468.8715" y="905.6724">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="473.072" y="297.9953">1
+            </text>
+        </g><!--link StoreNetworkManager to Branch-->
+        <g id="link_StoreNetworkManager_Branch">
+            <path codeLine="130" d="M381.054,70.95 C376.548,85.542 372.2772,99.3766 367.5792,114.5746 " fill="none"
+                  id="StoreNetworkManager-to-Branch" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="366.516,118.014,370.4037,113.5637,367.402,115.1478,365.8178,112.1461,366.516,118.014"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="29.9089"
+                  x="376.2" y="97.817">registers
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="375.3677" y="84.0721">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="355.809" y="111.4057">0..*
+            </text>
+        </g><!--link StoreNetworkManager to RealEstateAgent-->
+        <g id="link_StoreNetworkManager_RealEstateAgent">
+            <path codeLine="131"
+                  d="M405.588,70.938 C407.7,76.8 409.626,82.908 411,88.8 C423.42,142.014 426.4586,202.1286 427.1246,239.9106 "
+                  fill="none" id="StoreNetworkManager-to-RealEstateAgent" style="stroke:#181818;stroke-width:0.6;"/>
+            <polygon fill="#181818"
+                     points="427.188,243.51,429.4925,238.0685,427.1351,240.5105,424.6932,238.1531,427.188,243.51"
+                     style="stroke:#181818;stroke-width:0.6;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="52.033"
+                  x="426" y="160.517">assigns agents
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.338"
+                  x="402.8918" y="84.0586">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="11.7076"
+                  x="415.0573" y="236.8026">0..*
+            </text>
+        </g><!--SRC=[jLN1Rjim3BtxAuGSDwJehZaCIBCEAz2rHLFqJajCB5IMF55kcnNxzz6MPJjnqcs7vHA9eXwVo4UQdhIjm4Cff06YPGXUvtN0A-diMlz4SPuLMg6Gsak3SLrYA9oYB6klY7Lm7cyml3Z_z1qiRD6BjqpmxwE54kCAoygu7UALIdlG9YwhmbcygSiSVVOhWLvuiB98ED8fF4G4fJmInOshq6gxVT3fL1f7oT23tYEOImeGSBb56oOivr87VhDTWLSTeGEoywDaxpp7zs6N0CEkIYGzGbmP9o5eP-DEQQPX9Nxrhbpfi5indHIjybfYdvhWkYV2CvE0N1js7q8lkNYX73rcOvppO_AsNTzkBb1vvqewi48eHcP6Oq5irnL8x4puezPL4s48-itLX2bW0NG1XAr7Ch2Cj8mxgktbQ-MezlZV-5o3LUAjtzw-s2CId0TulTehwz5Qhep-1sbCGVyax3MOFdN4wqSmTPSPbdFbBEdSH7r6Qrxlq4TMenSZ31KedGs5sTttLqnpUeTUEpKoh0DBvGkBVsIxjAgr37fIpwna7UkP0cZLvS2LfIRgLVoicMmhICOEDGqmZtpINs_SHe7RxT2f5AyEHykZGh_cZc4b9CogpescOa3DQ-vtdWSFgVV6R1cb6oYpJpCndtyMi_Epim-poKHOY3Yew8H_t-aBKRQZZgTWTWXo-iwemcBZV1QL6lsFkBiNIrc_Fu2DALu8aWMgsg1g4Kzvf_Gj1ASji3CmysHiV98x_xSIRHxedp3GAQyemS4jsvVEREpQ1wzuthdGPAqdoY_lXzYUjPqoUvQcpxEifJU6xrfs8VBTz71QuGt8HblGP85lPF4XHm43Mc1MKuyfQfH3HEpkdoYOvmc6n1cBXlTXX-esmCS-jGTHEjqsORPDfJtzpQrfOEuvlRKaeDdJRm00]-->
     </g>
 </svg>
