@@ -1,1 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="445px" preserveAspectRatio="none" style="width:391px;height:445px;background:#FFFFFF;" version="1.1" viewBox="0 0 391 445" width="391px" zoomAndPan="magnify"><title>Register New Agent System Sequence Diagram</title><defs/><g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="315.8818" x="36.7988" y="30.1074">Register New Agent System Sequence Diagram</text><rect fill="#FFFFFF" height="220.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="44.2344" y="133.2422"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="156.5332"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="219.1152"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="281.6973"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="123.2422" y2="362.2793"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="352.9141" x2="352.9141" y1="123.2422" y2="362.2793"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.4688" x="5" y="119.7285">Administrator</text><ellipse cx="49.2344" cy="53.1211" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M49.2344,61.1211 L49.2344,88.1211 M36.2344,69.1211 L62.2344,69.1211 M49.2344,88.1211 L36.2344,103.1211 M49.2344,88.1211 L62.2344,103.1211 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.4688" x="5" y="376.3867">Administrator</text><ellipse cx="49.2344" cy="388.4004" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M49.2344,396.4004 L49.2344,423.4004 M36.2344,404.4004 L62.2344,404.4004 M49.2344,423.4004 L36.2344,438.4004 M49.2344,423.4004 L62.2344,438.4004 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64.5654" x="320.9141" y="89.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.5654" x="327.9141" y="111.7285">:System</text><rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64.5654" x="320.9141" y="361.2793"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.5654" x="327.9141" y="383.3867">:System</text><rect fill="#FFFFFF" height="220.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="44.2344" y="133.2422"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="156.5332"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="219.1152"/><rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968" y="281.6973"/><polygon fill="#181818" points="336.1968,152.5332,346.1968,156.5332,336.1968,160.5332,340.1968,156.5332" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="156.5332" y2="156.5332"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="61.2344" y="151.2705">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184.2788" x="72.4644" y="151.2705">Request to register a new agent</text><polygon fill="#181818" points="65.2344,183.8242,55.2344,187.8242,65.2344,191.8242,61.2344,187.8242" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="187.8242" y2="187.8242"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="71.2344" y="182.5615">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144.5361" x="82.4644" y="182.5615">Request for agent details</text><polygon fill="#181818" points="336.1968,215.1152,346.1968,219.1152,336.1968,223.1152,340.1968,219.1152" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="219.1152" y2="219.1152"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="61.2344" y="213.8525">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263.7324" x="72.4644" y="213.8525">Submit agent details (name, citizen card, etc.)</text><polygon fill="#181818" points="65.2344,246.4063,55.2344,250.4063,65.2344,254.4063,61.2344,250.4063" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="250.4063" y2="250.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="71.2344" y="245.1436">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171.9707" x="82.4644" y="245.1436">Provide list of available stores</text><polygon fill="#181818" points="336.1968,277.6973,346.1968,281.6973,336.1968,285.6973,340.1968,281.6973" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="281.6973" y2="281.6973"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="61.2344" y="276.4346">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79.4854" x="72.4644" y="276.4346">Select a store</text><polygon fill="#181818" points="65.2344,308.9883,55.2344,312.9883,65.2344,316.9883,61.2344,312.9883" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="312.9883" y2="312.9883"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="71.2344" y="307.7256">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132.939" x="82.4644" y="307.7256">Confirm store selection</text><polygon fill="#181818" points="65.2344,340.2793,55.2344,344.2793,65.2344,348.2793,61.2344,344.2793" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="344.2793" y2="344.2793"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7.23" x="71.2344" y="339.0166">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220.3716" x="82.4644" y="339.0166">Confirmation of successful registration</text><!--SRC=[TP3DJiD038JlUGgh5q1gcdiFI1MSgueyWRjnYgNz2RlU87XwdDrK22cSziSpuq_py2uofMFNJHQzP6SF9hWkqKScRwWT66yHNTC8YoLuenideGXd-eJJZRn0_wKV3lhL0Qzt1sO9Q8Hd58BWozjdTwMeCoCXmkuqEFOQ656VEy045uf9jHD6OSEJ8i7kM5UKURsMW1gy6ffwGlkyIexAgaH9G0B4EpQ2Lt1Sm9iLl5LBDVzQHeKh8XX8a6tQok_prR7yrS6ZHqTxC2pyJHuCnc4F9ERmjBNl4iFC0u5LEWWZuAmXUDMYanP2ssl9aj6rLRAL-XByoD5L0QIYvwMZ_xMu21Q2b8sXbCPirz9Y6JK_]--></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="414px" preserveAspectRatio="none" style="width:391px;height:414px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 391 414" width="391px" zoomAndPan="magnify">
+    <title>Register New Agent System Sequence Diagram</title>
+    <defs/>
+    <g>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+              textLength="315.8818" x="36.7988" y="30.1074">Register New Agent System Sequence Diagram
+        </text>
+        <rect fill="#FFFFFF" height="188.7461" style="stroke:#181818;stroke-width:1.0;" width="10" x="44.2344"
+              y="133.2422"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="156.5332"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="219.1152"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="281.6973"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="123.2422"
+              y2="330.9883"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="352.9141" x2="352.9141"
+              y1="123.2422" y2="330.9883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.4688" x="5"
+              y="119.7285">Administrator
+        </text>
+        <ellipse cx="49.2344" cy="53.1211" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M49.2344,61.1211 L49.2344,88.1211 M36.2344,69.1211 L62.2344,69.1211 M49.2344,88.1211 L36.2344,103.1211 M49.2344,88.1211 L62.2344,103.1211 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.4688" x="5"
+              y="345.0957">Administrator
+        </text>
+        <ellipse cx="49.2344" cy="357.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M49.2344,365.1094 L49.2344,392.1094 M36.2344,373.1094 L62.2344,373.1094 M49.2344,392.1094 L36.2344,407.1094 M49.2344,392.1094 L62.2344,407.1094 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64.5654"
+              x="320.9141" y="89.6211"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.5654"
+              x="327.9141" y="111.7285">:System
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64.5654"
+              x="320.9141" y="329.9883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.5654"
+              x="327.9141" y="352.0957">:System
+        </text>
+        <rect fill="#FFFFFF" height="188.7461" style="stroke:#181818;stroke-width:1.0;" width="10" x="44.2344"
+              y="133.2422"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="156.5332"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="219.1152"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="348.1968"
+              y="281.6973"/>
+        <polygon fill="#181818" points="336.1968,152.5332,346.1968,156.5332,336.1968,160.5332,340.1968,156.5332"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="156.5332" y2="156.5332"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="61.2344" y="151.2705">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184.2788"
+              x="72.4644" y="151.2705">Request to register a new agent
+        </text>
+        <polygon fill="#181818" points="65.2344,183.8242,55.2344,187.8242,65.2344,191.8242,61.2344,187.8242"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="187.8242"
+              y2="187.8242"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="71.2344" y="182.5615">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144.5361"
+              x="82.4644" y="182.5615">Request for agent details
+        </text>
+        <polygon fill="#181818" points="336.1968,215.1152,346.1968,219.1152,336.1968,223.1152,340.1968,219.1152"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="219.1152" y2="219.1152"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="61.2344" y="213.8525">3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263.7324"
+              x="72.4644" y="213.8525">Submit agent details (name, citizen card, etc.)
+        </text>
+        <polygon fill="#181818" points="65.2344,246.4063,55.2344,250.4063,65.2344,254.4063,61.2344,250.4063"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="250.4063"
+              y2="250.4063"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="71.2344" y="245.1436">4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171.9707"
+              x="82.4644" y="245.1436">Provide list of available stores
+        </text>
+        <polygon fill="#181818" points="336.1968,277.6973,346.1968,281.6973,336.1968,285.6973,340.1968,281.6973"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="54.2344" x2="342.1968" y1="281.6973" y2="281.6973"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="61.2344" y="276.4346">5
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79.4854"
+              x="72.4644" y="276.4346">Select a store
+        </text>
+        <polygon fill="#181818" points="65.2344,308.9883,55.2344,312.9883,65.2344,316.9883,61.2344,312.9883"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.2344" x2="352.1968" y1="312.9883"
+              y2="312.9883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="71.2344" y="307.7256">6
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226.1606"
+              x="82.4644" y="307.7256">Confirm store selection and registration
+        </text><!--SRC=[RP3DIiH048JlUOec5nKsctiEmg9dMSmJT6OwiM5-uamdeazlRoQB23dDJrTLVzJ3XyYSkxQT7GPPl3kRwDjCdmi5Gurbd1BwgX8MH_1E4sUX16_q1PU9Wa3_hHyU-jq1htS7BXBH2Aye135ixx3uWPBEZCG4zSLw3XgOK9yrO8OhfQpQ6PEmuLcHeExAYcrUhbj02TuDLJcXUTubdR8gKHQG2EcEZH0K76_WrGxUgAMO_ooZmcqYi2J8BX_bzylWMVxhu36WfnCO5lwX00QJFG69EJyTxRkckB8bS4e7SGHSDGG7BJfh8NIybXmPNLiaHwalCOoSV150tlIi8HZiteJspRVIgby0]-->
+    </g>
+</svg>

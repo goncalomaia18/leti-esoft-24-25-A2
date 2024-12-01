@@ -7,8 +7,7 @@ autoactivate on
 autonumber
 
 actor "Administrator" as Person
-participant ":RegisterAgentView" as System
-participant ":StoreSelectionView" as Syste
+participant ":System" as System
 
 activate Person
 
@@ -16,11 +15,11 @@ Person -> System: Request to register a new agent
 System --> Person: Request for agent details
 
 Person -> System: Submit agent details (name, citizen card, etc.)
-Syste --> Person: Provide list of available stores
+System --> Person: Provide list of available stores
 
-Person -> Syste: Select a store
-Syste --> Person: Confirm store selection
+Person -> System: Select a store
+System --> Person: Confirm store selection and registration
 
-System --> Person: Confirmation of successful registration
+
 
 @enduml

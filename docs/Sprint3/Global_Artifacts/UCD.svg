@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="1552px" preserveAspectRatio="none" style="width:550px;height:1552px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 550 1552" width="550px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster System Dream House-->
+        <g id="cluster_System Dream House">
+            <rect fill="none" height="1525" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="361"
+                  x="183" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="143.9512" x="291.5244" y="24.1074">System Dream House
+            </text>
+        </g>
+        <g id="elem_US01">
+            <ellipse cx="363.5826" cy="151.1165" fill="#F1F1F1" rx="98.5826" ry="22.1165"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.8408"
+                  x="284.6285" y="155.4631">US01 - Register property
+            </text>
+        </g>
+        <g id="elem_US02">
+            <ellipse cx="363.3955" cy="68.8791" fill="#F1F1F1" rx="112.3955" ry="24.8791"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185.9922"
+                  x="270.3994" y="72.676">US02 - Select or assign agent
+            </text>
+        </g>
+        <g id="elem_US03">
+            <ellipse cx="363.4452" cy="334.089" fill="#F1F1F1" rx="113.4452" ry="25.089"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188.3096"
+                  x="269.2904" y="337.8859">US03 - Publish property listing
+            </text>
+        </g>
+        <g id="elem_US04">
+            <ellipse cx="363.694" cy="989.9388" fill="#F1F1F1" rx="120.194" ry="26.4388"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203.1025"
+                  x="262.1427" y="993.7357">US04 - View available properties
+            </text>
+        </g>
+        <g id="elem_US05">
+            <ellipse cx="363.6363" cy="615.2273" fill="#F1F1F1" rx="124.1363" ry="27.2273"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211.668"
+                  x="257.8023" y="619.0241">US05 - Schedule property viewing
+            </text>
+        </g>
+        <g id="elem_US06">
+            <ellipse cx="363.626" cy="421.2252" fill="#F1F1F1" rx="121.626" ry="26.7252"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206.2197"
+                  x="260.5161" y="425.0221">US06 - Manage viewing requests
+            </text>
+        </g>
+        <g id="elem_US07">
+            <ellipse cx="363.6769" cy="813.0354" fill="#F1F1F1" rx="133.1769" ry="29.0354"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231.1367"
+                  x="248.1085" y="816.8323">US07 - Send purchase/rental request
+            </text>
+        </g>
+        <g id="elem_US08">
+            <ellipse cx="363.5007" cy="518.0001" fill="#F1F1F1" rx="163.0007" ry="35.0001"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="294.1572"
+                  x="216.4221" y="521.797">US08 - Approve/Reject purchase/rental request
+            </text>
+        </g>
+        <g id="elem_US09">
+            <ellipse cx="363.4069" cy="1324.0814" fill="#F1F1F1" rx="143.4069" ry="31.0814"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="252.9297"
+                  x="236.942" y="1327.8783">US09 - Manage properties and branches
+            </text>
+        </g>
+        <g id="elem_US10">
+            <ellipse cx="363.6995" cy="1159.9399" fill="#F1F1F1" rx="90.1995" ry="20.4399"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134.6064"
+                  x="293.3963" y="1164.7436">US10 - Register store
+            </text>
+        </g>
+        <g id="elem_US11">
+            <ellipse cx="363.2833" cy="1236.7567" fill="#F1F1F1" rx="91.7833" ry="20.7567"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138.5166"
+                  x="291.025" y="1241.5604">US11 - Register agent
+            </text>
+        </g>
+        <g id="elem_US20">
+            <ellipse cx="363.4811" cy="1077.7962" fill="#F1F1F1" rx="116.9811" ry="25.7962"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196.082"
+                  x="265.4401" y="1081.5931">US20 - Display listed properties
+            </text>
+        </g>
+        <g id="elem_US21">
+            <ellipse cx="363.329" cy="1411.0658" fill="#F1F1F1" rx="90.829" ry="20.5658"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.165"
+                  x="292.2465" y="1415.8695">US21 - Register client
+            </text>
+        </g>
+        <g id="elem_US30">
+            <ellipse cx="363.4794" cy="712.7959" fill="#F1F1F1" rx="164.4794" ry="35.2959"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="297.2471"
+                  x="214.8559" y="716.5928">US30 - Request to list a property for sale or rent
+            </text>
+        </g>
+        <g id="elem_US31">
+            <ellipse cx="363.718" cy="902.9436" fill="#F1F1F1" rx="115.218" ry="25.4436"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192.2129"
+                  x="267.6116" y="906.7405">US31 - Request a visit booking
+            </text>
+        </g>
+        <g id="elem_US40">
+            <ellipse cx="363.3655" cy="240.7731" fill="#F1F1F1" rx="151.8655" ry="32.7731"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="270.7988"
+                  x="227.9661" y="244.57">US40 - Publish a sale or rent advertisement
+            </text>
+        </g>
+        <g id="elem_US51">
+            <ellipse cx="363.6326" cy="1491.0265" fill="#F1F1F1" rx="110.6326" ry="24.5265"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182.0889"
+                  x="272.5882" y="1494.8234">US51 - Get a list of all agents
+            </text>
+        </g><!--entity owner-->
+        <g id="elem_owner">
+            <ellipse cx="72.6172" cy="79" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.6172,87 L72.6172,114 M59.6172,95 L85.6172,95 M72.6172,114 L59.6172,129 M72.6172,114 L85.6172,129 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41.2344"
+                  x="52" y="145.6074">Owner
+            </text>
+        </g><!--entity agent-->
+        <g id="elem_agent">
+            <ellipse cx="72.293" cy="347" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.293,355 L72.293,382 M59.293,363 L85.293,363 M72.293,382 L59.293,397 M72.293,382 L85.293,397 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36.5859"
+                  x="54" y="413.6074">Agent
+            </text>
+        </g><!--entity client-->
+        <g id="elem_client">
+            <ellipse cx="72.3965" cy="782" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.3965,790 L72.3965,817 M59.3965,798 L85.3965,798 M72.3965,817 L59.3965,832 M72.3965,817 L85.3965,832 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.793"
+                  x="54.5" y="848.6074">Client
+            </text>
+        </g><!--entity admin-->
+        <g id="elem_admin">
+            <ellipse cx="72.5171" cy="1206" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.5171,1214 L72.5171,1241 M59.5171,1222 L85.5171,1222 M72.5171,1241 L59.5171,1256 M72.5171,1241 L85.5171,1256 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.0342"
+                  x="6" y="1272.6074">System Administrator
+            </text>
+        </g><!--entity unregisteredUser-->
+        <g id="elem_unregisteredUser">
+            <ellipse cx="72.2998" cy="1363" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.2998,1371 L72.2998,1398 M59.2998,1379 L85.2998,1379 M72.2998,1398 L59.2998,1413 M72.2998,1398 L85.2998,1413 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113.5996"
+                  x="15.5" y="1429.6074">Unregistered User
+            </text>
+        </g><!--entity networkManager-->
+        <g id="elem_networkManager">
+            <ellipse cx="72.7446" cy="1477" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M72.7446,1485 L72.7446,1512 M59.7446,1493 L85.7446,1493 M72.7446,1512 L59.7446,1527 M72.7446,1512 L85.7446,1527 "
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110.4893"
+                  x="17.5" y="1543.6074">Network Manager
+            </text>
+        </g><!--link owner to US01-->
+        <g id="link_owner_US01">
+            <path d="M93.36,112.82 C131.24,118.19 215.74,130.18 280.02,139.3 " fill="none" id="owner-US01"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link owner to US02-->
+        <g id="link_owner_US02">
+            <path d="M93.36,107.18 C128.94,102.13 205.66,91.25 268.12,82.39 " fill="none" id="owner-US02"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to US03-->
+        <g id="link_agent_US03">
+            <path d="M91.14,375.31 C125.95,370.01 205.63,357.88 269.7,348.13 " fill="none" id="agent-US03"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to US04-->
+        <g id="link_client_US04">
+            <path d="M90.62,847.05 C107.78,877.65 137.09,921.45 175,946 C199,961.54 227.88,971.61 255.71,978.13 "
+                  fill="none" id="client-US04" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to US05-->
+        <g id="link_client_US05">
+            <path d="M89.68,773.23 C106.03,738.11 134.64,688.23 175,660 C197.77,644.08 225.48,633.75 252.54,627.06 "
+                  fill="none" id="client-US05" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to US06-->
+        <g id="link_agent_US06">
+            <path d="M91.14,380.63 C124.66,385.61 199.8,396.79 262.53,406.13 " fill="none" id="agent-US06"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to US07-->
+        <g id="link_client_US07">
+            <path d="M90.71,813 C118.48,813 175.59,813 230.33,813 " fill="none" id="client-US07"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to US08-->
+        <g id="link_agent_US08">
+            <path d="M91.1,397.39 C110.02,417.12 141.86,447.24 175,465 C196.91,476.75 221.7,486.12 245.9,493.51 "
+                  fill="none" id="agent-US08" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link admin to US09-->
+        <g id="link_admin_US09">
+            <path d="M139.22,1262.72 C151.06,1267.04 163.34,1271.3 175,1275 C204.51,1284.35 237.02,1293.31 266.57,1300.95 "
+                  fill="none" id="admin-US09" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link admin to US10-->
+        <g id="link_admin_US10">
+            <path d="M139.02,1210 C150.88,1205.63 163.22,1201.43 175,1198 C212.31,1187.13 254.68,1178.26 289.69,1171.83 "
+                  fill="none" id="admin-US10" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link admin to US11-->
+        <g id="link_admin_US11">
+            <path d="M139.08,1237 C178.21,1237 228.49,1237 271.44,1237 " fill="none" id="admin-US11"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link unregisteredUser to US21-->
+        <g id="link_unregisteredUser_US21">
+            <path d="M129.56,1397.3 C170.93,1399.73 228,1403.09 275.3,1405.87 " fill="none" id="unregisteredUser-US21"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to US30-->
+        <g id="link_client_US30">
+            <path d="M90.75,803.99 C110.66,793.83 144.59,777.26 175,766 C200.85,756.43 229.25,747.58 255.95,739.96 "
+                  fill="none" id="client-US30" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link client to US31-->
+        <g id="link_client_US31">
+            <path d="M90.68,822.04 C110.54,832.19 144.41,848.59 175,859 C207.45,870.04 243.97,879.29 276.1,886.42 "
+                  fill="none" id="client-US31" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link agent to US40-->
+        <g id="link_agent_US40">
+            <path d="M91.05,358.51 C109.92,338.7 141.73,308.52 175,291 C197.66,279.07 223.39,269.82 248.37,262.71 "
+                  fill="none" id="agent-US40" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link networkManager to US51-->
+        <g id="link_networkManager_US51">
+            <path d="M127.52,1504.82 C163.71,1502.69 212.56,1499.82 256.35,1497.24 " fill="none"
+                  id="networkManager-US51" style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--SRC=[XLHBZzem4BxxLuouz8IM93oFg2krbpwqYDvDCWHtZKrj1uIg_lUEuvWa-B2H49x7DzzuPZmIZmwS1YFgauDA62oTq8enNZfjOFBZfj1CW5lG_XJLsngLQzNSdwBwinHHNxR7QDZThSCpRAkpKC8wmqaRu5uJlVRAO4rcD5Z1tdR4pK3hbT7xExgRDk_mZIjA8lYgeEjKZFdhS5LBVAJmQf2VuQjkB4xWBsD07vrBRibdlvjbC8MtZWykHb_Gk7iRsniJzvpSToY91YWdRgseLQX9nEG9fY3Cp-OWXJqz680a9rGTKKM2cXFgby0Ry2iNaX_eJXrOe8smUG9R-0JB4rPD3xZ3bG8Ds1O9R4cmKCNe2mR_D6ZTWskPW5PjCLG5byQK9zA-62e4bn4QaQi4kIRazaBfNV7b3N_xSduGOvt4sFGfzuK1JkaS35TKWaVccsTiDXjstT9uOUURpHBVqOGCMvqbuv7xkA_2NYGF7QQvJfgM9nJvYABi7vKtFJiN8VUsEFubUnhWVQkFD9UMK_Fft_I1YeIro0Q1EBNT2WS7hT_xGIaIzlbiCCnyH4Hl- -elQl7SqyuJseMd_OAUiarT7u5B6GeRIxJ8s3_6Fb5safUqdhYFg2rKzFEhXFfSwZEGH56z7eb1itPbmNGQdkvGobaRlvCA5chSYVEnk1ZvBiV6rSYuPkq-wwJDKA916aePUrvhmK3z7SQdBet4R4X7jVJVUES54nNiFm00]-->
+    </g>
+</svg>

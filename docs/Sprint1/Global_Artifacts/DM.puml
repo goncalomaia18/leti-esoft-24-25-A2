@@ -64,14 +64,17 @@ class Branch {
   +code
   +name
   +address
-  +openingHours
+  +openingTime
+  +closingTime
 }
 
 class Sale {
-  +% saleValue
+  +saleValue
   +responsibleAgent
   +buyerClient
+  +transactionType
 }
+
 
 Client "1" -- "0..*" Visit : schedules
 Owner "1" -- "0..*" Property : owns
@@ -82,7 +85,8 @@ RealEstateAgent "1" -- "0..*" Listing : manages
 Listing "0..*" -- "1" Property : advertises
 Branch "1" -- "0..*" RealEstateAgent : employs
 Client "1" -- "0..*" Sale : buys
-Sale "1" -- "1" Listing : isLinkedTo
+Listing "1" -- "0..1" Sale : isLinkedTo
+Visit "1" -- "1" Property : visits
 
 @enduml
 
