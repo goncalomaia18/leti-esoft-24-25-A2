@@ -1,0 +1,51 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class DisplayListedPropertiesView {
+  +displayProperties(): void
+}
+
+class DisplayListedPropertiesController {
+  +listProperties(): List<Property>
+}
+
+class DisplayListedPropertiesService {
+  +getListedProperties(): List<Listing>
+}
+
+interface ListingRepository <<interface>> {
+  +getListings(): List<Listing>
+}
+
+class Property {
+  -type: String
+  -location: String
+  -price: Double
+  -availability: Boolean
+  -photos: List<String>
+}
+
+class Listing {
+  -publishDate: Date
+  -businessType: String
+  -commission: Double
+  +getProperty(): Property
+}
+
+class UnregisteredUser {
+  +viewListings(): List<Property>
+}
+class RepositoryFactory{
+  +getListingRepository(): ListingRepository
+}
+UnregisteredUser "1" -down-> "1" RepositoryFactory:  uses
+UnregisteredUser -> DisplayListedPropertiesService :  adopts
+ListingRepository "1" -right-> "0..*" Listing:  returns
+DisplayListedPropertiesController ..> UnregisteredUser
+DisplayListedPropertiesView ..> DisplayListedPropertiesController
+DisplayListedPropertiesController ..> DisplayListedPropertiesService
+DisplayListedPropertiesService ..> ListingRepository
+Listing "1" --> "1" Property : associated with
+RepositoryFactory .right.> ListingRepository
+@enduml
