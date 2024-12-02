@@ -1,0 +1,27 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class UnregisteredUser {
+}
+
+class Listing {
+    +publishDate
+    +businessType
+    -commission
+}
+
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
+}
+
+UnregisteredUser "1" --> "0..*" Listing : views
+Property "1" --> "0..*" Listing : listed as
+@enduml

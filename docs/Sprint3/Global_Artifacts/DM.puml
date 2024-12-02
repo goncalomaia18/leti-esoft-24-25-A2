@@ -100,11 +100,15 @@ class Listing {
     +businessType
     -commission
 }
+class UnregisteredUser {
+}
+
 
 Branch "1" --> "0..*" RealEstateAgent : employs
 Branch "1" --> "0..*" Property : manages
 
-
+UnregisteredUser "1" --> "0..*" Listing : views
+UnregisteredUser "1" --> "1" Client : register as
 RealEstateAgent "1" --> "0..*" Property : responsible for
 Owner "1" -- "0..*" Property : owns
 Property "1" --> "0..*" Visit : scheduled for
