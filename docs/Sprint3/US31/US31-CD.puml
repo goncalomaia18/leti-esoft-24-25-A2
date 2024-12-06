@@ -1,0 +1,46 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class BookingView {
+  +displayBookingForm(): void
+  +showConfirmation(): void
+  +showError(): void
+}
+
+class BookingController {
+  +processRequest(dates: List<String>): void
+}
+
+class BookingService {
+  +validateDates(dates: List<String>): boolean
+  +saveBookingRequest(dates: List<String>): void
+}
+
+interface VisitRequestRepository <<interface>> {
+  +saveVisitRequest(request: VisitRequest): void
+}
+
+class VisitRequest {
+  -proposedDates: List<String>
+  +validateDates(): boolean
+}
+
+class Client {
+  +requestBooking(dates: List<String>): void
+}
+
+class RepositoryFactory {
+  +getVisitRequestRepository(): VisitRequestRepository
+}
+
+Client "1" -down-> "1" RepositoryFactory: uses
+Client -> BookingService: adopts
+VisitRequestRepository "1" -right-> "0..*" VisitRequest: saves
+BookingController ..> Client
+BookingView ..> BookingController
+BookingController ..> BookingService
+BookingService ..> VisitRequestRepository
+VisitRequest ..> BookingService
+RepositoryFactory .right.> VisitRequestRepository
+@enduml
