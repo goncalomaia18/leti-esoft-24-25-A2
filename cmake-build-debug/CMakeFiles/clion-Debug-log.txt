@@ -8,17 +8,22 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
-CMake Error at Core/CMakeLists.txt:2 (add_subdirectory):
-  add_subdirectory given source "lib" which is not an existing directory.
+CMake Error: Could not find cmake module file: CMakeDeterminemain.cppCompiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_main.cpp_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_main.cpp_COMPILER
+CMake Error: Could not find cmake module file: C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/CMakeFiles/3.27.8/CMakemain.cppCompiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_main.cpp_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_main.cpp_COMPILER to the full path to the compiler, or to the
+  compiler name if it is in the PATH.
 
 
--- Could NOT find Python3 (missing: Python3_EXECUTABLE Interpreter) 
-CMake Error at CoreTests/CMakeLists.txt:5 (add_executable):
-  add_executable cannot create target "CoreTests" because another target with
-  the same name already exists.  The existing target is an executable created
-  in source directory
-  "C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Core".  See
-  documentation for policy CMP0002 for more details.
-
-
+CMake Error: Could not find cmake module file: CMakemain.cppInformation.cmake
+CMake Error: CMAKE_main.cpp_COMPILER not set, after EnableLanguage
 -- Configuring incomplete, errors occurred!
