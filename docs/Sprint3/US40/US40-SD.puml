@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autoactivate on
+autonumber
+
+actor "Agent" as User
+participant ":UpdatePropertyView" as System
+participant ":UpdatePropertyController" as Ctrl
+participant ":Agent" as Agent
+participant "container:PropertyContainer" as Container
+participant "list:List<Property>" as List
+participant "prop:Property" as Property
+
+activate User
+
+User -> System: asks to update details of a property
+System -> Ctrl: getAll()
+Ctrl -> Agent: getPropertiesContainer()
+Agent --> Ctrl: container
+Ctrl -> Container: getAll()
+Container --> Ctrl: list
+Ctrl --> System: list
+System --> User: shows all existing properties and \n asks to select the one to be updated
+
+User -> System: selects the intended property
+System -> System: findSelectedProperty()
+System --> System: prop
+System -> Property: getDetails()
+Property --> System: details
+System --> User: shows details of the selected property \n and requests the new details
+
+User -> System: types the new details
+System -> Property: getId()
+Property --> System: id
+System -> Ctrl:updateProperty(id, newDetails)
+Ctrl -> Container: findById(id)
+Container --> Ctrl: prop
+Ctrl -> Property: updateDetails(newDetails)
+Property --> Ctrl : ok
+Ctrl -> Container: save(prop)
+Container --> Ctrl: ok
+Ctrl --> System: ok
+System --> User: informs operation success
+
+@enduml

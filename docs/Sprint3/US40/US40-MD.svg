@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="106px" preserveAspectRatio="none" style="width:259px;height:106px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 259 106" width="259px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--class Agent-->
+        <g id="elem_Agent">
+            <rect codeLine="6" fill="#F1F1F1" height="55.2422" id="Agent" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="51.6826" x="7" y="25.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36.5859"
+                  x="14.5483" y="45.6074">Agent
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="57.6826" y1="54.1211" y2="54.1211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39.6826"
+                  x="13" y="73.2285">-name
+            </text>
+        </g><!--class Property-->
+        <g id="elem_Property">
+            <rect codeLine="10" fill="#F1F1F1" height="92.4844" id="Property" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="88.2617" x="164" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52.9102"
+                  x="181.6758" y="27.1074">Property
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="165" x2="251.2617" y1="35.6211" y2="35.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15.5586"
+                  x="170" y="54.7285">-id
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.124"
+                  x="170" y="73.3496">-type
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.2617"
+                  x="170" y="91.9707">-isPublished
+            </text>
+        </g><!--link Agent to Property-->
+        <g id="link_Agent_Property">
+            <path codeLine="16" d="M59.2,53 C86.85,53 130.92,53 163.93,53 " fill="none" id="Agent-Property"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="86.5,40.6455,77.4549,37.7066,77.4549,43.5844,86.5,40.6455"
+                     style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.6372"
+                  x="90.5" y="46.0283">maintains
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
+                  x="66.5061" y="47.9624">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
+                  x="136.4123" y="68.3676">0..*
+            </text>
+        </g><!--SRC=[FOpD2eCm48JlUOh5Iw4GjLSF1O-z5Ve4CLdCqloHh0TR-kwrMXqO-9XXvcIPK-cQ9ZaLUFAkrj4tsgbIf24rPkL5UL98QY5Oyvuvqp0ntdGC3teXjCAIGT2KjSEDFRADfWYnJg0VCJ2y1IoI49H7yTcxUuu9Cyz7JUOFF2VSitAV1aV5elajjx_gKe7CD5gM4ggshi_LyTO1U4M15nUuYYy0]-->
+    </g>
+</svg>
