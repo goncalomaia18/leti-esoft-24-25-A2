@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class PublishAdView {
+}
+
+class PublishAdController {
+    +publishAd(string propertyId): void
+    +confirmPublication(): Result
+}
+
+class Agent {
+    - name
+    +getPropertyContainer(): PropertyContainer
+}
+
+class PropertyContainer {
+    +filterUnpublishedProperties(): List<Property>
+    +publish(Property obj): Result
+}
+
+class Property {
+    - id
+    - type
+    - isPublished
+    Property(string id, string type, bool isPublished)
+    +publish(): void
+}
+
+Agent "1" -right-> "1" PropertyContainer:  maintains
+PropertyContainer "1" -right-> "0..*" Property:  records
+
+PublishAdView ..> PublishAdController
+PublishAdController ..> Agent
+PublishAdController ..> PropertyContainer
+PublishAdController ..> Property
+
+@enduml
