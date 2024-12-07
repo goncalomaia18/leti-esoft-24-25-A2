@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="541px" preserveAspectRatio="none" style="width:975px;height:541px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 975 541" width="975px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--class BookingView-->
+        <g id="elem_BookingView">
+            <rect codeLine="4" fill="#F1F1F1" height="100.4844" id="BookingView" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="192" x="273" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="329"
+                  y="27.1074">BookingView
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="274" x2="464" y1="35.6211" y2="35.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="274" x2="464" y1="43.6211" y2="43.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="279"
+                  y="62.7285">+displayBookingForm(): void
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="279"
+                  y="81.3496">+showConfirmation(): void
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="279"
+                  y="99.9707">+showError(): void
+            </text>
+        </g><!--class BookingController-->
+        <g id="elem_BookingController">
+            <rect codeLine="10" fill="#F1F1F1" height="63.2422" id="BookingController" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="285" x="226.5" y="168"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113"
+                  x="312.5" y="188.1074">BookingController
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="227.5" x2="510.5" y1="196.6211" y2="196.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="227.5" x2="510.5" y1="204.6211" y2="204.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="273"
+                  x="232.5" y="223.7285">+processRequest(dates: List&lt;String&gt;): void
+            </text>
+        </g><!--class BookingService-->
+        <g id="elem_BookingService">
+            <rect codeLine="14" fill="#F1F1F1" height="81.8633" id="BookingService" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="316" x="399" y="292"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="508"
+                  y="312.1074">BookingService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="400" x2="714" y1="320.6211" y2="320.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="400" x2="714" y1="328.6211" y2="328.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="281" x="405"
+                  y="347.7285">+validateDates(dates: List&lt;String&gt;): boolean
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="304" x="405"
+                  y="366.3496">+saveBookingRequest(dates: List&lt;String&gt;): void
+            </text>
+        </g><!--class VisitRequestRepository-->
+        <g id="elem_VisitRequestRepository">
+            <rect codeLine="19" fill="#F1F1F1" height="79.2031" id="VisitRequestRepository" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="308" x="394" y="454.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="61" x="517.5" y="472.4492">&#171;interface&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="147" x="474.5" y="490.5684">VisitRequestRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="395" x2="701" y1="499.082" y2="499.082"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="395" x2="701" y1="507.082" y2="507.082"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="296" x="400"
+                  y="526.1895">+saveVisitRequest(request: VisitRequest): void
+            </text>
+        </g><!--class VisitRequest-->
+        <g id="elem_VisitRequest">
+            <rect codeLine="23" fill="#F1F1F1" height="81.8633" id="VisitRequest" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="197" x="771.5" y="453"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79"
+                  x="830.5" y="473.1074">VisitRequest
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="772.5" x2="967.5" y1="481.6211" y2="481.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185"
+                  x="777.5" y="500.7285">-proposedDates: List&lt;String&gt;
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="772.5" x2="967.5" y1="508.2422" y2="508.2422"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163"
+                  x="777.5" y="527.3496">+validateDates(): boolean
+            </text>
+        </g><!--class Client-->
+        <g id="elem_Client">
+            <rect codeLine="28" fill="#F1F1F1" height="63.2422" id="Client" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="281" x="42.5" y="301.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="165"
+                  y="321.6074">Client
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="43.5" x2="322.5" y1="330.1211" y2="330.1211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="43.5" x2="322.5" y1="338.1211" y2="338.1211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269"
+                  x="48.5" y="357.2285">+requestBooking(dates: List&lt;String&gt;): void
+            </text>
+        </g><!--class RepositoryFactory-->
+        <g id="elem_RepositoryFactory">
+            <rect codeLine="32" fill="#F1F1F1" height="63.2422" id="RepositoryFactory" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="352" x="7" y="462.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="125"
+                  y="482.6074">RepositoryFactory
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="358" y1="491.1211" y2="491.1211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="358" y1="499.1211" y2="499.1211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="340" x="13"
+                  y="518.2285">+getVisitRequestRepository(): VisitRequestRepository
+            </text>
+        </g><!--link Client to RepositoryFactory-->
+        <g id="link_Client_RepositoryFactory">
+            <path codeLine="36" d="M183,364.66 C183,392.81 183,428.31 183,456.44 " fill="none"
+                  id="Client-to-RepositoryFactory" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="183,462.44,187,453.44,183,457.44,179,453.44,183,462.44"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="184"
+                  y="419.0283">uses
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="175.2781" y="386.9764">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="175.2781" y="451.211">1
+            </text>
+        </g><!--link Client to BookingService-->
+        <g id="link_Client_BookingService">
+            <path codeLine="37" d="M323.59,333 C348.14,333 367.83,333 392.82,333 " fill="none"
+                  id="Client-to-BookingService" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="398.82,333,389.82,329,393.82,333,389.82,337,398.82,333"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39"
+                  x="341.75" y="326.0283">adopts
+            </text>
+        </g><!--link VisitRequestRepository to VisitRequest-->
+        <g id="link_VisitRequestRepository_VisitRequest">
+            <path codeLine="38" d="M702.4,494 C725.8,494 743.39,494 765.19,494 " fill="none"
+                  id="VisitRequestRepository-to-VisitRequest" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="771.19,494,762.19,490,766.19,494,762.19,498,771.19,494"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33"
+                  x="720.25" y="487.0283">saves
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="710.0483" y="490.6187">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20"
+                  x="743.5393" y="508.641">0..*
+            </text>
+        </g><!--link BookingController to Client-->
+        <g id="link_BookingController_Client">
+            <path codeLine="39" d="M325.39,231.33 C295.54,252.43 261.0293,276.8364 231.2393,297.8964 " fill="none"
+                  id="BookingController-to-Client" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="226.34,301.36,235.9981,299.4309,230.4228,298.4737,231.38,292.8984,226.34,301.36"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link BookingView to BookingController-->
+        <g id="link_BookingView_BookingController">
+            <path codeLine="40" d="M369,107.14 C369,127.24 369,143.88 369,161.6 " fill="none"
+                  id="BookingView-to-BookingController"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="369,167.6,373,158.6,369,162.6,365,158.6,369,167.6"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link BookingController to BookingService-->
+        <g id="link_BookingController_BookingService">
+            <path codeLine="41" d="M413.08,231.33 C438.91,249.4 466.9037,268.9805 494.7337,288.4505 " fill="none"
+                  id="BookingController-to-BookingService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="499.65,291.89,494.5685,283.4533,495.5531,289.0238,489.9826,290.0083,499.65,291.89"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link BookingService to VisitRequestRepository-->
+        <g id="link_BookingService_VisitRequestRepository">
+            <path codeLine="42" d="M554.73,374.12 C553.34,398.69 551.9102,423.9697 550.5302,448.2697 " fill="none"
+                  id="BookingService-to-VisitRequestRepository"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="550.19,454.26,554.6939,445.5013,550.4735,449.268,546.7067,445.0477,550.19,454.26"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link VisitRequest to BookingService-->
+        <g id="link_VisitRequest_BookingService">
+            <path codeLine="43" d="M791.04,452.89 C743.6,428.79 688.7791,400.9479 641.3291,376.8379 " fill="none"
+                  id="VisitRequest-to-BookingService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="635.98,374.12,642.1917,381.763,640.4376,376.385,645.8156,374.6309,635.98,374.12"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link RepositoryFactory to VisitRequestRepository-->
+        <g id="link_RepositoryFactory_VisitRequestRepository">
+            <path codeLine="44" d="M359.08,494 C370.65,494 376.21,494 387.77,494 " fill="none"
+                  id="RepositoryFactory-to-VisitRequestRepository"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="393.77,494,384.77,490,388.77,494,384.77,498,393.77,494"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--SRC=[ZLDDRy8m3BtdLqISs10LkrQeqWP3chGJIDn3Qy1QY3id5B5f_trDsh6MKebJs_ZvVTZf7ZEGANAgGTWFDBbYTP2fLjO-EyUuEJfuIyciy0laH8XGaIz49NQtHZZ9Ro7bA4ERQtMkpnV4X-53B0l2p5VjdaupCblaWt98vhhsoanyEVovKYax7PFMm9LMpfI2jKluF89rmqmviB5yH-kcgzAnsILzJ2lW0bEeQ0gbqVVEVNyFouP8WpB1fogWfhbF6Oq3tgfIReqMNTsqX9pAB-Apd4ula2IfF7cH9dh8rJDkSNJYDOk1Q5pEgDI1RDwrsCtU27gXd6a4Kv6DQXDr-hi6_XzpeTAGDZ3jmDqUXlTmk-8vQpE3fu4SPtGouoIyTqHYURHW_-0bghttMAgCScT5pq82F-Dkxxp098eU1orJiVJxiQ9xBwCegIScch-6F-w0UzhRLiNLZVM8dlcqbd-3gRkAA6JiPVm5]-->
+    </g>
+</svg>

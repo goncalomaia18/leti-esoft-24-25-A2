@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="343px" preserveAspectRatio="none" style="width:551px;height:343px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 551 343" width="551px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="#FFFFFF" height="157.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="21" y="93.6211"/>
+        <rect fill="#FFFFFF" height="102.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="148.2031"/>
+        <rect fill="#FFFFFF" height="134.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="269"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="71.582" style="stroke:#181818;stroke-width:1.0;" width="10" x="274" y="179.4941"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="494" y="210.7852"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="83.6211"
+              y2="260.0762"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="273.5" x2="273.5" y1="83.6211"
+              y2="260.0762"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="498.5" x2="498.5" y1="83.6211"
+              y2="260.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5"
+              y="80.1074">Client
+        </text>
+        <ellipse cx="26" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M26,21.5 L26,48.5 M13,29.5 L39,29.5 M26,48.5 L13,63.5 M26,48.5 L39,63.5 " fill="none"
+              style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5"
+              y="274.1836">Client
+        </text>
+        <ellipse cx="26" cy="286.1973" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M26,294.1973 L26,321.1973 M13,302.1973 L39,302.1973 M26,321.1973 L13,336.1973 M26,321.1973 L39,336.1973 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115"
+              x="216.5" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="223.5"
+              y="72.1074">:BookingSystem
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115"
+              x="216.5" y="259.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="223.5"
+              y="281.1836">:BookingSystem
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93"
+              x="452.5" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="459.5"
+              y="72.1074">VisitRequest
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93"
+              x="452.5" y="259.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="459.5"
+              y="281.1836">VisitRequest
+        </text>
+        <rect fill="#FFFFFF" height="157.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="21" y="93.6211"/>
+        <rect fill="#FFFFFF" height="102.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="148.2031"/>
+        <rect fill="#FFFFFF" height="134.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="269"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="71.582" style="stroke:#181818;stroke-width:1.0;" width="10" x="274" y="179.4941"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="494" y="210.7852"/>
+        <polygon fill="#181818" points="257,112.9121,267,116.9121,257,120.9121,261,116.9121"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="31" x2="263" y1="116.9121" y2="116.9121"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="38" y="111.6494">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="49"
+              y="111.6494">requests to book a visit
+        </text>
+        <polygon fill="#181818" points="47,144.2031,37,148.2031,47,152.2031,43,148.2031"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="41" x2="268" y1="148.2031" y2="148.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="53" y="142.9404">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="203" x="64"
+              y="142.9404">prompts for preferred dates (max 3)
+        </text>
+        <polygon fill="#181818" points="262,175.4941,272,179.4941,262,183.4941,266,179.4941"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="36" x2="268" y1="179.4941" y2="179.4941"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="43" y="174.2314">3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="54"
+              y="174.2314">submits preferred dates
+        </text>
+        <polygon fill="#181818" points="482,206.7852,492,210.7852,482,214.7852,486,210.7852"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="284" x2="488" y1="210.7852" y2="210.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="291" y="205.5225">4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="302"
+              y="205.5225">validates dates and time format
+        </text>
+        <polygon fill="#181818" points="295,238.0762,285,242.0762,295,246.0762,291,242.0762"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="289" x2="498" y1="242.0762"
+              y2="242.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="301" y="236.8135">5
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="312"
+              y="236.8135">validation result
+        </text><!--SRC=[VO-zRiCm38HtFSN1KpfawkOXG_C63T2Tjkc2YFKJYJAIjuziPR0Re8iaKdVtaPJLKwyoapAyCrHgbst7qPZIzn7DUH9sse0IwjC4YYgz17AAflto_Yhkz_98odQLxJfxzOyaqM- -PKurSjjOaNMK5ydK6yVJFhH5h9O4zUZA5mZp4cLskiLO8rg4w6qeXh4i5IAF72CF60ejuM3fZi-FVtWfTrQA-u_p7RTTgCLCarH4FSaDKB6yJ659pLQDuplsvHVloiOfJ_e4]-->
+    </g>
+</svg>
