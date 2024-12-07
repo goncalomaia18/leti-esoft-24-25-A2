@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Advertisement.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
 		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/BookingController.cpp">
 			<Option target="leti-esoft-24-25-A2"/>
 		</Unit>
@@ -89,6 +92,39 @@
 			<Option target="leti-esoft-24-25-A2"/>
 		</Unit>
 		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/BookingView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesController.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesService.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Lease.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Listing.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/ListingRepository.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Property.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PropertyContainer.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PublishAdController.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PublishAdView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Sale.cpp">
 			<Option target="leti-esoft-24-25-A2"/>
 		</Unit>
 		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/VisitRequest.cpp">
