@@ -1,0 +1,16 @@
+@startuml
+
+title System Sequence Diagram for US30 - Request to List a Property
+
+autoactivate on
+autonumber
+
+actor "Client" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Submit property listing request
+System --> User: Request confirmation
+
+@enduml

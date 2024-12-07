@@ -1,4 +1,4 @@
-#include "Property.h"
+#include "../headers/Property.h"
 #include <stdexcept>
 
 Property::Property(const std::string& id, const std::string& description)

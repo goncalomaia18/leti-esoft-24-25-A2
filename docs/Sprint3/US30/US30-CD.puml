@@ -1,0 +1,51 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+title Class Diagram for US30 - Request to List a Property
+
+class PropertyTypeView {
+    +displayOptions()
+    +showConfirmation()
+}
+
+class PropertyController {
+    +submitListing(string propertyType, double? distance): Listing
+    +validateInput(string propertyType): bool
+}
+
+class ListingManager {
+    +saveListing(Listing listing): bool
+    +getAllListings(): List<Listing>
+}
+
+class Client {
+    +name
+    +citizenCardNumber
+    +taxIdNumber
+    +email
+    +phoneNumber
+}
+
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+}
+
+class Listing {
+    +publishDate
+    +businessType
+    +commission
+}
+
+PropertyTypeView ..> PropertyController
+PropertyController ..> ListingManager
+ListingManager "1" -> "0..*" Listing: manages
+Client "1" -> "0..*" Listing: requests
+Listing "0..*" -- "1" Property: advertises
+
+@enduml
