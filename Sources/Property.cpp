@@ -1,5 +1,9 @@
 #include "../headers/Property.h"
+<<<<<<< HEAD:Sources/Property.cpp
 #include <iostream>
+=======
+#include <stdexcept>
+>>>>>>> main:sources/Property.cpp
 
 // Construtor
 Property::Property(const std::string& type, double area, const std::string& location,
