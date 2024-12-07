@@ -19,7 +19,7 @@ class Agent {
 
 class PropertyContainer {
     +filterUnpublishedProperties(): List<Property>
-    +publish(Property obj): Result
+    +publish(Property property): Result
 }
 
 class Property {
@@ -30,8 +30,8 @@ class Property {
     +publish(): void
 }
 
-Agent "1" -right-> "1" PropertyContainer:  maintains
-PropertyContainer "1" -right-> "0..*" Property:  records
+Agent "1" -right-> "1" PropertyContainer:  manages
+PropertyContainer "1" -right-> "0..*" Property:  contains
 
 PublishAdView ..> PublishAdController
 PublishAdController ..> Agent

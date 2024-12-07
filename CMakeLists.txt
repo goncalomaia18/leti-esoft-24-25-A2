@@ -2,7 +2,10 @@ cmake_minimum_required(VERSION 3.20)
 project(DHMS)
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DHMS main.cpp)
+add_executable(DHMS main.cpp
+        Sources/PropertyContainer.cpp
+        Sources/PublishAdController.cpp
+        Sources/PublishAdView.cpp)
 
 include_directories(Core)
 add_subdirectory(Core)
