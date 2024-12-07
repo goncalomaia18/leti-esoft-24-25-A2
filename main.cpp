@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    std::locale::global(std::locale(""));  // (*)
-    std::wcout.imbue(std::locale());
+    locale::global(locale(""));
+    wcout.imbue(locale());
 
-    std::wcout << L"Hello, World!" << std::endl;
+    wcout << L"Hello, World!" << std::endl;
 
     return 0;
 }

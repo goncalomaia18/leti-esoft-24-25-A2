@@ -1,4 +1,4 @@
-#include "PublishAdView.h"
+#include "../headers/PublishAdView.h"
 #include <iostream>
 
 PublishAdView::PublishAdView(std::shared_ptr<PublishAdController> controller)
