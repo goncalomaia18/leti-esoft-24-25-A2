@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DHMS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leti-esoft-24-25-A2">
+				<Option output="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/leti-esoft-24-25-A2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 leti-esoft-24-25-A2"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leti-esoft-24-25-A2/fast">
+				<Option output="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/leti-esoft-24-25-A2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 leti-esoft-24-25-A2/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Advertisement.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/BookingController.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/BookingService.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/BookingView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesController.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesService.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/DisplayListedPropertiesView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Lease.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Listing.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/ListingRepository.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Property.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PropertyContainer.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PublishAdController.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/PublishAdView.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/Sale.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/Sources/VisitRequest.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/headers/BookingController.h">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/headers/BookingService.h">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/headers/BookingView.h">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/headers/VisitRequest.h">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/main.cpp">
+			<Option target="leti-esoft-24-25-A2"/>
+		</Unit>
+		<Unit filename="C:/Users/pedro/OneDrive/Documents/leti-esoft-24-25-A2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

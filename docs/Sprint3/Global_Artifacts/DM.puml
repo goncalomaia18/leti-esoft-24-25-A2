@@ -99,6 +99,7 @@ class Listing {
     +publishDate
     +businessType
     -commission
+    +status
 }
 class UnregisteredUser {
 }
@@ -110,6 +111,7 @@ Branch "1" --> "0..*" Property : manages
 UnregisteredUser "1" --> "0..*" Listing : views
 UnregisteredUser "1" --> "1" Client : register as
 RealEstateAgent "1" --> "0..*" Property : responsible for
+RealEstateAgent "1" --> "0..*" Listing : publishes
 Owner "1" -- "0..*" Property : owns
 Property "1" --> "0..*" Visit : scheduled for
 Property "1" --> "0..*" Listing : listed as

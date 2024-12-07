@@ -12,8 +12,11 @@ class PublishAdController {
     +confirmPublication(): Result
 }
 
-class Agent {
+class RealEstateAgent {
     - name
+    -citizenCardNumber
+    -email
+    -phoneNumber
     +getPropertyContainer(): PropertyContainer
 }
 
@@ -30,11 +33,11 @@ class Property {
     +publish(): void
 }
 
-Agent "1" -right-> "1" PropertyContainer:  manages
+RealEstateAgent "1" -right-> "1" PropertyContainer:  manages
 PropertyContainer "1" -right-> "0..*" Property:  contains
 
 PublishAdView ..> PublishAdController
-PublishAdController ..> Agent
+PublishAdController ..> RealEstateAgent
 PublishAdController ..> PropertyContainer
 PublishAdController ..> Property
 

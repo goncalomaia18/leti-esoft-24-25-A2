@@ -4,19 +4,51 @@ skinparam classAttributeIconSize 0
 hide circle
 hide methods
 
-class Agent {
+class RealEstateAgent {
     - name
+    -citizenCardNumber
+    +email
+    -phoneNumber
     +publishAd(propertyId: string): Result
 }
 
+class Listing {
+  -publishDate
+  -businessType
+  -commission
+  -status
+  +getProperty(): Property
+}
+class Advertisement {
+    +id
+    -commission
+    +visibilityStatus
+}
+class Lease {
+    +monthlyRent
+    +leasePeriod
+    +leaseStartDate
+    +leaseEndDate
+}
+class Sale {
+    +saleValue
+    +responsibleAgent
+    +buyerClient
+}
 class Property {
-    - id
-    - type
-    - isPublished
-    +publish(): void
-    +getPublicationStatus(): bool
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
 }
 
-Agent "1" -right-- "0..*" Property:  manages >
+RealEstateAgent "1" --> "0..*" Listing : publishes
+Listing "0..1" --> "1" Sale : markets
+Listing "0..1" --> "1" Lease : markets
+Advertisement "1" --> "1" Listing : promotes
+Property "1" --> "0..*" Listing : listed as
 
 @enduml
