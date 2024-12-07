@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pedro/OneDrive/Documents/dhms/ConsoleApp
+# Install script for directory: C:/Users/luisf/Documents/GitHub/leti-esoft-24-25-A2/ConsoleApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe")
 endif()
 
