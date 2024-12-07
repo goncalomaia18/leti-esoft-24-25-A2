@@ -1,6 +1,0 @@
-"C:\ESOFT\CLION\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\jppmm\CLionProjects\leti-esoft-24-25-A2 -B C:\Users\jppmm\CLionProjects\leti-esoft-24-25-A2\cmake-build-debug
-CMake Error at CMakeLists.txt:11 (add_subdirectory):
-  add_subdirectory given source "Core" which is not an existing directory.
-
-
--- Configuring incomplete, errors occurred!
