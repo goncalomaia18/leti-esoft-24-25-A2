@@ -8,5 +8,5 @@
 /dataSources.local.xml
 # Prerequisites
 *.d
+cmake-build-debug/
 **/CMakeFiles/
-/cmake-build-debug/
