@@ -4,24 +4,24 @@ project(leti-esoft-24-25-A2)
 add_executable(leti-esoft-24-25-A2 main.cpp
         headers/
         Sources/
-        headers/Property.h
-        headers/Advertisement.h
+        headers/models/Property.h
+        headers/models/Advertisement.h
         headers/DisplayListedPropertiesController.h
         headers/DisplayListedPropertiesService.h
         headers/DisplayListedPropertiesView.h
-        headers/Lease.h
+        headers/models/Lease.h
         headers/PublishAdView.h
         headers/PublishAdController.h
         headers/ListingRepository.h
-        headers/Sale.h
+        headers/models/Sale.h
         headers/PropertyContainer.h
         headers/BookingController.h
         Sources/BookingController.cpp
-        headers/Listing.h
+        headers/models/Listing.h
         Sources/VisitRequest.cpp
-        headers/BookingService.h
+        headers/models/BookingService.h
         headers/BookingView.h
-        headers/VisitRequest.h
+        headers/models/VisitRequest.h
         Sources/Advertisement.cpp
         Sources/DisplayListedPropertiesController.cpp
         Sources/DisplayListedPropertiesService.cpp
@@ -37,9 +37,9 @@ add_executable(leti-esoft-24-25-A2 main.cpp
         Sources/BookingView.cpp
         Sources/BookingService.cpp
         Sources/Client.cpp
-        headers/Client.h
-        headers/RealEstateAgent.h
+        headers/models/Client.h
+        headers/models/RealEstateAgent.h
         Sources/RealEstateAgent.cpp
-        headers/Visit.h
+        headers/models/Visit.h
         Sources/Visit.cpp
 )

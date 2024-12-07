@@ -4,7 +4,7 @@
 #include <vector>
 #include <memory>
 #include <string>
-#include "Property.h"
+#include "models/Property.h"
 #include "PropertyContainer.h"
 
 class PublishAdController {
