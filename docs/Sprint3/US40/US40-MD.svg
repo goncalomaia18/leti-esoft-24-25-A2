@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
-     height="106px" preserveAspectRatio="none" style="width:259px;height:106px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 259 106" width="259px" zoomAndPan="magnify">
+     height="106px" preserveAspectRatio="none" style="width:257px;height:106px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 257 106" width="257px" zoomAndPan="magnify">
     <defs/>
     <g><!--class Agent-->
         <g id="elem_Agent">
@@ -15,36 +15,36 @@
             </text>
         </g><!--class Property-->
         <g id="elem_Property">
-            <rect codeLine="10" fill="#F1F1F1" height="92.4844" id="Property" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="88.2617" x="164" y="7"/>
+            <rect codeLine="11" fill="#F1F1F1" height="92.4844" id="Property" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="88.2617" x="162" y="7"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52.9102"
-                  x="181.6758" y="27.1074">Property
+                  x="179.6758" y="27.1074">Property
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="165" x2="251.2617" y1="35.6211" y2="35.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="163" x2="249.2617" y1="35.6211" y2="35.6211"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15.5586"
-                  x="170" y="54.7285">-id
+                  x="168" y="54.7285">-id
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.124"
-                  x="170" y="73.3496">-type
+                  x="168" y="73.3496">-type
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.2617"
-                  x="170" y="91.9707">-isPublished
+                  x="168" y="91.9707">-isPublished
             </text>
         </g><!--link Agent to Property-->
         <g id="link_Agent_Property">
-            <path codeLine="16" d="M59.2,53 C86.85,53 130.92,53 163.93,53 " fill="none" id="Agent-Property"
+            <path codeLine="19" d="M59.27,53 C86.5,53 129.52,53 161.95,53 " fill="none" id="Agent-Property"
                   style="stroke:#181818;stroke-width:1.0;"/>
             <polygon fill="#000000" points="86.5,40.6455,77.4549,37.7066,77.4549,43.5844,86.5,40.6455"
                      style="stroke:#000000;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.6372"
-                  x="90.5" y="46.0283">maintains
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53.479"
+                  x="90.5" y="46.0283">manages
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="66.5061" y="47.9624">1
+                  x="66.5931" y="47.9624">1
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="136.4123" y="68.3676">0..*
+                  x="134.4355" y="68.3676">0..*
             </text>
-        </g><!--SRC=[FOpD2eCm48JlUOh5Iw4GjLSF1O-z5Ve4CLdCqloHh0TR-kwrMXqO-9XXvcIPK-cQ9ZaLUFAkrj4tsgbIf24rPkL5UL98QY5Oyvuvqp0ntdGC3teXjCAIGT2KjSEDFRADfWYnJg0VCJ2y1IoI49H7yTcxUuu9Cyz7JUOFF2VSitAV1aV5elajjx_gKe7CD5gM4ggshi_LyTO1U4M15nUuYYy0]-->
+        </g><!--SRC=[LK_BQiCm4BphAnPVcZR8Jgy-57pCBRHV84kB9AeNsbKXBVttEhOJw9w6OLxxv9WBZSDGWahSOkXrZeCEYaWQhsnLKT2dJqKj25P-Ogv-RenddTE7_qOu2USDWlPL1znmH7RPa12h1IQBYU57m78IaegumcDfS_3a9dCeDHUiV3sR4MWfIFPvX7Ua5bZytcCkk-YHvCqE-5hmpj5bIqNph-Im17xbtN6qoAjCA_RB6wouqKqnvnnkXTlYxhK3MRrrB2Lqfxv_wHuZHe2eah98y2R-0000]-->
     </g>
 </svg>

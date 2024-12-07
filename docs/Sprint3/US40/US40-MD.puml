@@ -6,14 +6,17 @@ hide methods
 
 class Agent {
     - name
+    +publishAd(propertyId: string): Result
 }
 
 class Property {
     - id
     - type
     - isPublished
+    +publish(): void
+    +getPublicationStatus(): bool
 }
 
-Agent "1" -right-- "0..*" Property:  maintains >
+Agent "1" -right-- "0..*" Property:  manages >
 
 @enduml
