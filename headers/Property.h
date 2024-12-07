@@ -2,21 +2,43 @@
 #define PROPERTY_H
 
 #include <string>
+#include <vector>
 
 class Property {
-public:
-    Property(const std::string& id, const std::string& description);
-
-    const std::string& getId() const;
-    const std::string& getDescription() const;
-    bool isPublished() const;
-
-    void publish();
-
 private:
-    std::string id;
-    std::string description;
-    bool published;
+    std::string type;
+    double area;
+    std::string location;
+    double distanceFromCityCenter;
+    double price;
+    std::vector<std::string> photos;
+    bool availability;
+public:
+
+    Property(const std::string& type, double area, const std::string& location,
+             double distanceFromCityCenter, double price, const std::vector<std::string>& photos,
+             bool availability);
+
+    // Getters
+    std::string getType() const;
+    double getArea() const;
+    std::string getLocation() const;
+    double getDistanceFromCityCenter() const;
+    double getPrice() const;
+    std::vector<std::string> getPhotos() const;
+    bool isAvailable() const;
+
+    // Setters
+    void setType(const std::string& type);
+    void setArea(double area);
+    void setLocation(const std::string& location);
+    void setDistanceFromCityCenter(double distance);
+    void setPrice(double price);
+    void setPhotos(const std::vector<std::string>& photos);
+    void setAvailability(bool availability);
+
+    // Métodos adicionais (se necessário)
+    void displayDetails() const; // Mostra detalhes da propriedade
 };
 
 #endif // PROPERTY_H

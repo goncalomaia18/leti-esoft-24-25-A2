@@ -18,18 +18,12 @@ interface ListingRepository <<interface>> {
   +getListings(): List<Listing>
 }
 
-class Property {
-  -type: String
-  -location: String
-  -price: Double
-  -availability: Boolean
-  -photos: List<String>
-}
 
 class Listing {
-  -publishDate: Date
-  -businessType: String
-  -commission: Double
+  -publishDate
+  -businessType
+  -commission
+  -status
   +getProperty(): Property
 }
 
@@ -46,6 +40,5 @@ DisplayListedPropertiesController ..> UnregisteredUser
 DisplayListedPropertiesView ..> DisplayListedPropertiesController
 DisplayListedPropertiesController ..> DisplayListedPropertiesService
 DisplayListedPropertiesService ..> ListingRepository
-Listing "1" --> "1" Property : associated with
 RepositoryFactory .right.> ListingRepository
 @enduml

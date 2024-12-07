@@ -4,10 +4,10 @@
 autoactivate on
 autonumber
 
-actor "Agent" as User
+actor "RealEstateAgent" as User
 participant ":PublishAdView" as System
 participant ":PublishAdController" as Ctrl
-participant ":Agent" as Agent
+participant ":RealEstateAgent" as Agent
 participant "container:PropertyContainer" as Container
 participant "list:List<Property>" as List
 participant "prop:Property" as Property

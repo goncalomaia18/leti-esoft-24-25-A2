@@ -1,0 +1,29 @@
+@startuml
+autoactivate on
+autonumber
+
+actor "UnregisteredUser" as User
+participant "DisplayListedPropertiesView" as View
+participant "DisplayListedPropertiesController" as Controller
+participant "DisplayListedPropertiesService" as Service
+participant "ListingRepository" as Repository
+
+activate User
+User -> View: requests to display properties
+View -> Controller: listProperties()
+Controller -> Service: getListedProperties()
+Service -> Repository: getListings()
+Repository --> Service: returns List<Listing>
+Service --> Controller: returns List<Listing>
+Controller --> View: returns List<Property>
+View --> User: displays available properties
+
+User -> View: optionally applies filters (e.g., price, location)
+View -> Controller: applyFilters(criteria)
+Controller -> Service: getFilteredProperties(criteria)
+Service -> Repository: getFilteredListings(criteria)
+Repository --> Service: returns filtered List<Listing>
+Service --> Controller: returns filtered List<Listing>
+Controller --> View: returns filtered List<Property>
+View --> User: displays filtered properties
+@enduml
