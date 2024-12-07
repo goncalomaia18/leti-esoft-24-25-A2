@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
-     height="400px" preserveAspectRatio="none" style="width:1070px;height:400px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 1070 400" width="1070px" zoomAndPan="magnify">
+     height="400px" preserveAspectRatio="none" style="width:1073px;height:400px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 1073 400" width="1073px" zoomAndPan="magnify">
     <defs/>
     <g><!--class PublishAdView-->
         <g id="elem_PublishAdView">
             <rect codeLine="6" fill="#F1F1F1" height="44.6211" id="PublishAdView" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="99.3857" x="481.5" y="7"/>
+                  style="stroke:#181818;stroke-width:0.5;" width="99.3857" x="479.5" y="7"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93.3857"
-                  x="484.5" y="27.1074">PublishAdView
+                  x="482.5" y="27.1074">PublishAdView
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="482.5" x2="579.8857" y1="35.6211" y2="35.6211"/>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="482.5" x2="579.8857" y1="43.6211" y2="43.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="480.5" x2="577.8857" y1="35.6211" y2="35.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="480.5" x2="577.8857" y1="43.6211" y2="43.6211"/>
         </g><!--class PublishAdController-->
         <g id="elem_PublishAdController">
             <rect codeLine="9" fill="#F1F1F1" height="81.8633" id="PublishAdController" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="225.6094" x="418" y="113"/>
+                  style="stroke:#181818;stroke-width:0.5;" width="225.6094" x="416" y="113"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123.7305"
-                  x="468.9395" y="133.1074">PublishAdController
+                  x="466.9395" y="133.1074">PublishAdController
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="419" x2="642.6094" y1="141.6211" y2="141.6211"/>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="419" x2="642.6094" y1="149.6211" y2="149.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="417" x2="640.6094" y1="141.6211" y2="141.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="417" x2="640.6094" y1="149.6211" y2="149.6211"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213.6094"
-                  x="424" y="168.7285">+publishAd(string propertyId): void
+                  x="422" y="168.7285">+publishAd(string propertyId): void
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179.3477"
-                  x="424" y="187.3496">+confirmPublication(): Result
+                  x="422" y="187.3496">+confirmPublication(): Result
             </text>
         </g><!--class Agent-->
         <g id="elem_Agent">
@@ -44,101 +44,101 @@
         </g><!--class PropertyContainer-->
         <g id="elem_PropertyContainer">
             <rect codeLine="19" fill="#F1F1F1" height="81.8633" id="PropertyContainer" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="296.416" x="383" y="284"/>
+                  style="stroke:#181818;stroke-width:0.5;" width="296.416" x="381" y="284"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113.6133"
-                  x="474.4014" y="304.1074">PropertyContainer
+                  x="472.4014" y="304.1074">PropertyContainer
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="384" x2="678.416" y1="312.6211" y2="312.6211"/>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="384" x2="678.416" y1="320.6211" y2="320.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="382" x2="676.416" y1="312.6211" y2="312.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="382" x2="676.416" y1="320.6211" y2="320.6211"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="284.416"
-                  x="389" y="339.7285">+filterUnpublishedProperties(): List&lt;Property&gt;
+                  x="387" y="339.7285">+filterUnpublishedProperties(): List&lt;Property&gt;
             </text>
-            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184.8096"
-                  x="389" y="358.3496">+publish(Property obj): Result
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217.4854"
+                  x="387" y="358.3496">+publish(Property property): Result
             </text>
         </g><!--class Property-->
         <g id="elem_Property">
             <rect codeLine="24" fill="#F1F1F1" height="137.7266" id="Property" rx="2.5" ry="2.5"
-                  style="stroke:#181818;stroke-width:0.5;" width="305.3574" x="758.5" y="256"/>
+                  style="stroke:#181818;stroke-width:0.5;" width="305.3574" x="761.5" y="256"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52.9102"
-                  x="884.7236" y="276.1074">Property
+                  x="887.7236" y="276.1074">Property
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="759.5" x2="1062.8574" y1="284.6211" y2="284.6211"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="762.5" x2="1065.8574" y1="284.6211" y2="284.6211"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15.5586"
-                  x="764.5" y="303.7285">-id
+                  x="767.5" y="303.7285">-id
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.124"
-                  x="764.5" y="322.3496">-type
+                  x="767.5" y="322.3496">-type
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.2617"
-                  x="764.5" y="340.9707">-isPublished
+                  x="767.5" y="340.9707">-isPublished
             </text>
-            <line style="stroke:#181818;stroke-width:0.5;" x1="759.5" x2="1062.8574" y1="348.4844" y2="348.4844"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="762.5" x2="1065.8574" y1="348.4844" y2="348.4844"/>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="293.3574"
-                  x="764.5" y="367.5918">Property(string id, string type, bool isPublished)
+                  x="767.5" y="367.5918">Property(string id, string type, bool isPublished)
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.3271"
-                  x="764.5" y="386.2129">+publish(): void
+                  x="767.5" y="386.2129">+publish(): void
             </text>
         </g><!--link Agent to PropertyContainer-->
         <g id="link_Agent_PropertyContainer">
-            <path codeLine="32" d="M291.24,325 C321.15,325 346.77,325 376.89,325 " fill="none"
+            <path codeLine="32" d="M291.04,325 C320.34,325 345.27,325 374.79,325 " fill="none"
                   id="Agent-to-PropertyContainer" style="stroke:#181818;stroke-width:1.0;"/>
-            <polygon fill="#181818" points="382.89,325,373.89,321,377.89,325,373.89,329,382.89,325"
+            <polygon fill="#181818" points="380.79,325,371.79,321,375.79,325,371.79,329,380.79,325"
                      style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.6372"
-                  x="309.5" y="318.0283">maintains
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53.479"
+                  x="309.5" y="318.0283">manages
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="298.7615" y="321.6011">1
+                  x="299.0064" y="321.5752">1
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="367.5937" y="321.5752">1
+                  x="365.9627" y="321.6011">1
             </text>
         </g><!--link PropertyContainer to Property-->
         <g id="link_PropertyContainer_Property">
-            <path codeLine="33" d="M679.01,325 C705.06,325 726.21,325 752.39,325 " fill="none"
+            <path codeLine="33" d="M677.03,325 C704.68,325 727.64,325 755.43,325 " fill="none"
                   id="PropertyContainer-to-Property" style="stroke:#181818;stroke-width:1.0;"/>
-            <polygon fill="#181818" points="758.39,325,749.39,321,753.39,325,749.39,329,758.39,325"
+            <polygon fill="#181818" points="761.43,325,752.43,321,756.43,325,752.43,329,761.43,325"
                      style="stroke:#181818;stroke-width:1.0;"/>
-            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43.3481"
-                  x="697.25" y="318.0283">records
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48.4199"
+                  x="695.25" y="318.0283">contains
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
-                  x="687.2906" y="321.5752">1
+                  x="685.3117" y="321.5752">1
             </text>
             <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
-                  x="731.0352" y="339.4812">0..*
+                  x="734.0773" y="339.4812">0..*
             </text>
         </g><!--link PublishAdView to PublishAdController-->
         <g id="link_PublishAdView_PublishAdController">
-            <path codeLine="35" d="M531,52.12 C531,68.88 531,86.57 531,106.79 " fill="none"
+            <path codeLine="35" d="M529,52.12 C529,68.88 529,86.57 529,106.79 " fill="none"
                   id="PublishAdView-to-PublishAdController"
                   style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-            <polygon fill="#181818" points="531,112.79,535,103.79,531,107.79,527,103.79,531,112.79"
+            <polygon fill="#181818" points="529,112.79,533,103.79,529,107.79,525,103.79,529,112.79"
                      style="stroke:#181818;stroke-width:1.0;"/>
         </g><!--link PublishAdController to Agent-->
         <g id="link_PublishAdController_Agent">
-            <path codeLine="36" d="M440.47,195.05 C379.8,221.89 305.7072,254.6729 245.0272,281.5129 " fill="none"
+            <path codeLine="36" d="M438.95,195.05 C378.59,221.89 304.9023,254.6618 244.5523,281.5018 " fill="none"
                   id="PublishAdController-to-Agent" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
             <polygon fill="#181818"
-                     points="239.54,283.94,249.3888,283.9575,244.1127,281.9174,246.1527,276.6412,239.54,283.94"
+                     points="239.07,283.94,248.9189,283.9376,243.6386,281.9082,245.668,276.6279,239.07,283.94"
                      style="stroke:#181818;stroke-width:1.0;"/>
         </g><!--link PublishAdController to PropertyContainer-->
         <g id="link_PublishAdController_PropertyContainer">
-            <path codeLine="37" d="M531,195.05 C531,221.89 531,251.1 531,277.94 " fill="none"
+            <path codeLine="37" d="M529,195.05 C529,221.89 529,251.1 529,277.94 " fill="none"
                   id="PublishAdController-to-PropertyContainer"
                   style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-            <polygon fill="#181818" points="531,283.94,535,274.94,531,278.94,527,274.94,531,283.94"
+            <polygon fill="#181818" points="529,283.94,533,274.94,529,278.94,525,274.94,529,283.94"
                      style="stroke:#181818;stroke-width:1.0;"/>
         </g><!--link PublishAdController to Property-->
         <g id="link_PublishAdController_Property">
-            <path codeLine="38" d="M621.05,195.05 C662.1,213.3 706.3578,232.9818 752.9678,253.7118 " fill="none"
+            <path codeLine="38" d="M620.24,195.05 C662.38,213.55 708.0656,233.6092 755.8356,254.5692 " fill="none"
                   id="PublishAdController-to-Property"
                   style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
             <polygon fill="#181818"
-                     points="758.45,256.15,751.8521,248.8378,753.8815,254.1181,748.6011,256.1475,758.45,256.15"
+                     points="761.33,256.98,754.6956,249.7009,756.7513,254.971,751.4813,257.0268,761.33,256.98"
                      style="stroke:#181818;stroke-width:1.0;"/>
-        </g><!--SRC=[XLB1JiCm3BtdAomkRB1supgXIHEdIHmc4DpJnciDQL8bBcWW_fsqQzXAXyWfyVDxVdPyMJBNVZcVrreQRYgTvhQQvrfwdoYIXPEL42KfX9nShb7uLpAr367eajRCZhA6SPDRyqWV20iXEWIsJQR9bslrJFWEd-9h1DnPmyvgZIx04Cvr7Q693xgcWDhP6XtlDsgwX3TBwf0NYkt8LPrIBfcicGJy0NsZ-LXeNQ3XNZe18oiyi0laRQ_RMf1aqBNyKV34ysyeEjwHPdHFfdUEgiyazAtaFNc-ZUJLeCb938FDNiwu_u5Z0ttp2V2-nXZpsrYuYqHId1-f6VJNbZM3p5fzofeEFSKf1nU7wLtSN43Yg2WvMNMFqIIM05Muj0ylndCQ2YpIzEge4QWES-kK5sAuBccwEhSdujpkjBcTsJ_HySV-boc-0G00]-->
+        </g><!--SRC=[XL9BJyCm3BxdLrXSs63jndL2aoPEapXC8BXdZTTQf4cLkA21-E-aZsmh7QAdrj_3drrV5yoLNyxdbPQ6wrAdcItdcPRU9ufaxcGfH44A8IENQHJ-ZKmbGnbQqfhPqQvct6JMFDCdmaA85e5jlTFaYxLw9Vo0B_4z0XwiOMUrHXTW2Czj5Q693xucXyhP2XqVDcgwX7TBgkE5PdjoPUkKIIPh9W5_GbzhFZLQvsYujqx0o18xTOwyxNsR298CkaO_Afvb_Wt5n7lIZEx5zCbHzKn2trW-akVxA5uDXfp4yd782oCSEN6AVWC9yA72MFFRsBsjH55S8gaPzA-DQWOxQ_MvQZeC5bSTKdGhlBgxWiHHNd2oQZz6wrW2bDB87BqOhseeNwJfpSaX2BEEw8KOdaoQhYxTYhXqFmstpVedElwv_p753m00]-->
     </g>
 </svg>
