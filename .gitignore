@@ -10,3 +10,4 @@
 *.d
 cmake-build-debug/
 **/CMakeFiles/
+.idea/
