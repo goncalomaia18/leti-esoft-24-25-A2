@@ -1,0 +1,3 @@
+C:/Users/gonca/leti-esoft-24-25-A2/ConsoleApp/cmake-build-debug/CMakeFiles/ConsoleApp.dir
+C:/Users/gonca/leti-esoft-24-25-A2/ConsoleApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gonca/leti-esoft-24-25-A2/ConsoleApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
