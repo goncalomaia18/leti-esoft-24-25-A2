@@ -19,6 +19,9 @@ add_executable(DHMS main.cpp
         headers/Sale.h
         headers/Lease.h
         Sources/Sale.cpp
+        Sources/Lease.cpp
+        Sources/Advertisement.cpp
+        Sources/ListingRepository.cpp
 )
 
 include_directories(Core)
