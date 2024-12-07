@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class Agent {
+    - name
+}
+
+class Property {
+    - id
+    - type
+    - isPublished
+}
+
+Agent "1" -right-- "0..*" Property:  maintains >
+
+@enduml
