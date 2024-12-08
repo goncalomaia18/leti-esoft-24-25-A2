@@ -7,7 +7,7 @@
 
 #include <vector>
 #include <string>
-#include "Property.h"
+#include "../headers/models/Property.h"
 #include "DisplayListedPropertiesService.h"
 
 class DisplayListedPropertiesController {

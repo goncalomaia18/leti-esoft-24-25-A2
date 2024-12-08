@@ -6,7 +6,7 @@
 #define LETI_ESOFT_24_25_A2_DISPLAYLISTEDPROPERTIESVIEW_H
 #include <vector>
 #include <string>
-#include "Property.h"
+#include "../headers/models/Property.h"
 #include "DisplayListedPropertiesController.h"
 
 class DisplayListedPropertiesView {

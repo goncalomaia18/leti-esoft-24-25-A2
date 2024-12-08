@@ -9,7 +9,7 @@
 #include <vector>
 #include <string>
 #include "ListingRepository.h"
-#include "Property.h"
+#include "../headers/models/Property.h"
 
 class DisplayListedPropertiesService {
 private:

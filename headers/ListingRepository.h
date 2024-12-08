@@ -7,8 +7,8 @@
 
 
 #include <vector>
-#include "Listing.h"
-#include "Property.h"
+#include "../headers/models/Listing.h"
+#include "../headers/models/Property.h"
 
 class ListingRepository {
 public:

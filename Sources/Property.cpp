@@ -1,4 +1,4 @@
-#include "../headers/Property.h"
+#include "../headers/models/Property.h"
 <<<<<<< HEAD:Sources/Property.cpp
 #include <iostream>
 =======

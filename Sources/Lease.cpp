@@ -1,4 +1,4 @@
-#include "../headers/Lease.h"
+#include "../headers/models/Lease.h"
 
 Lease::Lease(double monthlyRent, int period, const std::string& startDate,
              const std::string& endDate, RealEstateAgent* agent, Client* tenant)

@@ -1,4 +1,4 @@
-#include "../headers/Advertisement.h"
+#include "../headers/models/Advertisement.h"
 
 Advertisement::Advertisement(const std::string& id, double commission,
                              const std::string& visibilityStatus, Listing* listing)
