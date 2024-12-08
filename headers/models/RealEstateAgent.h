@@ -7,8 +7,8 @@
 
 #include <string>
 #include <vector>
-#include "Property.h"
-#include "../headers/Visit.h"
+#include "../headers/models/Property.h"
+#include "../headers/models/Visit.h"
 
 using namespace std;
 

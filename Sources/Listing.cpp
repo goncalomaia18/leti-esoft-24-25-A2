@@ -1,5 +1,5 @@
 <<<<<<< HEAD:Sources/Listing.cpp
-#include "../headers/Listing.h"
+#include "../headers/models/Listing.h"
 
 Listing::Listing(const std::string& publishDate, const std::string& businessType,
                  double commission, const std::string& status,
@@ -42,9 +42,9 @@ Lease* Listing::getLease() const { return lease; }
 // Created by luisf on 07/12/2024.
 //
 
-#include "../headers/Listing.h"
+#include "../headers/models/Listing.h"
 #include <iostream>
-#include "../headers/Property.h"
+#include "../headers/models/Property.h"
 
 using namespace std;
 

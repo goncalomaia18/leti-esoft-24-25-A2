@@ -1,4 +1,4 @@
-#include "../headers/VisitRequest.h"
+#include "../headers/models/VisitRequest.h"
 #include <regex>
 
 VisitRequest::VisitRequest(const std::string& name, const std::vector<std::string>& dates)

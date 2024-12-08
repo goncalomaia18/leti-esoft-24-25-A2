@@ -1,0 +1,29 @@
+@startuml
+
+autoactivate on
+autonumber
+
+actor "Unregistered User" as User
+participant ":BookingView" as View
+participant ":BookingController" as Ctrl
+participant ":BookingService" as Service
+participant ":VisitRequest" as Visit
+
+activate User
+
+User -> View: Inputs visit booking details
+View -> Ctrl: submitBookingRequest(details)
+Ctrl -> Ctrl: validateInput(details)
+alt Valid input
+    Ctrl -> Service: createVisitRequest(details)
+    Service -> Visit: Create VisitRequest instance
+    Visit --> Service: VisitRequest created
+    Service --> Ctrl: Save successful
+    Ctrl --> View: Confirmation response
+    View --> User: Visit successfully booked
+else Invalid input
+    Ctrl --> View: Error response
+    View --> User: Display error message
+end
+
+@enduml

@@ -1,17 +1,19 @@
 @startuml
-autoactivate on
+
 autonumber
 
 actor "Client" as Client
-participant ":BookingSystem" as BookingSystem
-participant "VisitRequest" as VisitRequest
+participant ":System" as System
 
 activate Client
+Client -> System: requests to book a visit
+activate System
+System --> Client: prompts to input up to 3 preferred dates \n(format: dd-mm-yyyy)
 
-Client -> BookingSystem: requests to book a visit
-BookingSystem -> Client: prompts for preferred dates (max 3)
+Client -> System: submits preferred dates
 
-Client -> BookingSystem: submits preferred dates
-BookingSystem -> VisitRequest: validates dates and time format
-VisitRequest --> BookingSystem: validation result
+System --> Client: confirms visit booking request
+deactivate System
+deactivate Client
+
 @enduml
