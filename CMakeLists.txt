@@ -3,7 +3,7 @@ project(leti-esoft-24-25-A2)
 
 add_executable(leti-esoft-24-25-A2 main.cpp
         headers/
-        Sources/
+        sources/
         headers/models/Property.h
         headers/models/Advertisement.h
         headers/DisplayListedPropertiesController.h
@@ -16,30 +16,30 @@ add_executable(leti-esoft-24-25-A2 main.cpp
         headers/models/Sale.h
         headers/PropertyContainer.h
         headers/BookingController.h
-        Sources/BookingController.cpp
+        sources/BookingController.cpp
         headers/models/Listing.h
-        Sources/VisitRequest.cpp
+        sources/VisitRequest.cpp
         headers/models/BookingService.h
         headers/BookingView.h
         headers/models/VisitRequest.h
-        Sources/Advertisement.cpp
-        Sources/DisplayListedPropertiesController.cpp
-        Sources/DisplayListedPropertiesService.cpp
-        Sources/DisplayListedPropertiesView.cpp
-        Sources/Lease.cpp
-        Sources/Listing.cpp
-        Sources/ListingRepository.cpp
-        Sources/Property.cpp
-        Sources/PropertyContainer.cpp
-        Sources/PublishAdController.cpp
-        Sources/PublishAdView.cpp
-        Sources/Sale.cpp
-        Sources/BookingView.cpp
-        Sources/BookingService.cpp
-        Sources/Client.cpp
+        sources/Advertisement.cpp
+        sources/DisplayListedPropertiesController.cpp
+        sources/DisplayListedPropertiesService.cpp
+        sources/DisplayListedPropertiesView.cpp
+        sources/Lease.cpp
+        sources/Listing.cpp
+        sources/ListingRepository.cpp
+        sources/Property.cpp
+        sources/PropertyContainer.cpp
+        sources/PublishAdController.cpp
+        sources/PublishAdView.cpp
+        sources/Sale.cpp
+        sources/BookingView.cpp
+        sources/BookingService.cpp
+        sources/Client.cpp
         headers/models/Client.h
         headers/models/RealEstateAgent.h
-        Sources/RealEstateAgent.cpp
+        sources/RealEstateAgent.cpp
         headers/models/Visit.h
-        Sources/Visit.cpp
+        sources/Visit.cpp
 )
