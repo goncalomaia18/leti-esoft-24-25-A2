@@ -1,0 +1,59 @@
+@startuml
+left to right direction
+
+actor "Owner" as owner
+actor "Agent" as agent
+actor "Client" as client
+actor "System Administrator" as admin
+actor "Unregistered User" as unregisteredUser
+actor "Network Manager" as networkManager
+
+rectangle "System Dream House" {
+
+    usecase "US01 - Register property" as US01
+    usecase "US02 - Select or assign agent" as US02
+    usecase "US03 - Publish property listing" as US03
+    usecase "US04 - View available properties" as US04
+    usecase "US05 - Schedule property viewing" as US05
+    usecase "US06 - Manage viewing requests" as US06
+    usecase "US07 - Send purchase/rental request" as US07
+    usecase "US08 - Approve/Reject purchase/rental request" as US08
+    usecase "US09 - Manage properties and branches" as US09
+    usecase "US10 - Register store" as US10
+    usecase "US11 - Register agent" as US11
+    usecase "US20 - Display listed properties" as US20
+    usecase "US21 - Register client" as US21
+    usecase "US30 - Request to list a property for sale or rent" as US30
+    usecase "US31 - Request a visit booking" as US31
+    usecase "US40 - Publish a sale or rent advertisement" as US40
+    usecase "US51 - Get a list of all agents" as US51
+    usecase "US32 - Place an order to property purchase/lease" as US32
+    usecase "US41 - Reply to a visit booking request" as US41
+    usecase "US42 - Evaluate a property purchase/lease order" as US42
+    usecase "US50 - List all deals made" as US50
+
+}
+
+' Relacionamentos dos atores com os casos de uso
+owner -- US01
+owner -- US02
+agent -- US03
+client -- US04
+client -- US05
+client -- US32
+agent -- US06
+client -- US07
+agent -- US08
+admin -- US09
+admin -- US10
+admin -- US11
+unregisteredUser -- US21
+unregisteredUser -- US20
+client -- US30
+client -- US31
+agent -- US40
+agent -- US41
+agent -- US42
+networkManager -- US51
+networkManager -- US50
+@enduml

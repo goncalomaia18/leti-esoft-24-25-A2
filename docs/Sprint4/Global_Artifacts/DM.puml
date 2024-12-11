@@ -1,0 +1,140 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class NetworkManager {
+    +name
+    +employeeId
+    +email
+    +phoneNumber
+}
+
+class Branch {
+    +code
+    +name
+    +address
+    +openingTime
+    +closingTime
+}
+
+class RealEstateAgent {
+    +name
+    -citizenCardNumber
+    +email
+    -phoneNumber
+}
+
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
+}
+
+class Apartment {
+    +floorNumber
+    +numberOfBedrooms
+    +numberOfBathrooms
+    +parkingSpaces
+    +equipment
+}
+
+class House {
+    +hasBasement
+    +hasAttic
+    +sunExposure
+    +numberOfBedrooms
+    +numberOfBathrooms
+    +parkingSpaces
+    +equipment
+}
+
+class Land {}
+
+class Owner {
+    +name
+    -taxIdNumber
+    +phoneNumber
+}
+
+class Client {
+    +name
+    -citizenCardNumber
+    -taxIdNumber
+    +email
+    +phoneNumber
+}
+
+class Sale {
+    +saleValue
+    +responsibleAgent
+    +buyerClient
+}
+
+class Lease {
+    +monthlyRent
+    +leasePeriod
+    +leaseStartDate
+    +leaseEndDate
+}
+
+class Advertisement {
+    +id
+    -commission
+    +visibilityStatus
+}
+
+class Visit {
+    +visitDate
+    +visitTime
+    +status
+    +visitAvailability
+}
+
+class Listing {
+    +publishDate
+    +businessType
+    -commission
+    +status
+}
+class UnregisteredUser {
+}
+
+
+Branch "1" --> "0..*" RealEstateAgent : employs
+Branch "1" --> "0..*" Property : manages
+
+UnregisteredUser "1" --> "0..*" Listing : views
+UnregisteredUser "1" --> "1" Client : register as
+RealEstateAgent "1" --> "0..*" Property : responsible for
+RealEstateAgent "1" --> "0..*" Listing : publishes
+Owner "1" -- "0..*" Property : owns
+Property "1" --> "0..*" Visit : scheduled for
+Property "1" --> "0..*" Listing : listed as
+
+Listing "0..1" --> "1" Sale : markets
+Listing "0..1" --> "1" Lease : markets
+
+Advertisement "1" --> "1" Listing : promotes
+
+Property -- Apartment
+Property -- House
+Property -- Land
+
+Sale "1" --> "1" Client : by
+Sale "1" --> "1" RealEstateAgent : facilitated by
+
+Lease "1" --> "1" Client : tenant
+Lease "1" --> "1" RealEstateAgent : managed by
+
+Client "1" --> "0..*" Visit : requests
+Client "1" --> "0..*" Listing : requests to list
+Visit "1" --> "1" RealEstateAgent : scheduled by
+
+NetworkManager "1" --> "0..*" Branch : registers
+NetworkManager "1" --> "0..*" RealEstateAgent : assigns agents
+@enduml
