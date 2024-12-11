@@ -26,11 +26,14 @@ class PropertyContainer {
 }
 
 class Property {
-    - id
-    - type
-    - isPublished
-    Property(string id, string type, bool isPublished)
-    +publish(): void
+        +type
+        +area
+        +location
+        +distanceFromCityCenter
+        +price
+        +photos
+        +availability
+
 }
 
 RealEstateAgent "1" -right-> "1" PropertyContainer:  manages
