@@ -1,0 +1,43 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class PlaceOrderView {
+  +placeOrder(): void
+}
+
+class PlaceOrderController {
+  +submitOrder(orderDetails: OrderDetails): void
+}
+
+class PlaceOrderService {
+  +processOrder(orderDetails: OrderDetails): boolean
+}
+
+interface OrderRepository <<interface>> {
+  +saveOrder(order: Order): void
+}
+
+
+class Order {
+  +client
+  +listing
+  +orderType
+  +orderDate
+}
+
+class Client {
+   +placeOrder(listing: Listing, orderType: String): void
+}
+class RepositoryFactory{
+  +getListingRepository(): ListingRepository
+}
+Client "1" -down-> "1" RepositoryFactory:  uses
+Client -> PlaceOrderService :  adopts
+OrderRepository "1" -right-> "0..*" Order:  returns
+PlaceOrderController ..> Client
+PlaceOrderView ..> PlaceOrderController
+PlaceOrderController ..> PlaceOrderService
+PlaceOrderService ..> OrderRepository
+RepositoryFactory .right.> OrderRepository
+@enduml

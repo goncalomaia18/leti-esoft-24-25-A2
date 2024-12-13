@@ -1,0 +1,51 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
+}
+class Client {
+    +name
+    -citizenCardNumber
+    -taxIdNumber
+    +email
+    +phoneNumber
+}
+
+class Sale {
+    +saleValue
+    +responsibleAgent
+    +buyerClient
+}
+
+class Lease {
+    +monthlyRent
+    +leasePeriod
+    +leaseStartDate
+    +leaseEndDate
+}
+class Listing {
+    +publishDate
+    +businessType
+    -commission
+    +status
+}
+class Order {
+    +orderDate
+    +orderType
+    +orderStatus
+}
+Property "1" --> "0..*" Listing : listed as
+
+Listing "0..1" --> "1" Sale : markets
+Listing "0..1" --> "1" Lease : markets
+Client "1" --> "0..*" Order : places
+Order "1" --> "1" Listing : for
+@enduml
