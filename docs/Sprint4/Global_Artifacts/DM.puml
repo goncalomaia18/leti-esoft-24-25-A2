@@ -24,6 +24,11 @@ class RealEstateAgent {
     +email
     -phoneNumber
 }
+class Order {
+    +orderDate
+    +orderType
+    +orderStatus
+}
 
 class Property {
     +type
@@ -112,6 +117,7 @@ UnregisteredUser "1" --> "0..*" Listing : views
 UnregisteredUser "1" --> "1" Client : register as
 RealEstateAgent "1" --> "0..*" Property : responsible for
 RealEstateAgent "1" --> "0..*" Listing : publishes
+RealEstateAgent "1" --> "0..*" Advertisement : publishes
 Owner "1" -- "0..*" Property : owns
 Property "1" --> "0..*" Visit : scheduled for
 Property "1" --> "0..*" Listing : listed as
@@ -134,6 +140,8 @@ Lease "1" --> "1" RealEstateAgent : managed by
 Client "1" --> "0..*" Visit : requests
 Client "1" --> "0..*" Listing : requests to list
 Visit "1" --> "1" RealEstateAgent : scheduled by
+Client "1" --> "0..*" Order : places
+Order "1" --> "1" Listing : for
 
 NetworkManager "1" --> "0..*" Branch : registers
 NetworkManager "1" --> "0..*" RealEstateAgent : assigns agents
