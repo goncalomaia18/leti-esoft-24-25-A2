@@ -127,9 +127,9 @@ Listing "0..1" --> "1" Lease : markets
 
 Advertisement "1" --> "1" Listing : promotes
 
-Property -- Apartment
-Property -- House
-Property -- Land
+Property <|-- Apartment
+Property <|-- House
+Property <|-- Land
 
 Sale "1" --> "1" Client : by
 Sale "1" --> "1" RealEstateAgent : facilitated by
