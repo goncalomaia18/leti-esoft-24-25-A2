@@ -13,8 +13,8 @@ class Property {
 }
 class Client {
     +name
-    -citizenCardNumber
-    -taxIdNumber
+    +citizenCardNumber
+    +taxIdNumber
     +email
     +phoneNumber
 }
@@ -34,13 +34,14 @@ class Lease {
 class Listing {
     +publishDate
     +businessType
-    -commission
+    +commission
     +status
 }
 class Order {
     +orderDate
     +orderType
     +orderStatus
+    +cashProposal
 }
 Property "1" --> "0..*" Listing : listed as
 

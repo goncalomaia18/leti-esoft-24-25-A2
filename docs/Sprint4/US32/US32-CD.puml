@@ -24,7 +24,7 @@ class Order {
   +listing
   +orderType
   +orderDate
-  +
+  +cashProposal
 }
 
 class Client {

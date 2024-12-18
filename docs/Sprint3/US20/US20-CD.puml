@@ -27,16 +27,22 @@ class Listing {
   +getProperty(): Property
 }
 
-class UnregisteredUser {
-  +viewListings(): List<Property>
-}
 class RepositoryFactory{
   +getListingRepository(): ListingRepository
 }
-UnregisteredUser "1" -down-> "1" RepositoryFactory:  uses
-UnregisteredUser -> DisplayListedPropertiesService :  adopts
+class Property {
+    +type
+    +area
+    +location
+    +distanceFromCityCenter
+    +price
+    +photos
+    +availability
+}
+
+
 ListingRepository "1" -right-> "0..*" Listing:  returns
-DisplayListedPropertiesController ..> UnregisteredUser
+Property "1" -up- "0..*" Listing : has
 DisplayListedPropertiesView ..> DisplayListedPropertiesController
 DisplayListedPropertiesController ..> DisplayListedPropertiesService
 DisplayListedPropertiesService ..> ListingRepository

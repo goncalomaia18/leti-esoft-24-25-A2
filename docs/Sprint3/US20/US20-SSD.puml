@@ -10,7 +10,6 @@ activate UnregisteredUser
 UnregisteredUser -> System: requests to view listed properties
 System --> UnregisteredUser: displays available property listings
 
-UnregisteredUser -> System: optionally applies filters (e.g., price, location)
-System --> UnregisteredUser: displays filtered property listings
+
 @enduml
 
