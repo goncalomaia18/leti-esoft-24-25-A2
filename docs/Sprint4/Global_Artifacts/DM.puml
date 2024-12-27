@@ -28,6 +28,7 @@ class Order {
     +orderDate
     +orderType
     +orderStatus
+    +cashProposal
 }
 
 class Property {
@@ -87,11 +88,6 @@ class Lease {
     +leaseEndDate
 }
 
-class Advertisement {
-    +id
-    -commission
-    +visibilityStatus
-}
 
 class Visit {
     +visitDate
@@ -117,7 +113,6 @@ UnregisteredUser "1" --> "0..*" Listing : views
 UnregisteredUser "1" --> "1" Client : register as
 RealEstateAgent "1" --> "0..*" Property : responsible for
 RealEstateAgent "1" --> "0..*" Listing : publishes
-RealEstateAgent "1" --> "0..*" Advertisement : publishes
 Owner "1" -- "0..*" Property : owns
 Property "1" --> "0..*" Visit : scheduled for
 Property "1" --> "0..*" Listing : listed as
@@ -125,11 +120,10 @@ Property "1" --> "0..*" Listing : listed as
 Listing "0..1" --> "1" Sale : markets
 Listing "0..1" --> "1" Lease : markets
 
-Advertisement "1" --> "1" Listing : promotes
 
-Property -- Apartment
-Property -- House
-Property -- Land
+Property  <|--  Apartment : subclass of
+Property <|-- House : subclass of
+Property <|-- Land : subclass of
 
 Sale "1" --> "1" Client : by
 Sale "1" --> "1" RealEstateAgent : facilitated by

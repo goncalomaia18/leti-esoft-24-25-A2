@@ -1,29 +1,35 @@
 @startuml
+'https://plantuml.com/sequence-diagram
 autoactivate on
 autonumber
 
 actor "UnregisteredUser" as User
-participant "DisplayListedPropertiesView" as View
-participant "DisplayListedPropertiesController" as Controller
-participant "DisplayListedPropertiesService" as Service
-participant "ListingRepository" as Repository
-
+participant ":DisplayListedPropertiesView" as System
+participant ":DisplayListedPropertiesController" as Ctrl
+participant ":Application" as App
+participant "service:DisplayListedPropertiesService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:ListingRepository" as Repo
+participant "listing:Listing" as Listing
 activate User
-User -> View: requests to display properties
-View -> Controller: listProperties()
-Controller -> Service: getListedProperties()
-Service -> Repository: getListings()
-Repository --> Service: returns List<Listing>
-Service --> Controller: returns List<Listing>
-Controller --> View: returns List<Property>
-View --> User: displays available properties
 
-User -> View: optionally applies filters (e.g., price, location)
-View -> Controller: applyFilters(criteria)
-Controller -> Service: getFilteredProperties(criteria)
-Service -> Repository: getFilteredListings(criteria)
-Repository --> Service: returns filtered List<Listing>
-Service --> Controller: returns filtered List<Listing>
-Controller --> View: returns filtered List<Property>
-View --> User: displays filtered properties
+User -> System: requests to display properties
+System --> User: requests data
+
+User -> System: provides data
+System -> Ctrl: listProperties
+Ctrl -> App: getListedPropertiesService()
+App -> Factory: getListingRepository()
+Factory --> App: repo
+App --> Service**: create(repo)
+App --> Ctrl: service
+Ctrl -> Service: getListedProperties
+Service -> Repo: getListings(filters, criteria)
+participant "cat:Category" as Category
+Repo --> Service: returns List<Application>
+Service --> Ctrl: returns List<Application>
+Ctrl --> System: returns List<Application>
+System --> User: displays available properties
 @enduml
+
+
