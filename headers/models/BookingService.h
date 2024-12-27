@@ -1,5 +1,5 @@
-#ifndef CONSOLEAPP_BOOKINGSERVICE_H
-#define CONSOLEAPP_BOOKINGSERVICE_H
+#ifndef LETI_ESOFT_24_25_A2__BOOKINGSERVICE_H
+#define LETI_ESOFT_24_25_A2__BOOKINGSERVICE_H
 
 #include "VisitRequest.h"
 #include <vector>
@@ -10,4 +10,4 @@ public:
     bool requestVisit(const VisitRequest& visitRequest);
 };
 
-#endif //CONSOLEAPP_BOOKINGSERVICE_H
+#endif //LETI_ESOFT_24_25_A2__BOOKINGSERVICE_H

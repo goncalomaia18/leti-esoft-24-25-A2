@@ -2,8 +2,8 @@
 // Created by luisf on 07/12/2024.
 //
 
-#ifndef CLIENT_H
-#define CLIENT_H
+#ifndef LETI_ESOFT_24_25_A2_CLIENT_H
+#define LETI_ESOFT_24_25_A2_CLIENT_H
 
 #include <string>
 #include <vector>
@@ -35,4 +35,4 @@ public:
     const vector<Visit*>& getVisits() const;
 };
 
-#endif // CLIENT_H
+#endif // LETI_ESOFT_24_25_A2_CLIENT_H

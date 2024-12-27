@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+actor "Client" as User
+participant ":PlaceOrderView" as System
+participant ":PlaceOrderController" as Ctrl
+participant ":Application" as App
+participant "service:OrderService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:OrderRepository" as Repo
+participant "prop:Property" as Property
+
+activate User
+
+User -> System: requests to place an order
+System -> Ctrl: createOrder(propertyId, orderDetails)
+Ctrl -> App: getOrderService()
+App -> Factory: getOrderRepository()
+Factory --> App: repo
+App --> Service**: create(repo)
+App --> Ctrl: service
+
+Ctrl -> Service: createOrder(propertyId, orderDetails)
+Service -> Repo: getPropertyById(propertyId)
+Repo --> Service: prop
+Service -> Property: validateAvailability()
+Property --> Service: availabilityStatus
+Service -> Repo: saveOrder(orderDetails)
+Repo --> Service: ok
+Service --> Ctrl: orderConfirmation
+Ctrl --> System: orderConfirmation
+System --> User: confirms order placement
+
+@enduml

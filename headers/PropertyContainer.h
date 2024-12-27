@@ -1,5 +1,5 @@
-#ifndef PROPERTY_CONTAINER_H
-#define PROPERTY_CONTAINER_H
+#ifndef LETI_ESOFT_24_25_A2_PROPERTY_CONTAINER_H
+#define LETI_ESOFT_24_25_A2_PROPERTY_CONTAINER_H
 
 #include <vector>
 #include <memory>
@@ -16,4 +16,4 @@ private:
     std::vector<std::shared_ptr<Property>> properties;
 };
 
-#endif // PROPERTY_CONTAINER_H
+#endif // LETI_ESOFT_24_25_A2_PROPERTY_CONTAINER_H

@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "c3e9bebd-d9ba-4bdf-ae98-6a25517d2648",
+		"name": "DemoTasks-LectureClass",
+		"description": "Example used in LETI-ESOFT lecture class to demonstrate automated tests using Postman collections.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14402532"
+	},
+	"item": [
+		{
+			"name": "Categories - empty",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(",
+							"    \"Status code is 200\",",
+							"    function() {",
+							"        pm.response.to.have.status(200);",
+							"    }",
+							");",
+							"pm.test(",
+							"    \"Categories list is empty\",",
+							"    function () {",
+							"        var jsonData = pm.response.json();",
+							"\t\tpm.expect(jsonData.length).to.eql(0);",
+							"\t}",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - adding one",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(",
+							"    \"Status code is 201\",",
+							"    function() {",
+							"        pm.response.to.have.status(201);",
+							"    }",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\" : \"C0001\",\n    \"description\" : \"Category One\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - size one",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(",
+							"    \"Status code is 200\",",
+							"    function() {",
+							"        pm.response.to.have.status(200);",
+							"    }",
+							");",
+							"pm.test(",
+							"    \"Categories list has one element\",",
+							"    function () {",
+							"        var jsonData = pm.response.json();",
+							"\t\tpm.expect(jsonData.length).to.eql(1);",
+							"\t}",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - deleting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(",
+							"    \"Status code is 200\",",
+							"    function() {",
+							"        pm.response.to.have.status(200);",
+							"    }",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0001",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - empty",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(",
+							"    \"Status code is 200\",",
+							"    function() {",
+							"        pm.response.to.have.status(200);",
+							"    }",
+							");",
+							"pm.test(",
+							"    \"Categories list is empty\",",
+							"    function () {",
+							"        var jsonData = pm.response.json();",
+							"\t\tpm.expect(jsonData.length).to.eql(0);",
+							"\t}",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "urlBase",
+			"value": "localhost:8080",
+			"type": "string"
+		}
+	]
+}

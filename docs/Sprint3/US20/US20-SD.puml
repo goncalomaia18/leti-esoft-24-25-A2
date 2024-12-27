@@ -11,25 +11,24 @@ participant "service:DisplayListedPropertiesService" as Service
 participant "factory:RepositoryFactory" as Factory
 participant "repo:ListingRepository" as Repo
 participant "listing:Listing" as Listing
+
 activate User
 
 User -> System: requests to display properties
-System --> User: requests data
-
-User -> System: provides data
-System -> Ctrl: listProperties
+System -> Ctrl: listProperties()
 Ctrl -> App: getListedPropertiesService()
 App -> Factory: getListingRepository()
 Factory --> App: repo
 App --> Service**: create(repo)
 App --> Ctrl: service
-Ctrl -> Service: getListedProperties
+Ctrl -> Service: getListedProperties(filters, criteria)
 Service -> Repo: getListings(filters, criteria)
-participant "cat:Category" as Category
-Repo --> Service: returns List<Application>
-Service --> Ctrl: returns List<Application>
-Ctrl --> System: returns List<Application>
-System --> User: displays available properties
+Repo --> Service: returns List<Listing>
+Service --> Ctrl: returns List<Listing>
+Ctrl --> System: returns List<Listing>
+loop for each 'listing' in 'List<Listing>'
+    System -> Listing: getProperty()
+    Listing --> System: returns Property
+    System --> User: displays property details
+end loop
 @enduml
-
-
