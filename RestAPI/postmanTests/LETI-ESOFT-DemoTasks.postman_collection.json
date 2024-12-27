@@ -1,0 +1,1497 @@
+{
+	"info": {
+		"_postman_id": "a55a072f-795a-4334-9862-0859c2fa0d78",
+		"name": "LETI-ESOFT-DemoTasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ServerStatus - Initial",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Server is Available\", function () {",
+							"    pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/status",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Empty",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Categories list is empty\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(0);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Authenticated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 401\", function () {",
+							"    pm.response.to.have.status(401);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Adding One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Creating Category Status\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0001\",\n    \"description\":\"Category One\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Empty - Size 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Categories list has one element\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(1);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Adding Another One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Creating Category Status\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0002\",\n    \"description\":\"Category Two\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Empty - Size 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Categories list has two elements\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(2);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Adding Duplicate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Fail Creating a Duplicated Category\", function () {",
+							"    pm.response.to.have.status(403);",
+							"});",
+							"pm.test(\"Checking error message\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Trying to add a duplicate entity.\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0002\",\n    \"description\":\"Category Two\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Getting Non-Existing One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Category Not Found\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Resource not found\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C003",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Getting Existing One (First)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Category Found\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Checking Category Code\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.code).to.eql(\"C0001\");",
+							"});",
+							"pm.test(\"Checking Category Description\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.description).to.eql(\"Category One\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0001",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Getting Existing One (Second)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Category Found\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Checking Category Code\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.code).to.eql(\"C0002\");",
+							"});",
+							"pm.test(\"Checking Category Description\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.description).to.eql(\"Category Two\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0002",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Updating Non-Existing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Operation is not possible\", function () {",
+							"    pm.response.to.have.status(403);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Category not found\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0003\",\n    \"description\": \"Third Category\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories/C0003",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Updating Existing One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Operation was done\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0001\",\n    \"description\": \"First Category\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories/C0001",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Getting Existing One (First) Checking Update",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Category Found\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Checking Category Code\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.code).to.eql(\"C0001\");",
+							"});",
+							"pm.test(\"Checking Category Description\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.description).to.eql(\"First Category\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0001",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Updating Existing Another One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Operation succeed\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0002\",\n    \"description\": \"Second Category\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories/C0002",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Updating Existing Another One (Code Non-Matching)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Bad Request\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"C0001\",\n    \"description\": \"Non Category\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories/C0002",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Getting Existing One (Second) Checking Update",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Category Found\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Checking Category Code\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.code).to.eql(\"C0002\");",
+							"});",
+							"pm.test(\"Checking Category Description\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.description).to.eql(\"Second Category\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0002",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Empty - Size 2 (After Updates)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Categories list has two elements\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(2);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Trying Adding Another One (Bad Code)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Creating Category Status Fail\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"pm.test(\"Checking error message\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Invalid value for an Id\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"X\",\n    \"description\":\"Category X\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Trying Adding Another One (Bad Description)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Creating Category Status Fail\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"pm.test(\"Checking error message\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Invalid value for description\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"XXXXX\",\n    \"description\":\"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Trying Adding Another One (OK)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Creating Category Status OK\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\":\"XXXXX\",\n    \"description\":\"Category XXXXX\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Empty - Size 3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Categories list has two elements\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(3);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Deleting Non-Existing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});",
+							"",
+							"pm.test(\"Checking error message\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Resource not found\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/YYYY",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"YYYY"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Deleting Existing One",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0002",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Not Empty - Size 2 (Due Deletion)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Categories list has two elements\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(2);",
+							"});",
+							"",
+							"pm.test(\"Response does not contains C0002\", function () {",
+							"    pm.expect(pm.response.text()).to.not.include(\"C0002\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Deleting Existing One Another",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/C0001",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"C0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Deleting Existing One Another Again",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories/XXXXX",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories",
+						"XXXXX"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories - Empty At End",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Categories list is empty\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(0);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "abcd",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{bearerToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/categories",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StopServer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{urlBase}}/status/stop",
+					"host": [
+						"{{urlBase}}"
+					],
+					"path": [
+						"status",
+						"stop"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "urlBase",
+			"value": "localhost:8080"
+		}
+	]
+}
