@@ -2,8 +2,8 @@
 // Created by luisf on 07/12/2024.
 //
 
-#ifndef VISIT_H
-#define VISIT_H
+#ifndef LETI_ESOFT_24_25_A2_VISIT_H
+#define LETI_ESOFT_24_25_A2_VISIT_H
 
 #include <string>
 #include "RealEstateAgent.h"
@@ -50,4 +50,4 @@ public:
     void printDetails() const;
 };
 
-#endif // VISIT_H
+#endif // LETI_ESOFT_24_25_A2_VISIT_H

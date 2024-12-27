@@ -1,5 +1,5 @@
-#ifndef PUBLISH_AD_VIEW_H
-#define PUBLISH_AD_VIEW_H
+#ifndef LETI_ESOFT_24_25_A2_PUBLISH_AD_VIEW_H
+#define LETI_ESOFT_24_25_A2_PUBLISH_AD_VIEW_H
 
 #include <string>
 #include <memory>
@@ -14,5 +14,5 @@ private:
     std::shared_ptr<PublishAdController> controller;
 };
 
-#endif // PUBLISH_AD_VIEW_H
+#endif // LETI_ESOFT_24_25_A2_PUBLISH_AD_VIEW_H
 

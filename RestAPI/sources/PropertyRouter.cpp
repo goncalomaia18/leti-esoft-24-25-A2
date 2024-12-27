@@ -1,19 +1,19 @@
-#include "../headers/CategoryRouter.h"
+#include "../headers/PropertyRouter.h"
 #include <headers/controllers/restapi/HttpResult.h>
-#include <headers/controllers/restapi/CategoryController.h>
+#include <headers/controllers/restapi/PropertyController.h>
 #include <headers/domain/shared/StringUtils.h>
 
-CategoryRouter::CategoryRouter() : RouterConfig("/categories") {
+PropertyRouter::CategoryRouter() : RouterConfig("/categories") {
 }
 
-void CategoryRouter::configure(httplib::Server &svr) {
+void PropertyRouter::configure(httplib::Server &svr) {
     string patternBase = this->baseResource + "(\\/?)";
     string patternBaseWithId = this->baseResource + "/(\\w+)";
 
     svr.Get(patternBase, [&](const httplib::Request &req, httplib::Response &res) {
         HttpResult result;
         try {
-            CategoryController ctrl(extractBearerToken(req));
+            PropertyController ctrl(extractBearerToken(req));
             try {
                 result = ctrl.getAll();
             }
@@ -31,7 +31,7 @@ void CategoryRouter::configure(httplib::Server &svr) {
     svr.Get(patternBaseWithId, [&](const httplib::Request &req, httplib::Response &res) {
         HttpResult result;
         try {
-            CategoryController ctrl(extractBearerToken(req));
+            PropertyController ctrl(extractBearerToken(req));
             try {
                 result = ctrl.getById(StringUtils::toWString(req.matches[1]));
             }
@@ -49,7 +49,7 @@ void CategoryRouter::configure(httplib::Server &svr) {
     svr.Put(patternBaseWithId, [&](const httplib::Request &req, httplib::Response &res) {
         HttpResult result;
         try {
-            CategoryController ctrl(extractBearerToken(req));
+            PropertyController ctrl(extractBearerToken(req));
             try {
                 auto jsonObj = JSON::Load(req.body);
                 wstring code = StringUtils::toWString(jsonObj["code"].ToString());

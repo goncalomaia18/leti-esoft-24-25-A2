@@ -6,9 +6,9 @@
 
 using namespace std;
 
-class CategoryRouter : public RouterConfig {
+class Propertyouter : public PropertyConfig {
 public:
-    CategoryRouter();
+    PropertyRouter();
 
     void configure(httplib::Server &svr);
 };

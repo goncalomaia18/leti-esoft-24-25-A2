@@ -2,8 +2,8 @@
 // Created by luisf on 07/12/2024.
 //
 
-#ifndef REALESTATEAGENT_H
-#define REALESTATEAGENT_H
+#ifndef LETI_ESOFT_24_25_A2_REALESTATEAGENT_H
+#define LETI_ESOFT_24_25_A2_REALESTATEAGENT_H
 
 #include <string>
 #include <vector>
@@ -33,4 +33,4 @@ public:
     const vector<Visit*>& getScheduledVisits() const;
 };
 
-#endif // REALESTATEAGENT_H
+#endif // LETI_ESOFT_24_25_A2_REALESTATEAGENT_H

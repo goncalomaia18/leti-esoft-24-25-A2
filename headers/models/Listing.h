@@ -1,5 +1,5 @@
-#ifndef LISTING_H
-#define LISTING_H
+#ifndef LETI_ESOFT_24_25_A2_LISTING_H
+#define LETI_ESOFT_24_25_A2_LISTING_H
 
 #include <string>
 #include "Property.h"
@@ -40,4 +40,4 @@ public:
 
 };
 
-#endif // LISTING_H
+#endif // LETI_ESOFT_24_25_A2_LISTING_H

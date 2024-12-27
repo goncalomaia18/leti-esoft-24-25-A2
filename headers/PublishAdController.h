@@ -1,5 +1,5 @@
-#ifndef PUBLISH_AD_CONTROLLER_H
-#define PUBLISH_AD_CONTROLLER_H
+#ifndef LETI_ESOFT_24_25_A2_PUBLISH_AD_CONTROLLER_H
+#define LETI_ESOFT_24_25_A2_PUBLISH_AD_CONTROLLER_H
 
 #include <vector>
 #include <memory>
@@ -17,5 +17,5 @@ private:
     std::shared_ptr<PropertyContainer> propertyContainer;
 };
 
-#endif // PUBLISH_AD_CONTROLLER_H
+#endif // LETI_ESOFT_24_25_A2_PUBLISH_AD_CONTROLLER_H
 
