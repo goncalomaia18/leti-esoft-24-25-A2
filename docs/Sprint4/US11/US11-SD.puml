@@ -1,0 +1,58 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+autoactivate on
+autonumber
+
+actor Administrator
+
+participant RegisterAgentView
+participant RegisterAgentController
+participant BranchContainer
+participant Branch
+participant AgentContainer
+participant RealEstateAgent
+
+
+Administrator -> RegisterAgentView : asks to register a new agent
+RegisterAgentView -> RegisterAgentController : createAgent()
+
+RegisterAgentController -> BranchContainer : getAgentContainer()
+BranchContainer --> RegisterAgentController : agentContainer
+
+RegisterAgentController -> AgentContainer : create()
+AgentContainer --> RegisterAgentController : agent : RealEstateAgent
+
+RegisterAgentView -> Administrator : requests data (name, citizen card)
+Administrator -> RegisterAgentView : enters data
+
+RegisterAgentView -> RegisterAgentController : setData(name, citizen card)
+RegisterAgentController -> RealEstateAgent : setName(name)
+RealEstateAgent --> RegisterAgentController : ok
+RegisterAgentController -> RealEstateAgent : setCitizenCard(citizen card)
+RealEstateAgent --> RegisterAgentController : ok
+
+
+
+Administrator -> RegisterAgentView : selects store
+
+RegisterAgentController -> RealEstateAgent : validate()
+RealEstateAgent -> RealEstateAgent : isValid()
+RealEstateAgent --> RegisterAgentController : ok
+
+RegisterAgentController -> AgentContainer : validate(agent)
+AgentContainer -> AgentContainer : checkDuplicates(agent)
+AgentContainer --> RegisterAgentController : ok
+
+RegisterAgentView -> App : shows data and requests confirmation
+Administrator -> RegisterAgentView : confirms
+
+RegisterAgentController -> AgentContainer : save(agent)
+AgentContainer -> AgentContainer : add(agent)
+AgentContainer --> RegisterAgentController : ok
+
+RegisterAgentView -> Administrator : informs operation success
+@enduml
+
+
+

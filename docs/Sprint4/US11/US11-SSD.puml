@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title Register New Agent System Sequence Diagram
+
+autoactivate on
+autonumber
+
+actor "Administrator" as Person
+participant ":System" as System
+
+activate Person
+
+Person -> System: Request to register a new agent
+System --> Person: Request for agent details
+
+Person -> System: Submit agent details (name, citizen card, etc.)
+System --> Person: Provide list of available stores
+
+Person -> System: Select a store
+System --> Person: Confirm store selection and registration
+
+
+
+@enduml
