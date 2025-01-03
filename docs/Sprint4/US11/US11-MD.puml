@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam classAttributeIconSize 0
+
+
+
+class Branch {
+    - stores
+    - agents
+    + findStore(storeId: String)
+}
+
+
+class RealEstateAgent {
+    - name
+    - citizenCardNumber
+    - email
+    - phoneNumber
+}
+
+' Relationships
+
+Branch "1" -- "0..*" RealEstateAgent : employs
+
+@enduml
+
