@@ -1,0 +1,469 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="1297px" preserveAspectRatio="none" style="width:1058px;height:1297px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 1058 1297" width="1058px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="#FFFFFF" height="1111.6035" style="stroke:#181818;stroke-width:1.0;" width="10" x="69.5171"
+              y="93.6211"/>
+        <rect fill="#FFFFFF" height="187.7461" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="495.3652" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="335.9492"/>
+        <rect fill="#FFFFFF" height="333.6191" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="862.6055"/>
+        <rect fill="#FFFFFF" height="125.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="148.2031"/>
+        <rect fill="#FFFFFF" height="432.7832" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="367.2402"/>
+        <rect fill="#FFFFFF" height="271.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="893.8965"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="179.4941"/>
+        <rect fill="#FFFFFF" height="182.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="586.2773"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="688.1504"/>
+        <rect fill="#FFFFFF" height="208.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="925.1875"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="964.4785"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="1053.0605"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="398.5313"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="461.1133"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="523.6953"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="617.5684"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="74" x2="74" y1="83.6211"
+              y2="1214.2246"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="397.0259" x2="397.0259" y1="83.6211"
+              y2="1214.2246"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="678.6914" x2="678.6914" y1="83.6211"
+              y2="1214.2246"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="826.8633" x2="826.8633" y1="83.6211"
+              y2="1214.2246"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1011.3281" x2="1011.3281"
+              y1="83.6211" y2="1214.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.0342" x="5"
+              y="80.1074">System Administrator
+        </text>
+        <ellipse cx="74.5171" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M74.5171,21.5 L74.5171,48.5 M61.5171,29.5 L87.5171,29.5 M74.5171,48.5 L61.5171,63.5 M74.5171,48.5 L87.5171,63.5 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.0342" x="5"
+              y="1228.332">System Administrator
+        </text>
+        <ellipse cx="74.5171" cy="1240.3457" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M74.5171,1248.3457 L74.5171,1275.3457 M61.5171,1256.3457 L87.5171,1256.3457 M74.5171,1275.3457 L61.5171,1290.3457 M74.5171,1275.3457 L87.5171,1290.3457 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="133.8271" x="331.0259" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8271"
+              x="338.0259" y="72.1074">:RegisterStoreView
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="133.8271" x="331.0259" y="1213.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8271"
+              x="338.0259" y="1235.332">:RegisterStoreView
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="164.1719" x="596.6914" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150.1719"
+              x="603.6914" y="72.1074">:RegisterStoreController
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="164.1719" x="596.6914" y="1213.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150.1719"
+              x="603.6914" y="1235.332">:RegisterStoreController
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="112.0547" x="770.8633" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.0547"
+              x="777.8633" y="72.1074">:StoreContainer
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+              width="112.0547" x="770.8633" y="1213.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.0547"
+              x="777.8633" y="1235.332">:StoreContainer
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82.4756"
+              x="970.3281" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68.4756"
+              x="977.3281" y="72.1074">store:Store
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82.4756"
+              x="970.3281" y="1213.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68.4756"
+              x="977.3281" y="1235.332">store:Store
+        </text>
+        <rect fill="#FFFFFF" height="1111.6035" style="stroke:#181818;stroke-width:1.0;" width="10" x="69.5171"
+              y="93.6211"/>
+        <rect fill="#FFFFFF" height="187.7461" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="495.3652" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="335.9492"/>
+        <rect fill="#FFFFFF" height="333.6191" style="stroke:#181818;stroke-width:1.0;" width="10" x="392.9395"
+              y="862.6055"/>
+        <rect fill="#FFFFFF" height="125.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="148.2031"/>
+        <rect fill="#FFFFFF" height="432.7832" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="367.2402"/>
+        <rect fill="#FFFFFF" height="271.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="673.7773"
+              y="893.8965"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="179.4941"/>
+        <rect fill="#FFFFFF" height="182.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="586.2773"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="688.1504"/>
+        <rect fill="#FFFFFF" height="208.4551" style="stroke:#181818;stroke-width:1.0;" width="10" x="821.8906"
+              y="925.1875"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="964.4785"/>
+        <rect fill="#FFFFFF" height="42.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="826.8906"
+              y="1053.0605"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="398.5313"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="461.1133"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="523.6953"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="1006.5659"
+              y="617.5684"/>
+        <polygon fill="#181818" points="380.9395,112.9121,390.9395,116.9121,380.9395,120.9121,384.9395,116.9121"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="79.5171" x2="386.9395" y1="116.9121" y2="116.9121"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="86.5171" y="111.6494">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182.0889"
+              x="97.7471" y="111.6494">requests to register a new store
+        </text>
+        <polygon fill="#181818" points="661.7773,144.2031,671.7773,148.2031,661.7773,152.2031,665.7773,148.2031"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="402.9395" x2="667.7773" y1="148.2031" y2="148.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="409.9395" y="142.9404">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83.0781"
+              x="421.1694" y="142.9404">registerStore()
+        </text>
+        <polygon fill="#181818" points="809.8906,175.4941,819.8906,179.4941,809.8906,183.4941,813.8906,179.4941"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="815.8906" y1="179.4941" y2="179.4941"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="690.7773" y="174.2314">3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.7891"
+              x="702.0073" y="174.2314">create()
+        </text>
+        <polygon fill="#181818" points="999.5659,206.7852,1009.5659,210.7852,999.5659,214.7852,1003.5659,210.7852"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="826.8906" x2="1005.5659"
+              y1="210.7852" y2="210.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="833.8906" y="205.5225">4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.7891"
+              x="845.1206" y="205.5225">create()
+        </text>
+        <polygon fill="#181818" points="694.7773,238.0762,684.7773,242.0762,694.7773,246.0762,690.7773,242.0762"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="825.8906"
+              y1="242.0762" y2="242.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="700.7773" y="236.8135">5
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28.9009"
+              x="712.0073" y="236.8135">store
+        </text>
+        <polygon fill="#181818" points="413.9395,269.3672,403.9395,273.3672,413.9395,277.3672,409.9395,273.3672"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="407.9395" x2="677.7773"
+              y1="273.3672" y2="273.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="419.9395" y="268.1045">6
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="431.1694" y="268.1045">ok
+        </text>
+        <polygon fill="#181818" points="90.5171,300.6582,80.5171,304.6582,90.5171,308.6582,86.5171,304.6582"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="84.5171" x2="396.9395" y1="304.6582"
+              y2="304.6582"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="96.5171" y="299.3955">7
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278.1924"
+              x="107.7471" y="299.3955">requests data (code, openingTime, closingTime)
+        </text>
+        <polygon fill="#181818" points="380.9395,331.9492,390.9395,335.9492,380.9395,339.9492,384.9395,335.9492"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="79.5171" x2="386.9395" y1="335.9492" y2="335.9492"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="86.5171" y="330.6865">8
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126.4771"
+              x="97.7471" y="330.6865">enters requested data
+        </text>
+        <polygon fill="#181818" points="661.7773,363.2402,671.7773,367.2402,661.7773,371.2402,665.7773,367.2402"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="402.9395" x2="667.7773" y1="367.2402" y2="367.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7.23" x="409.9395" y="361.9775">9
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240.6079"
+              x="421.1694" y="361.9775">setData(code, openingTime, closingTime)
+        </text>
+        <polygon fill="#181818" points="994.5659,394.5313,1004.5659,398.5313,994.5659,402.5313,998.5659,398.5313"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="1000.5659" y1="398.5313" y2="398.5313"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="690.7773" y="393.2686">10
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85.2681"
+              x="709.2373" y="393.2686">setCode(code)
+        </text>
+        <polygon fill="#181818" points="694.7773,425.8223,684.7773,429.8223,694.7773,433.8223,690.7773,429.8223"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="1010.5659"
+              y1="429.8223" y2="429.8223"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="700.7773" y="424.5596">11
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="719.2373" y="424.5596">ok
+        </text>
+        <polygon fill="#181818" points="994.5659,457.1133,1004.5659,461.1133,994.5659,465.1133,998.5659,461.1133"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="1000.5659" y1="461.1133" y2="461.1133"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="690.7773" y="455.8506">12
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179.1943"
+              x="709.2373" y="455.8506">setOpeningTime(openingTime)
+        </text>
+        <polygon fill="#181818" points="694.7773,488.4043,684.7773,492.4043,694.7773,496.4043,690.7773,492.4043"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="1010.5659"
+              y1="492.4043" y2="492.4043"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="700.7773" y="487.1416">13
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="719.2373" y="487.1416">ok
+        </text>
+        <polygon fill="#181818" points="994.5659,519.6953,1004.5659,523.6953,994.5659,527.6953,998.5659,523.6953"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="1000.5659" y1="523.6953" y2="523.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="690.7773" y="518.4326">14
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167.5972"
+              x="709.2373" y="518.4326">setClosingTime(closingTime)
+        </text>
+        <polygon fill="#181818" points="694.7773,550.9863,684.7773,554.9863,694.7773,558.9863,690.7773,554.9863"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="1010.5659"
+              y1="554.9863" y2="554.9863"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="700.7773" y="549.7236">15
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="719.2373" y="549.7236">ok
+        </text>
+        <polygon fill="#181818" points="809.8906,582.2773,819.8906,586.2773,809.8906,590.2773,813.8906,586.2773"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="815.8906" y1="586.2773" y2="586.2773"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="690.7773" y="581.0146">16
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82.3672"
+              x="709.2373" y="581.0146">validate(store)
+        </text>
+        <polygon fill="#181818" points="994.5659,613.5684,1004.5659,617.5684,994.5659,621.5684,998.5659,617.5684"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="831.8906" x2="1000.5659" y1="617.5684" y2="617.5684"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="838.8906" y="612.3057">17
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46.9536"
+              x="857.3506" y="612.3057">isValid()
+        </text>
+        <polygon fill="#181818" points="842.8906,644.8594,832.8906,648.8594,842.8906,652.8594,838.8906,648.8594"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="836.8906" x2="1010.5659"
+              y1="648.8594" y2="648.8594"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="848.8906" y="643.5967">18
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="867.3506" y="643.5967">ok
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="831.8906" x2="878.8906" y1="675.1504" y2="675.1504"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="878.8906" x2="878.8906" y1="675.1504" y2="688.1504"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="837.8906" x2="878.8906" y1="688.1504" y2="688.1504"/>
+        <polygon fill="#181818" points="847.8906,684.1504,837.8906,688.1504,847.8906,692.1504,843.8906,688.1504"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="669.8877">19
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132.2153"
+              x="862.3506" y="669.8877">checkDuplicates(store)
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="836.8906" x2="878.8906"
+              y1="729.4414" y2="729.4414"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="878.8906" x2="878.8906"
+              y1="729.4414" y2="742.4414"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="831.8906" x2="878.8906"
+              y1="742.4414" y2="742.4414"/>
+        <polygon fill="#181818" points="841.8906,738.4414,831.8906,742.4414,841.8906,746.4414,837.8906,742.4414"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="724.1787">20
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="862.3506" y="724.1787">ok
+        </text>
+        <polygon fill="#181818" points="694.7773,764.7324,684.7773,768.7324,694.7773,772.7324,690.7773,768.7324"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="825.8906"
+              y1="768.7324" y2="768.7324"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="700.7773" y="763.4697">21
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="719.2373" y="763.4697">ok
+        </text>
+        <polygon fill="#181818" points="413.9395,796.0234,403.9395,800.0234,413.9395,804.0234,409.9395,800.0234"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="407.9395" x2="677.7773"
+              y1="800.0234" y2="800.0234"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="419.9395" y="794.7607">22
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="438.3994" y="794.7607">ok
+        </text>
+        <polygon fill="#181818" points="90.5171,827.3145,80.5171,831.3145,90.5171,835.3145,86.5171,831.3145"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="84.5171" x2="396.9395" y1="831.3145"
+              y2="831.3145"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="96.5171" y="826.0518">23
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="235.5742"
+              x="114.9771" y="826.0518">shows all data and requests confirmation
+        </text>
+        <polygon fill="#181818" points="380.9395,858.6055,390.9395,862.6055,380.9395,866.6055,384.9395,862.6055"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="79.5171" x2="386.9395" y1="862.6055" y2="862.6055"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="86.5171" y="857.3428">24
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99.7153"
+              x="104.9771" y="857.3428">confirms the data
+        </text>
+        <polygon fill="#181818" points="661.7773,889.8965,671.7773,893.8965,661.7773,897.8965,665.7773,893.8965"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="402.9395" x2="667.7773" y1="893.8965" y2="893.8965"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="409.9395" y="888.6338">25
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130.0571"
+              x="428.3994" y="888.6338">saveRegisteredStore()
+        </text>
+        <polygon fill="#181818" points="809.8906,921.1875,819.8906,925.1875,809.8906,929.1875,813.8906,925.1875"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="683.7773" x2="815.8906" y1="925.1875" y2="925.1875"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="690.7773" y="919.9248">26
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65.019"
+              x="709.2373" y="919.9248">save(store)
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="831.8906" x2="878.8906" y1="951.4785" y2="951.4785"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="878.8906" x2="878.8906" y1="951.4785" y2="964.4785"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="837.8906" x2="878.8906" y1="964.4785" y2="964.4785"/>
+        <polygon fill="#181818" points="847.8906,960.4785,837.8906,964.4785,847.8906,968.4785,843.8906,964.4785"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="946.2158">27
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82.3672"
+              x="862.3506" y="946.2158">validate(store)
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="836.8906" x2="878.8906"
+              y1="1005.7695" y2="1005.7695"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="878.8906" x2="878.8906"
+              y1="1005.7695" y2="1018.7695"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="831.8906" x2="878.8906"
+              y1="1018.7695" y2="1018.7695"/>
+        <polygon fill="#181818" points="841.8906,1014.7695,831.8906,1018.7695,841.8906,1022.7695,837.8906,1018.7695"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="1000.5068">28
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="862.3506" y="1000.5068">ok
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="831.8906" x2="878.8906" y1="1040.0605" y2="1040.0605"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="878.8906" x2="878.8906" y1="1040.0605" y2="1053.0605"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="837.8906" x2="878.8906" y1="1053.0605" y2="1053.0605"/>
+        <polygon fill="#181818" points="847.8906,1049.0605,837.8906,1053.0605,847.8906,1057.0605,843.8906,1053.0605"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="1034.7979">29
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59.249"
+              x="862.3506" y="1034.7979">add(store)
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="836.8906" x2="878.8906"
+              y1="1094.3516" y2="1094.3516"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="878.8906" x2="878.8906"
+              y1="1094.3516" y2="1107.3516"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="831.8906" x2="878.8906"
+              y1="1107.3516" y2="1107.3516"/>
+        <polygon fill="#181818" points="841.8906,1103.3516,831.8906,1107.3516,841.8906,1111.3516,837.8906,1107.3516"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="843.8906" y="1089.0889">30
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="862.3506" y="1089.0889">ok
+        </text>
+        <polygon fill="#181818" points="694.7773,1129.6426,684.7773,1133.6426,694.7773,1137.6426,690.7773,1133.6426"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.7773" x2="825.8906"
+              y1="1133.6426" y2="1133.6426"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="700.7773" y="1128.3799">31
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="719.2373" y="1128.3799">ok
+        </text>
+        <polygon fill="#181818" points="413.9395,1160.9336,403.9395,1164.9336,413.9395,1168.9336,409.9395,1164.9336"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="407.9395" x2="677.7773"
+              y1="1164.9336" y2="1164.9336"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="419.9395" y="1159.6709">32
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13.73"
+              x="438.3994" y="1159.6709">ok
+        </text>
+        <polygon fill="#181818" points="90.5171,1192.2246,80.5171,1196.2246,90.5171,1200.2246,86.5171,1196.2246"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="84.5171" x2="396.9395"
+              y1="1196.2246" y2="1196.2246"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="14.46" x="96.5171" y="1190.9619">33
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151.0107"
+              x="114.9771" y="1190.9619">informs operation success
+        </text><!--SRC=[jLD1J_Cm3BttLrYxq4dVsBq793JkI82ucyHi4MbIudGJ_nudMRUEZRBBTsfYFpy_lxWtcnWxRfRBpgABVMjlbM-NJ9yzEKKBRN0TiAqgxAD75SqM8u5t-Uxwzes2v5Jq0MRFNnofXNlT6cSu1fJe391BfEemHADC9srWrZpHMZ0KdWL4huPs6PaEKy2LTp5uQwaGhsAmF-0761ete8RRAPGJik0pB9_oC6N8ehhA7rZSPMqDXEGCHuRevLoa0OAZ7MJ2Ai4IF6bh3f1CNi-h5CtPGLC3Af2qIxaX1Wj1v8fViuMzT2oS1uN-Owz18bdyIBJ6Y50hh-aV-8wSSUiNqyf5MS_xo_niPd8o0Gyif3FDZq6PueD4_-GU3DYF9sKhgSXbyoe7H_F9AEVunoDtFUfpPVNgAAO-4JPHFNgiBLgZquDawqzUvT35y6j2rIUSHuf4FAuQhyA6rCT3trcZf0TVQ395TIvzQYTuutSCQ6rP2dJwk2RAktSJMep6d_y1-wJy0Hkwk0cufU6d9Jsn-0buqSVh_BxQLTJwlpfftBjFViWoXcmPSAyKCLVV]-->
+    </g>
+</svg>

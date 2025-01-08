@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class Store {
+    - storeCode: std::wstring
+    - openingTime: std::wstring
+    - closingTime: std::wstring
+    + Store(storeCode: std::wstring, openingTime: std::wstring, closingTime: std::wstring)
+    + getStoreCode(): std::wstring
+    + getOpeningTime(): std::wstring
+    + getClosingTime(): std::wstring
+}
+
+class StoreContainer {
+    + addStore(store: std::shared_ptr<Store>): void
+}
+
+class RegisterStoreController {
+    - storeContainer: StoreContainer
+    + RegisterStoreController(container: StoreContainer)
+    + registerStore(storeCode: std::wstring, openingTime: std::wstring, closingTime: std::wstring): void
+}
+
+class RegisterStoreView {
+    - controller: RegisterStoreController
+    + RegisterStoreView(controller: RegisterStoreController)
+    + show(): void
+}
+class Admin {
+
+}
+
+StoreContainer "1" -right-> "0..*" Store: contains
+RegisterStoreController "1" --> "1" StoreContainer
+RegisterStoreView ..> RegisterStoreController: interacts with
+Admin "1" --> "1" StoreContainer: manages
+@enduml

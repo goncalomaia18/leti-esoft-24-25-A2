@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+participant ":HTTPClient" as HTTPClient
+participant ":HTTPServer" as HTTPServer
+participant "req:HTTPRequest" as HTTPRequest
+participant "resp:HTTPResponse" as HTTPResponse
+participant "handler:RouteHandler" as System
+participant ":StoreController" as Ctrl
+participant ":SystemAdministrator" as Admin
+participant "service:StoreService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:StoreRepository" as Repo
+participant "store:Store" as Store
+participant "result:HttpResult" as Result
+
+activate HTTPClient
+
+HTTPClient -> HTTPServer: POST(..., {...})
+HTTPServer -> HTTPRequest**: create(..., {...})
+HTTPServer -> HTTPResponse**: create(404)
+HTTPServer -> HTTPServer: findHandler(req)
+HTTPServer --> HTTPServer: handler
+HTTPServer -> System: run(req,resp)
+
+System -> Ctrl**: create(...)
+System -> Ctrl: postStore(code, name, openingTime, closingTime)
+Ctrl -> Admin: getStoresService()
+Admin -> Factory : getStoresRepository()
+Factory --> Admin: repo
+Admin -->Service**: create(repo)
+Admin --> Ctrl: service
+Ctrl -> Service: create(code, name, openingTime, closingTime)
+Service --> Store**: create(code, name, openingTime, closingTime)
+Service --> Ctrl: store
+Ctrl -> Service: addOrUpdate(store)
+Service -> Service : validate(store)
+Service --> Service : ok
+Service -> Repo: save(store)
+Repo --> Service : ok
+Service --> Ctrl: ok
+Ctrl --> Result**: create(201)
+Ctrl --> System: result
+System -> System: setHttpResult(resp, result)
+System --> System:
+System --> HTTPServer: resp
+HTTPServer --> HTTPClient: resp
+@enduml

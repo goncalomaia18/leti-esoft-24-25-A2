@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autoactivate on
+autonumber
+
+actor "System Administrator" as Admin
+participant ":System" as System
+
+activate Admin
+
+Admin -> System: requests to register a new store
+System --> Admin: requests data (code, openingTime, closingTime)
+
+Admin -> System: enters requested data
+System --> Admin: shows all data and requests confirmation
+
+Admin -> System: confirms the data
+System --> Admin: informs operation success
+
+@enduml
