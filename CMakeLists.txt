@@ -20,7 +20,4 @@ add_executable(leti-esoft-24-25-A2 main.cpp
         CoreTests/
         CoreTests/domain/
         CoreTests/lib/
-
-
-
 )
