@@ -1,9 +1,13 @@
 #include "../headers/TasksServer.h"
 #include "../headers/ServerStatusRouter.h"
 #include "../headers/PropertyRouter.h"
-#include <headers/domain/shared/StringUtils.h>
 #include <iostream>
-#include <stdexcept>
+
+#include "../headers/AgentRouter.h"
+
+namespace json {
+    class JSON;
+}
 
 using namespace std;
 using json::JSON;
@@ -38,7 +42,7 @@ void TasksServer::run(string host, int port) {
 
     // ADDING Categories Resource
     this->log("\t ... configuring categories resource...");
-    CategoryRouter catRouter;
+    AgentRouter catRouter;
     catRouter.configure(this->svr);
 
     // ADD HERE OTHER RESOURCE CONFIGURATIONS
