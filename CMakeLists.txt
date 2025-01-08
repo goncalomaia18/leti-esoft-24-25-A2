@@ -4,7 +4,7 @@ project(leti-esoft-24-25-A2)
 add_executable(leti-esoft-24-25-A2 main.cpp
         headers/
         headers/models/
-        Sources/
+        sources/
         RestAPI/
         RestAPI/headers/
         RestAPI/postmanTests/
