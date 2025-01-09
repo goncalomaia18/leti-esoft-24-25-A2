@@ -2,7 +2,7 @@
 // Created by pedro on 07/12/2024.
 //
 
-#include "../headers/Sale.h"
+#include "../../../headers/domain/model/Sale.h"
 
 Sale::Sale(double saleValue, RealEstateAgent* agent, Client* buyer)
         : saleValue(saleValue), responsibleAgent(agent), buyerClient(buyer) {}

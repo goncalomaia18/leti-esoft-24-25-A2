@@ -2,7 +2,8 @@
 // Created by luisf on 07/12/2024.
 //
 #include <iostream>
-#include "../headers/RealEstateAgent.h"
+#include "../../../headers/domain/model/RealEstateAgent.h"
+#include "../../../headers/domain/model/Property.h"
 
 using namespace std;
 
