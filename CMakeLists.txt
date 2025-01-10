@@ -3,12 +3,13 @@ project(leti-esoft-24-25-A2)
 
 add_executable(leti-esoft-24-25-A2 main.cpp
         headers/
+        headers/models/
         sources/
+<<<<<<< HEAD
         headers/models/Property.h
         headers/models/Advertisement.h
         headers/DisplayListedPropertiesView.h
         headers/models/Lease.h
-        headers/PublishAdView.h
         headers/ListingRepository.h
         headers/models/Sale.h
         headers/PropertyContainer.h
@@ -16,12 +17,26 @@ add_executable(leti-esoft-24-25-A2 main.cpp
         headers/models/BookingService.h
         headers/BookingView.h
         headers/models/VisitRequest.h
-        sources/DisplayListedPropertiesView.cpp
         sources/ListingRepository.cpp
         sources/PropertyContainer.cpp
-        sources/PublishAdView.cpp
-        sources/BookingView.cpp
         headers/models/Client.h
         headers/models/RealEstateAgent.h
         headers/models/Visit.h
+=======
+        RestAPI/
+        RestAPI/headers/
+        RestAPI/postmanTests/
+        RestAPI/sources/
+        RestAPI/thirdparty/
+        ConsoleApp/
+        ConsoleApp/headers/
+        ConsoleApp/sources/
+        Core/
+        Core/Headers/
+        Core/Sources/
+        Core/thirdparty/
+        CoreTests/
+        CoreTests/domain/
+        CoreTests/lib/
+>>>>>>> 20e6f623fb71b1d9ccd21945d6359aaf9f0f63b2
 )
