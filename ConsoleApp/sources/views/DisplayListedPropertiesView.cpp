@@ -14,7 +14,7 @@ void DisplayListedPropertiesView::displayProperties(const std::vector<Property>&
 }
 
 void DisplayListedPropertiesView::requestToDisplayProperties() {
-    std::vector<Property> properties = controller->listProperties();
+    std::vector<Property> properties = controller->listProperies();
     displayProperties(properties);
 }
 
