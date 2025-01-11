@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class EvaluateOrderView {
+}
+
+class EvaluateOrderController {
+    +selectOrder(int orderId): void
+    +submitEvaluation(int orderId, string evaluationData): Result
+}
+
+class Agent {
+    - name
+    +getOrderService(): OrderService
+}
+
+class OrderService {
++ OrderService(OrderRepository ordersRepo)
++ getPendingOrders(int agentId): List<Order>
++ evaluateOrder(int orderId, string evaluationData): Result
+}
+
+interface OrderRepository <<interface>> {
++ save(Order obj): Result
++ getOrdersByAgent(int agentId, boolean evaluated): List<Order>
+}
+
+interface RepositoryFactory <<interface>> {
++ getOrderRepository(): OrderRepository
+}
+
+class Order {
+    - orderId
+    - orderDate
+    - orderType
+    - orderStatus
+    - cashProposal
+    - evaluationStatus
+    - evaluationNotes
+    Order(int orderId, string orderType, boolean evaluated)
+}
+
+Agent "1" -down-> "1" RepositoryFactory:  uses
+OrderRepository "1" -right-> "0..*" Order:  records
+
+EvaluateOrderView ..> EvaluateOrderController
+EvaluateOrderController ..> Agent
+EvaluateOrderController ..> OrderService
+OrderService ..> OrderRepository
+OrderService ..> Order
+EvaluateOrderController ..> Order
+
+Agent -> OrderService: adopts
+RepositoryFactory .right.> OrderRepository
+
+class OrderMemoryRepository {
++ save(Order obj): Result
++ getOrdersByAgent(int agentId, boolean evaluated): List<Order>
+}
+
+class MemoryRepositoryFactory {
++ getOrderRepository(): OrderRepository
+}
+
+OrderMemoryRepository .up.|> OrderRepository
+MemoryRepositoryFactory .up.|> RepositoryFactory
+
+MemoryRepositoryFactory .right.> OrderMemoryRepository
+
+@enduml

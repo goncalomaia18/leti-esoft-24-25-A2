@@ -1,0 +1,29 @@
+'https://plantuml.com/class-diagram
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class Agent {
+    - name
+}
+
+class Order {
+    - orderDate
+    - orderType
+    - orderStatus
+    - cashProposal
+    - evaluationStatus
+    - evaluationNotes
+}
+
+class Listing {
+    - publishDate
+    - businessType
+    - status
+}
+
+Agent "1" -down-- "0..*" Order: evaluates >
+Order "1" -right-- "1" Listing: for >
+
+@enduml
