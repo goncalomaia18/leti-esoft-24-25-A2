@@ -1,0 +1,15 @@
+@startuml
+autoactivate on
+autonumber
+
+actor "UnregisteredUser" as UnregisteredUser
+participant ":System" as System
+
+activate UnregisteredUser
+
+UnregisteredUser -> System: requests to view listed properties
+System --> UnregisteredUser: displays available property listings
+
+
+@enduml
+

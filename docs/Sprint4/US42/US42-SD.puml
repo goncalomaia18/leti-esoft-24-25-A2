@@ -1,0 +1,45 @@
+'https://plantuml.com/sequence-diagram
+@startuml
+autoactivate on
+autonumber
+
+actor "Agent" as User
+participant ":EvaluateOrderView" as System
+participant ":EvaluateOrderController" as Ctrl
+participant ":Agent" as Agent
+participant "service:OrderService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:OrderRepository" as Repo
+participant "order:Order" as Order
+
+activate User
+
+User -> System: requests to evaluate an order
+System --> User: displays list of pending orders
+
+User -> System: selects an order
+System -> Ctrl: selectOrder(orderId)
+Ctrl -> Agent: getOrderService()
+Agent -> Factory: getOrderRepository()
+Factory --> Agent: repo
+Agent --> Service: create(repo)
+Agent --> Ctrl: service
+Ctrl -> Service: getPendingOrders(agentId)
+Service -> Repo: getOrdersByAgent(agentId, evaluated=false)
+Repo --> Service: list of orders
+Service --> Ctrl: list of orders
+Ctrl --> System: list of orders
+System --> User: shows the order details
+
+User -> System: submits evaluation
+System -> Ctrl: submitEvaluation(orderId, evaluationData)
+Ctrl -> Service: evaluateOrder(orderId, evaluationData)
+Service -> Service: validate(evaluationData)
+Service --> Service: ok
+Service -> Repo: save(order with evaluationData)
+Repo --> Service: ok
+Service --> Ctrl: ok
+Ctrl --> System: ok
+System --> User: informs operation success
+
+@enduml

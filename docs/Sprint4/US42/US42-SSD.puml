@@ -1,0 +1,21 @@
+'https://plantuml.com/sequence-diagram
+@startuml
+
+autoactivate on
+autonumber
+
+actor "Agent" as Agent
+participant ":System" as System
+
+activate Agent
+
+Agent -> System: requests to evaluate an order
+System --> Agent: displays list of pending orders
+
+Agent -> System: selects an order
+System --> Agent: shows order details and requests evaluation data
+
+Agent -> System: submits evaluation data
+System --> Agent: informs operation success
+
+@enduml

@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+actor "UnregisteredUser" as User
+participant ":DisplayListedPropertiesView" as System
+participant ":DisplayListedPropertiesController" as Ctrl
+participant ":Application" as App
+participant "service:DisplayListedPropertiesService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:ListingRepository" as Repo
+participant "listing:Listing" as Listing
+
+activate User
+
+User -> System: requests to display listed properties
+System -> Ctrl: getAll()
+Ctrl -> App: getListedPropertiesService()
+App -> Factory: getListingRepository()
+Factory --> App: repo
+App --> Service**: create(repo)
+App --> Ctrl: service
+Ctrl -> Service: getAll()
+Service -> Repo: getAll()
+Repo --> Service: returns List<Listing>
+Service --> Ctrl: returns List<Listing>
+Ctrl --> System: returns List<Listing>
+loop for each 'listing' in 'List<Listing>'
+    System -> Listing: getPublishDate()
+    Listing --> System: publishDate
+    System -> Listing: getBusinessType()
+    Listing --> System: businessType
+    System -> Listing: getCommission()
+    Listing --> System: commission
+    System -> Listing: getStatus()
+    Listing --> System: status
+    System -> Listing: getProperty()
+    Listing --> System: returns Property
+    System --> User: shows publishDate + businessType+ commission + status + displays property details
+end loop
+@enduml
