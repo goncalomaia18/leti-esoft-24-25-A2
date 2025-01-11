@@ -7,4 +7,7 @@ add_library(Core Headers/Domain/model/Category.h sources/domain/model/Category.c
         sources/domain/model/Sale.cpp
         sources/domain/model/Listing.cpp
         sources/domain/model/Lease.cpp
-        sources/domain/model/RealEstateAgent.cpp)
+        sources/domain/model/RealEstateAgent.cpp
+        headers/controllers/restapi/BookingController.h
+        headers/controllers/ui/DisplayListedPropertiesController.h
+        headers/controllers/ui/PublishAdController.h)
