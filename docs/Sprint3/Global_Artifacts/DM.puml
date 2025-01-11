@@ -3,7 +3,7 @@ skinparam classAttributeIconSize 0
 hide circle
 hide methods
 
-class StoreNetworkManager {
+class NetworkManager {
     +name
     +employeeId
     +email
@@ -23,6 +23,12 @@ class RealEstateAgent {
     -citizenCardNumber
     +email
     -phoneNumber
+}
+class Order {
+    +orderDate
+    +orderType
+    +orderStatus
+    +cashProposal
 }
 
 class Property {
@@ -82,11 +88,6 @@ class Lease {
     +leaseEndDate
 }
 
-class Advertisement {
-    +id
-    -commission
-    +visibilityStatus
-}
 
 class Visit {
     +visitDate
@@ -119,11 +120,10 @@ Property "1" --> "0..*" Listing : listed as
 Listing "0..1" --> "1" Sale : markets
 Listing "0..1" --> "1" Lease : markets
 
-Advertisement "1" --> "1" Listing : promotes
 
-Property -- Apartment
-Property -- House
-Property -- Land
+Property  <|--  Apartment : subclass of
+Property <|-- House : subclass of
+Property <|-- Land : subclass of
 
 Sale "1" --> "1" Client : by
 Sale "1" --> "1" RealEstateAgent : facilitated by
@@ -134,7 +134,9 @@ Lease "1" --> "1" RealEstateAgent : managed by
 Client "1" --> "0..*" Visit : requests
 Client "1" --> "0..*" Listing : requests to list
 Visit "1" --> "1" RealEstateAgent : scheduled by
+Client "1" --> "0..*" Order : places
+Order "1" --> "1" Listing : for
 
-StoreNetworkManager "1" --> "0..*" Branch : registers
-StoreNetworkManager "1" --> "0..*" RealEstateAgent : assigns agents
+NetworkManager "1" --> "0..*" Branch : registers
+NetworkManager "1" --> "0..*" RealEstateAgent : assigns agents
 @enduml

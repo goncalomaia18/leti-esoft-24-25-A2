@@ -14,21 +14,29 @@ participant "listing:Listing" as Listing
 
 activate User
 
-User -> System: requests to display properties
-System -> Ctrl: listProperties()
+User -> System: requests to display listed properties
+System -> Ctrl: getAll()
 Ctrl -> App: getListedPropertiesService()
 App -> Factory: getListingRepository()
 Factory --> App: repo
 App --> Service**: create(repo)
 App --> Ctrl: service
-Ctrl -> Service: getListedProperties(filters, criteria)
-Service -> Repo: getListings(filters, criteria)
+Ctrl -> Service: getAll()
+Service -> Repo: getAll()
 Repo --> Service: returns List<Listing>
 Service --> Ctrl: returns List<Listing>
 Ctrl --> System: returns List<Listing>
 loop for each 'listing' in 'List<Listing>'
+    System -> Listing: getPublishDate()
+    Listing --> System: publishDate
+    System -> Listing: getBusinessType()
+    Listing --> System: businessType
+    System -> Listing: getCommission()
+    Listing --> System: commission
+    System -> Listing: getStatus()
+    Listing --> System: status
     System -> Listing: getProperty()
     Listing --> System: returns Property
-    System --> User: displays property details
+    System --> User: shows publishDate + businessType+ commission + status + displays property details
 end loop
 @enduml

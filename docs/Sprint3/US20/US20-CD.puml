@@ -3,19 +3,19 @@ hide circle
 skinparam classAttributeIconSize 0
 
 class DisplayListedPropertiesView {
-  +displayProperties(): void
 }
 
 class DisplayListedPropertiesController {
-  +listProperties(): List<Property>
+  +getAll(): List<Listing>
 }
 
 class DisplayListedPropertiesService {
-  +getListedProperties(): List<Listing>
+  + DisplayListedPropertiesService (ListingRepository catsRepo)
+  +getAll(): List<Listing>
 }
 
 interface ListingRepository <<interface>> {
-  +getListings(): List<Listing>
+  +getAll(): List<Listing>
 }
 
 
@@ -24,27 +24,49 @@ class Listing {
   -businessType
   -commission
   -status
+  Listing(string publishDate, string businessType,
+ double commission,string status)
+  +getPublishDate(): string
+  +getBusinessType(): string
+  +getCommission(): double
+  +getStatus(): string
   +getProperty(): Property
 }
 
 class RepositoryFactory{
-  +getListingRepository(): ListingRepository
+  +getListingsRepository(): ListingRepository
 }
 class Property {
-    +type
-    +area
-    +location
-    +distanceFromCityCenter
-    +price
-    +photos
-    +availability
+    -type
+    -area
+    -location
+    -distanceFromCityCenter
+    -price
+    -photos
+    -availability
+
+Property(string type, double area , string location, double distanceFromCityCenter,
+double price, vector<std::string> photos,bool availability)
+}
+class ListingMemoryRepository {
++ save(Listing obj): Result
 }
 
+class MemoryRepositoryFactory {
++ getListingsRepository(): ListingRepository
+}
 
-ListingRepository "1" -right-> "0..*" Listing:  returns
-Property "1" -up- "0..*" Listing : has
+ListingMemoryRepository .up.|> ListingRepository
+MemoryRepositoryFactory .up.|> RepositoryFactory
+
+MemoryRepositoryFactory .right.> ListingMemoryRepository
+
+
+ListingRepository "1" -right-> "0..*" Listing:  records
+Property "1" -up- "0..*" Listing : listed as
 DisplayListedPropertiesView ..> DisplayListedPropertiesController
 DisplayListedPropertiesController ..> DisplayListedPropertiesService
 DisplayListedPropertiesService ..> ListingRepository
 RepositoryFactory .right.> ListingRepository
+DisplayListedPropertiesView ..> Listing
 @enduml
