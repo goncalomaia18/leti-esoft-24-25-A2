@@ -1,9 +1,9 @@
 #include "../headers/PropertyRouter.h"
 #include <headers/controllers/restapi/HttpResult.h>
-#include <headers/controllers/restapi/PropertyController.h>
+#include <../RestAPI/headers/PropertyRouter.h>
 #include <headers/domain/shared/StringUtils.h>
 
-PropertyRouter::CategoryRouter() : RouterConfig("/categories") {
+PropertyRouter::PropertyRouter() : RouterConfig("/categories") {
 }
 
 void PropertyRouter::configure(httplib::Server &svr) {

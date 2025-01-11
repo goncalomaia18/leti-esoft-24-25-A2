@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Propertyouter : public PropertyConfig {
+class PropertyRouter : public PropertyConfig {
 public:
     PropertyRouter();
 

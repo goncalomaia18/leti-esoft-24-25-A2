@@ -4,8 +4,8 @@
 #include <vector>
 #include <memory>
 #include <string>
-#include "models/Property.h"
-#include "PropertyContainer.h"
+#include <headers/domain/model/Property.h>
+
 
 class PublishAdController {
 public:
