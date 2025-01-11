@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class ReplyBookingRequestView {
+}
+
+class ReplyBookingRequestController {
+    +chooseRequestFromList(): VisitRequest
+    +replyToRequest(VisitRequest request, string reply): Result
+    +saveReply(): Result
+}
+
+class Agent {
+    - name
+    +getBookingRequestsService(): BookingRequestService
+}
+
+class BookingRequestService {
++ BookingRequestService(BookingRequestRepository requestsRepo)
++ listUnansweredRequests(string agentId): List<VisitRequest>
++ replyToRequest(VisitRequest request, string reply): Result
+}
+
+interface BookingRequestRepository <<interface>> {
++ listUnansweredRequests(string agentId): List<VisitRequest>
++ saveReply(VisitRequest request): Result
+}
+
+interface RepositoryFactory <<interface>> {
++ getBookingRequestRepository(): BookingRequestRepository
+}
+
+class VisitRequest {
+    - id
+    - clientName
+    - visitDate
+    - status
+    VisitRequest(string id, string clientName, string visitDate, string status)
+}
+
+Agent "1" -down-> "1" RepositoryFactory:  uses
+BookingRequestRepository "1" -right-> "0..*" VisitRequest:  records
+
+ReplyBookingRequestView ..> ReplyBookingRequestController
+ReplyBookingRequestController ..> Agent
+ReplyBookingRequestController ..> BookingRequestService
+BookingRequestService ..> BookingRequestRepository
+BookingRequestService ..> VisitRequest
+ReplyBookingRequestController ..> VisitRequest
+
+Agent -> BookingRequestService: adopts
+RepositoryFactory .right.> BookingRequestRepository
+
+@enduml

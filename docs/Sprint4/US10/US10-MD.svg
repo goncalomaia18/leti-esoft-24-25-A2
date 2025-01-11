@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="106px" preserveAspectRatio="none" style="width:450px;height:106px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 450 106" width="450px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--class SystemAdministrator-->
+        <g id="elem_SystemAdministrator">
+            <rect codeLine="6" fill="#F1F1F1" height="55.2422" id="SystemAdministrator" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="135.1445" x="7" y="25.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129.1445"
+                  x="10" y="45.6074">SystemAdministrator
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="141.1445" y1="54.1211" y2="54.1211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39.6826"
+                  x="13" y="73.2285">-name
+            </text>
+        </g><!--class Store-->
+        <g id="elem_Store">
+            <rect codeLine="10" fill="#F1F1F1" height="92.4844" id="Store" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="202.6543" x="241" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33.4619"
+                  x="325.5962" y="27.1074">Store
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="242" x2="442.6543" y1="35.6211" y2="35.6211"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190.6543"
+                  x="247" y="54.7285">-code : String [5 alphanumeric]
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140.0547"
+                  x="247" y="73.3496">-openingTime : hh:mm
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.8066"
+                  x="247" y="91.9707">-closingTime : hh:mm
+            </text>
+        </g><!--link SystemAdministrator to Store-->
+        <g id="link_SystemAdministrator_Store">
+            <path codeLine="16" d="M142.13,53 C172.06,53 207.89,53 240.93,53 " fill="none"
+                  id="SystemAdministrator-Store" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="169.5,40.6455,160.4549,37.7066,160.4549,43.5844,169.5,40.6455"
+                     style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49.8481"
+                  x="173.5" y="46.0283">registers
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7.23"
+                  x="150.3593" y="49.0483">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19.5127"
+                  x="213.4591" y="67.6717">0..*
+            </text>
+        </g><!--SRC=[ROunJmCn38Nt_0hh5YIat9M1vGQaZipjXZg4d7MnY9F8zWqKyTy9BNH0U7fwttksxv9PqtcQMWx5DivZh3p575JzGc6Lm4xVgBJG5LpylPdGwsRu76ivq1bXvn8j294aPhngHajrKUSk5JYygo7l5wP2QXAi2dmuwEEX14RtUKjsX3SMQzyrTrEehF3o226t5Ch6A1HFFw7Qi7Hy9FxEfZGp_zPprR-aN_hlc-5X02-q9lCUXjqutW_NNsOGN7iCHU79VG40]-->
+    </g>
+</svg>

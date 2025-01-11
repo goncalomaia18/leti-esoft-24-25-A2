@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class SystemAdministrator {
+    - name
+}
+
+class Store {
+    - code : String [5 alphanumeric]
+    - openingTime : hh:mm
+    - closingTime : hh:mm
+}
+
+SystemAdministrator "1" -right-- "0..*" Store: registers >
+
+@enduml

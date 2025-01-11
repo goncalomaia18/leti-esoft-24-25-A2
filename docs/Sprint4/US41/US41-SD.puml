@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+actor "Agent" as User
+participant ":ReplyBookingRequestView" as System
+participant ":ReplyBookingRequestController" as Ctrl
+participant ":Agent" as Agent
+participant "service:BookingRequestService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:BookingRequestRepository" as Repo
+participant "req:VisitRequest" as Request
+
+activate User
+
+User -> System: views unanswered visit booking requests
+System -> Ctrl: chooseRequestFromList()
+Ctrl -> Agent: getBookingRequestsService()
+Agent -> Factory: getBookingRequestRepository()
+Factory --> Agent: repo
+Agent --> Service: create(repo)
+Agent --> Ctrl: service
+Ctrl -> Service: listUnansweredRequests(agentId)
+Service --> Ctrl: List<Request>
+Ctrl --> System: List<Request>
+System --> User: displays unanswered requests
+
+User -> System: selects a request and provides a reply
+System -> Ctrl: replyToRequest(selectedRequest, reply)
+Ctrl -> Service: replyToRequest(selectedRequest, reply)
+Service -> Service: validate(selectedRequest, reply)
+Service --> Service: ok
+Service -> Repo: saveReply(selectedRequest)
+Repo --> Service: ok
+Service --> Ctrl: ok
+Ctrl --> System: ok
+System --> User: informs operation success
+
+@enduml
