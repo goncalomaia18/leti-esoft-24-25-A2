@@ -1,0 +1,40 @@
+@startuml
+autoactivate on
+autonumber
+
+participant ":HTTPClient" as HTTPClient
+participant "handler:RouteHandler" as System
+participant ":PropertyController" as Ctrl
+participant ":UnregisteredUser" as User
+participant "service:PropertyService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:PropertyRepository" as Repo
+participant "result:HttpResult" as Result
+
+activate HTTPClient
+
+HTTPClient -> System: GET /properties
+
+note over System: Handling the request
+
+System -> Ctrl: getProperties()
+
+note over Ctrl: Validate access if required
+Ctrl -> User: validateAccess()
+User --> Ctrl: accessOk
+
+Ctrl -> Service: fetchProperties()
+Service -> Factory: getPropertyRepository()
+Factory --> Service: repo
+
+note over Repo: Fetch all properties
+Ctrl -> Repo: findAllProperties()
+Repo --> Service: propertyList
+Service --> Ctrl: propertyList
+
+note over Ctrl: Return properties as result
+Ctrl --> Result: create(200, propertyList)
+Ctrl --> System: result
+System -> System: setHttpResult(resp, result)
+System --> HTTPClient: resp
+@enduml
