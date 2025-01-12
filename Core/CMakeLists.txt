@@ -15,4 +15,6 @@ add_library(Core Headers/Domain/model/Category.h sources/domain/model/Category.c
         sources/controllers/restapi/mappers/PropertyController.cpp
         headers/controllers/restapi/StoreController.h
         sources/controllers/restapi/StoreController.cpp
-        headers/infrastructure/infrastructure/container/PropertyContainer.h)
+        headers/infrastructure/infrastructure/container/PropertyContainer.h
+        Headers/controllers/restapi/AgentController.h
+        Sources/controllers/restapi/AgentController.cpp)
