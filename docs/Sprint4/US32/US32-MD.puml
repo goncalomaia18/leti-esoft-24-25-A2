@@ -3,45 +3,45 @@ skinparam classAttributeIconSize 0
 hide circle
 hide methods
 class Property {
-    +type
-    +area
-    +location
-    +distanceFromCityCenter
-    +price
-    +photos
-    +availability
+    -type
+    -area
+    -location
+    -distanceFromCityCenter
+    -price
+    -photos
+    -availability
 }
 class Client {
-    +name
-    +citizenCardNumber
-    +taxIdNumber
-    +email
-    +phoneNumber
+    -name
+    -citizenCardNumber
+    -taxIdNumber
+    -email
+    -phoneNumber
 }
 
 class Sale {
-    +saleValue
-    +responsibleAgent
-    +buyerClient
+    -saleValue
+    -responsibleAgent
+    -buyerClient
 }
 
 class Lease {
-    +monthlyRent
-    +leasePeriod
-    +leaseStartDate
-    +leaseEndDate
+    -monthlyRent
+    -leasePeriod
+    -leaseStartDate
+    -leaseEndDate
 }
 class Listing {
-    +publishDate
-    +businessType
-    +commission
-    +status
+    -publishDate
+    -businessType
+    -commission
+    -status
 }
 class Order {
-    +orderDate
-    +orderType
-    +orderStatus
-    +cashProposal
+    -orderDate
+    -orderType
+    -orderStatus
+    -cashProposal
 }
 Property "1" --> "0..*" Listing : listed as
 
