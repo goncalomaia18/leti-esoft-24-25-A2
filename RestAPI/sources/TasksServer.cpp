@@ -1,8 +1,8 @@
 #include "../headers/TasksServer.h"
 #include "../headers/ServerStatusRouter.h"
 #include "../headers/PropertyRouter.h"
+#include "../headers/StoreRouter.h" // Include StoreRouter header
 #include <iostream>
-
 
 namespace json {
     class JSON;
@@ -39,24 +39,23 @@ void TasksServer::run(string host, int port) {
     ServerStatusRouter ssRouter;
     ssRouter.configure(this->svr);
 
-    /*// ADDING Agent Resource
-    this->log("\t ... configuring agent resource...");
-    AgentRouter agentRouter;
-    agentRouter.configure(this->svr);*/
-
     // ADDING Properties Resource
     this->log("\t ... configuring properties resource...");
     PropertyRouter propertyRouter;
     propertyRouter.configure(this->svr);
 
+    // ADDING Store Resource
+    this->log("\t ... configuring store resource...");
+    StoreRouter storeRouter;
+    storeRouter.configure(this->svr);
+
     // START LISTENING HTTP REQUESTS
     this->log("HTTP Server is listening on port " + std::to_string(port) + ".");
-
     this->svr.listen(host.data(), port);
+
     // SERVER IS STOPPING
     this->log("HTTP Server is stopping.");
 }
-
 
 void TasksServer::log(string message) {
     (*this->logger) << message << std::endl;
