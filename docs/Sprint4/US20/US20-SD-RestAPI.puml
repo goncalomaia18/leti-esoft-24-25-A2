@@ -18,28 +18,28 @@ participant "result:HttpResult" as Result
 activate HTTPClient
 
 HTTPClient -> HTTPServer: GET /properties
-HTTPServer -> HTTPRequest**: create(GET /properties)
-HTTPServer -> HTTPResponse**: create(404)
+HTTPServer -> HTTPRequest: create(GET /properties)
+HTTPServer -> HTTPResponse: create(404)
 HTTPServer -> HTTPServer: findHandler(req)
 HTTPServer --> HTTPServer: handler
 HTTPServer -> System: run(req, resp)
 
-System -> Ctrl**: create(...)
+System -> Ctrl: create(...)
 System -> Ctrl: getProperties()
 Ctrl -> User: validateAccess()
 User --> Ctrl: accessOk
 Ctrl -> Service: fetchProperties()
 Service -> Factory : getPropertyRepository()
 Factory --> Service: repo
-Service --> Ctrl: create(repo)
+Ctrl -> Service: create(repo)
 Ctrl -> Repo: getAllProperties()
 Repo --> Service: propertyData
 Service --> Ctrl: propertyData
-Ctrl --> PropertyList**: create(propertyData)
-Ctrl --> Result**: create(200, propertyList)
+Ctrl --> PropertyList: create(propertyData)
+PropertyList -> Result: prepareResponse(propertyData)
+Result --> Ctrl: result
 Ctrl --> System: result
 System -> System: setHttpResult(resp, result)
-System --> System:
 System --> HTTPServer: resp
 HTTPServer --> HTTPClient: resp
 @enduml
