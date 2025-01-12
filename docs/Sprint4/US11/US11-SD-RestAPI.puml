@@ -5,8 +5,12 @@ autoactivate on
 autonumber
 
 participant ":HTTPClient" as HTTPClient
+participant ":HTTPServer" as HTTPServer
+participant "req:HTTPRequest" as HTTPRequest
+participant "resp:HTTPResponse" as HTTPResponse
 participant "handler:RouteHandler" as System
 participant ":AgentController" as Ctrl
+participant ":Application" as Person
 participant "service:AgentService" as Service
 participant "factory:RepositoryFactory" as Factory
 participant "repo:AgentRepository" as Repo
@@ -16,24 +20,48 @@ participant "result:HttpResult" as Result
 
 activate HTTPClient
 
-HTTPClient -> System: POST/agents
+HTTPClient -> HTTPServer: POST(..., {...})
+HTTPServer -> HTTPRequest**: create(..., {...})
+HTTPServer -> HTTPResponse**: create(404)
+HTTPServer -> HTTPServer: findHandler(req)
+HTTPServer --> HTTPServer: handler
+HTTPServer -> System: run(req,resp)
 note over System: Handles HTTP request routing
+System -> Ctrl**:create(..,)
 System -> Ctrl: postAgent(json agentData)
+Ctrl -> Person: getAgentService()
+Person -> Factory : getAgentsRepository()
+Factory --> Person: repo
+Person -->Service**: create(repo)
+Person --> Ctrl: service
 note over Ctrl: Start processing agent creation
 Ctrl -> Service: createAgent(agentData)
-Service -> BranchRepo: findBranch(agentData.branchId)
+Service -> BranchRepo: findBranch(branch.code)
 BranchRepo --> Service: branch
 note over Service: Validates branch existence
 Service -> Repo: isUniqueAgent(agentData.email)
 Repo --> Service: isUnique
 note over Service: Ensures no duplicate agent exists
+note over Service: Validates optional citizen card
+alt agentData.citizenCardNumber == null
+    note over Service: Citizen card number is optional
+else
+    Service -> Service: validateCitizenCardNumber(agentData.citizenCardNumber)
+end
 Service -> Agent**: create(agentData)
 note over Agent: Initializes agent instance
 Agent --> Service: agent
 Service --> Ctrl: agent
+Ctrl -> Service: Update(agent)
+Service -> Service : validate(agent)
+Service --> Service : ok
+Service -> Repo: save(agent)
+Repo --> Service : ok
+Service --> Ctrl: ok
 note over Ctrl: Completes business logic
-Ctrl --> Result**: create(201, agent)
+Ctrl --> Result**: create(201)
 Ctrl --> System: result
 System -> System: setHttpResult(resp, result)
-System --> HTTPClient: resp
+System --> HTTPServer: resp
+HTTPServer --> HTTPClient: resp
 @enduml

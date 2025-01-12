@@ -12,23 +12,36 @@ participant "factory:RepositoryFactory" as Factory
 participant "repo:AgentRepository" as Repo
 participant "agent:RealEstateAgent" as Agent
 participant "result:HttpResult" as Result
-
+participant "repo:BranchRepository" as BranchRepo
 activate HTTPClient
 
 HTTPClient -> System: POST/agents(data)
 
 note over System: after doing some processing
 
-System -> Ctrl: createAgent(name, citizenCard)
+System -> Ctrl: postAgent(name, email, phoneNumber, citizenCardNumber(optional))
 Ctrl -> App: getAgentService()
 App -> Factory : getAgentRepository()
 Factory --> App: repo
 App --> Service**: create(repo)
 App --> Ctrl: service
-Ctrl -> Service: create(name, citizenCard)
-Service --> Agent**: create(name, citizenCard)
+Ctrl -> Service: createAgent(agentData)
+
+Service -> BranchRepo: findBranch(agentData.branchcode)
+BranchRepo --> Service: branch
+
+Service -> Repo: isUniqueAgent(agentData.email)
+Repo --> Service: isUnique
+alt agentData.citizenCardNumber == null
+else
+    Service -> Service: validateCitizenCardNumber(agentData.citizenCardNumber)
+end
+Service -> Agent**: create(agentData)
+Agent --> Service: agent
 Service --> Ctrl: agent
-Ctrl -> Service: save(agent)
+Ctrl -> Service: Update(agent)
+Service -> Service : validate(agent)
+Service --> Service : ok
 Service -> Repo: save(agent)
 Repo --> Service: ok
 Service --> Ctrl: ok
