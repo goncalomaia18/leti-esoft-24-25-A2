@@ -4,7 +4,8 @@ add_executable(RestAPI RestAPI.cpp sources/RouterConfig.cpp headers/RouterConfig
         sources/PropertyRouter.cpp
         headers/HttpResult.h
         headers/HttpResult.h
-        headers/StoreRouter.h)
+        headers/StoreRouter.h
+        sources/StoreRouter.cpp)
 
 target_link_libraries(RestAPI Core)
 
