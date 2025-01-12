@@ -1,16 +1,12 @@
-#ifndef LETI_ESOFT_24_25_A2_STOREROUTER_H
-#define LETI_ESOFT_24_25_A2_STOREROUTER_H
+#ifndef PROPERTY_ROUTER_H
+#define PROPERTY_ROUTER_H
 
-#include "RouterConfig.h"
-#include "../thirdparty/httplib.h"
+#include <../RestAPI/thirdparty/httplib.h>
+#include <headers/controllers/restapi/PropertyController.h>
 
-using namespace std;
-
-class PropertyRouter : public PropertyConfig {
+class PropertyRouter {
 public:
-    PropertyRouter();
-
     void configure(httplib::Server &svr);
 };
 
-#endif //LETI_ESOFT_24_25_A2_STOREROUTER_H
+#endif //PROPERTY_ROUTER_H

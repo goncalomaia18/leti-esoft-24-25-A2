@@ -10,4 +10,6 @@ add_library(Core Headers/Domain/model/Category.h sources/domain/model/Category.c
         sources/domain/model/RealEstateAgent.cpp
         headers/controllers/restapi/BookingController.h
         headers/controllers/ui/DisplayListedPropertiesController.h
-        headers/controllers/ui/PublishAdController.h)
+        headers/controllers/ui/PublishAdController.h
+        headers/controllers/restapi/PropertyController.h
+        sources/controllers/restapi/mappers/PropertyController.cpp)

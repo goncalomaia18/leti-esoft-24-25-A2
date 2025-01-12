@@ -10,6 +10,7 @@
 #include "Listing.h"
 #include "Visit.h"
 
+class Visit;
 using namespace std;
 
 class Client {
