@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="249px" preserveAspectRatio="none" style="width:386px;height:249px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 386 249" width="386px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="#FFFFFF" height="63.582" style="stroke:#181818;stroke-width:1.0;" width="10" x="58" y="93.6211"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="317" y="116.9121"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="83.6211"
+              y2="166.2031"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="321.5" x2="321.5" y1="83.6211"
+              y2="166.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="5"
+              y="80.1074">Network Manager
+        </text>
+        <ellipse cx="63" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M63,21.5 L63,48.5 M50,29.5 L76,29.5 M63,48.5 L50,63.5 M63,48.5 L76,63.5 " fill="none"
+              style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="5"
+              y="180.3105">Network Manager
+        </text>
+        <ellipse cx="63" cy="192.3242" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M63,200.3242 L63,227.3242 M50,208.3242 L76,208.3242 M63,227.3242 L50,242.3242 M63,227.3242 L76,242.3242 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117"
+              x="263.5" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="270.5"
+              y="72.1074">:StoreDealsView
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117"
+              x="263.5" y="165.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="270.5"
+              y="187.3105">:StoreDealsView
+        </text>
+        <rect fill="#FFFFFF" height="63.582" style="stroke:#181818;stroke-width:1.0;" width="10" x="58" y="93.6211"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="317" y="116.9121"/>
+        <polygon fill="#181818" points="305,112.9121,315,116.9121,305,120.9121,309,116.9121"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="68" x2="311" y1="116.9121" y2="116.9121"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="75" y="111.6494">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="86"
+              y="111.6494">requests to view deals by store
+        </text>
+        <polygon fill="#181818" points="79,144.2031,69,148.2031,79,152.2031,75,148.2031"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73" x2="321" y1="148.2031"
+              y2="148.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="85" y="142.9404">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="96"
+              y="142.9404">displays deals and revenue summary
+        </text><!--SRC=[BO-n3eCm34JtV8N5qecoCtJgsYwetKrYqQWaeR43uk-R11PBrhsxioyVaONxhbjcz9BSVDN1TKo_H5vJQonE4PrIc2IW5hkY40HVTv_SI35hMaA4vacoXVY51tgSA3Q032_Em89HhBPBBe2c7p9CTyAPtvQsIWqx2xaQT1HKcoeJsjifzn3BLImC4c3DNZ0b1SOTk6IgWuCsMugr1sCvlxNp2Q8tEMCbdmWuEOTnLty0]-->
+    </g>
+</svg>

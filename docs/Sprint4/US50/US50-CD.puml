@@ -1,0 +1,57 @@
+@startuml
+'hide circle para simplificar
+hide circle
+skinparam classAttributeIconSize 0
+
+'Classes principais
+class StoreDealsView {
+    +displayDealsByStore(): void
+}
+
+class StoreDealsController {
+    +getDealsByStore(): List<StoreDeals>
+    +calculateRevenueByType(List<StoreDeals>): RevenueSummary
+}
+
+class Store {
+    - storeId: string
+    - name: string
+    - location: string
+    +getDeals(): List<Deal>
+}
+
+class Deal {
+    - dealId: string
+    - type: string  <<sale/rental>>
+    - amount: float
+    - date: string
+    +Deal(dealId: string, type: string, amount: float, date: string)
+}
+
+class RevenueSummary {
+    - totalSales: float
+    - totalRentals: float
+    +RevenueSummary(totalSales: float, totalRentals: float)
+}
+
+interface DealRepository <<interface>> {
+    +listDealsByStore(string storeId): List<Deal>
+}
+
+interface RepositoryFactory <<interface>> {
+    +getDealRepository(): DealRepository
+}
+
+'Relacionamentos
+StoreDealsView ..> StoreDealsController
+StoreDealsController ..> Store
+StoreDealsController ..> Deal
+StoreDealsController ..> RevenueSummary
+Store ..> Deal
+Store "1" -down-> "1" RepositoryFactory: uses
+DealRepository "1" -down-> "0..*" Deal: manages
+
+'Conexões adicionais
+RepositoryFactory .right.> DealRepository
+
+@enduml

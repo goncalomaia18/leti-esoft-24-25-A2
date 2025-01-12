@@ -1,0 +1,17 @@
+@startuml
+'autonumber for numbering each step
+autonumber
+
+actor "Network Manager" as NetworkManager
+participant ":System" as System
+
+activate NetworkManager
+
+NetworkManager -> System: requests a list of all agents
+activate System
+
+System --> NetworkManager: provides a list of agents grouped by store and sorted alphabetically
+
+deactivate System
+deactivate NetworkManager
+@enduml

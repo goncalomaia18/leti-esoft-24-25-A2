@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="481px" preserveAspectRatio="none" style="width:1163px;height:481px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 1163 481" width="1163px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="#FFFFFF" height="295.6191" style="stroke:#181818;stroke-width:1.0;" width="10" x="58" y="93.6211"/>
+        <rect fill="#FFFFFF" height="263.3281" style="stroke:#181818;stroke-width:1.0;" width="10" x="317"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="241.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="553"
+              y="148.2031"/>
+        <rect fill="#FFFFFF" height="36.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="558" y="312.6582"/>
+        <rect fill="#FFFFFF" height="93.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="804" y="179.4941"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="988" y="210.7852"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="83.6211"
+              y2="398.2402"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="321.5" x2="321.5" y1="83.6211"
+              y2="398.2402"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="558" x2="558" y1="83.6211"
+              y2="398.2402"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="809" x2="809" y1="83.6211"
+              y2="398.2402"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="993" x2="993" y1="83.6211"
+              y2="398.2402"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1120" x2="1120" y1="83.6211"
+              y2="398.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="5"
+              y="80.1074">Network Manager
+        </text>
+        <ellipse cx="63" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M63,21.5 L63,48.5 M50,29.5 L76,29.5 M63,48.5 L50,63.5 M63,48.5 L76,63.5 " fill="none"
+              style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="5"
+              y="412.3477">Network Manager
+        </text>
+        <ellipse cx="63" cy="424.3613" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M63,432.3613 L63,459.3613 M50,440.3613 L76,440.3613 M63,459.3613 L50,474.3613 M63,459.3613 L76,474.3613 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117"
+              x="263.5" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="270.5"
+              y="72.1074">:StoreDealsView
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117"
+              x="263.5" y="397.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="270.5"
+              y="419.3477">:StoreDealsView
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150"
+              x="483" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="490"
+              y="72.1074">:StoreDealsController
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150"
+              x="483" y="397.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="490"
+              y="419.3477">:StoreDealsController
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52"
+              x="783" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="790"
+              y="72.1074">:Store
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52"
+              x="783" y="397.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="790"
+              y="419.3477">:Store
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160"
+              x="913" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="920"
+              y="72.1074">service:DealRepository
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160"
+              x="913" y="397.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="920"
+              y="419.3477">service:DealRepository
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74"
+              x="1083" y="50"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1090"
+              y="72.1074">deal:Deal
+        </text>
+        <rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74"
+              x="1083" y="397.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1090"
+              y="419.3477">deal:Deal
+        </text>
+        <rect fill="#FFFFFF" height="295.6191" style="stroke:#181818;stroke-width:1.0;" width="10" x="58" y="93.6211"/>
+        <rect fill="#FFFFFF" height="263.3281" style="stroke:#181818;stroke-width:1.0;" width="10" x="317"
+              y="116.9121"/>
+        <rect fill="#FFFFFF" height="241.0371" style="stroke:#181818;stroke-width:1.0;" width="10" x="553"
+              y="148.2031"/>
+        <rect fill="#FFFFFF" height="36.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="558" y="312.6582"/>
+        <rect fill="#FFFFFF" height="93.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="804" y="179.4941"/>
+        <rect fill="#FFFFFF" height="31.291" style="stroke:#181818;stroke-width:1.0;" width="10" x="988" y="210.7852"/>
+        <polygon fill="#181818" points="305,112.9121,315,116.9121,305,120.9121,309,116.9121"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="68" x2="311" y1="116.9121" y2="116.9121"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="75" y="111.6494">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="86"
+              y="111.6494">requests to view deals by store
+        </text>
+        <polygon fill="#181818" points="541,144.2031,551,148.2031,541,152.2031,545,148.2031"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="327" x2="547" y1="148.2031" y2="148.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="334" y="142.9404">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="345"
+              y="142.9404">getDealsByStore()
+        </text>
+        <polygon fill="#181818" points="792,175.4941,802,179.4941,792,183.4941,796,179.4941"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="563" x2="798" y1="179.4941" y2="179.4941"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="570" y="174.2314">3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="581"
+              y="174.2314">getDeals()
+        </text>
+        <polygon fill="#181818" points="976,206.7852,986,210.7852,976,214.7852,980,210.7852"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="814" x2="982" y1="210.7852" y2="210.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="821" y="205.5225">4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="832"
+              y="205.5225">listDealsByStore(storeId)
+        </text>
+        <polygon fill="#181818" points="825,238.0762,815,242.0762,825,246.0762,821,242.0762"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="819" x2="992" y1="242.0762"
+              y2="242.0762"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="831" y="236.8135">5
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="842"
+              y="236.8135">List&lt;Deal&gt;
+        </text>
+        <polygon fill="#181818" points="574,269.3672,564,273.3672,574,277.3672,570,273.3672"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="568" x2="808" y1="273.3672"
+              y2="273.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="580" y="268.1045">6
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="591"
+              y="268.1045">List&lt;Deal&gt;
+        </text>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="563" x2="610" y1="299.6582" y2="299.6582"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="610" x2="610" y1="299.6582" y2="312.6582"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="569" x2="610" y1="312.6582" y2="312.6582"/>
+        <polygon fill="#181818" points="579,308.6582,569,312.6582,579,316.6582,575,312.6582"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="575" y="294.3955">7
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="586"
+              y="294.3955">calculateRevenueByType(List&lt;Deal&gt;)
+        </text>
+        <polygon fill="#181818" points="338,344.9492,328,348.9492,338,352.9492,334,348.9492"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="332" x2="552" y1="348.9492"
+              y2="348.9492"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="344" y="343.6865">8
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="355"
+              y="343.6865">List&lt;Deals&gt; + RevenueSummary
+        </text>
+        <polygon fill="#181818" points="79,376.2402,69,380.2402,79,384.2402,75,380.2402"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="73" x2="321" y1="380.2402"
+              y2="380.2402"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing"
+              textLength="7" x="85" y="374.9775">9
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="96"
+              y="374.9775">displays deals and revenue summary
+        </text><!--SRC=[TP91Jm8n48Nl-oicN8GOvDuO3k35H3s0UY_T2JHssxNJBkc_jpCi88bUDksyRrxdJVRka59FQh7edVOfT-x1X6v1-9tH6votLk-ZxXgTKz0csK4dXE3bxdEtmzWqjHuYJDum7KFyWbVjzHxZ13J11rMWrp5PO_lg3nErhJ0-eNRqQV4e51_-fTR1fnYS6ntNARg_M17bTAlM0GPhKB7N1lj0jZ95QBxUmcs5X1IT3vBkb5goDFo5-L9cLX1vJvG8Ke2XLe0T27O5I4PXYccUMi4UaqHQ5HbqEckuphhShq1LfC8IJwd0MRhj5V_dTjQm3lEhnqib7nbTdZqkx_-IpW-V1AEToQw6tE20FkEgl9SUfrV-FEab-4MY9Tp3sBRDNQTZ6LDNbfUbeBLKVwv2utAqR-lUf05exFW1]-->
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+actor "Network Manager" as User
+participant ":StoreDealsView" as View
+participant ":StoreDealsController" as Ctrl
+participant ":Store" as Store
+participant "service:DealRepository" as Repo
+participant "deal:Deal" as Deal
+
+activate User
+
+User -> View: requests to view deals by store
+View -> Ctrl: getDealsByStore()
+Ctrl -> Store: getDeals()
+Store -> Repo: listDealsByStore(storeId)
+Repo --> Store: List<Deal>
+Store --> Ctrl: List<Deal>
+Ctrl -> Ctrl: calculateRevenueByType(List<Deal>)
+Ctrl --> View: List<Deals> + RevenueSummary
+View --> User: displays deals and revenue summary
+
+@enduml
