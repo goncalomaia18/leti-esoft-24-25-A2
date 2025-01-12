@@ -19,7 +19,7 @@ HTTPClient -> System: POST/agents(data)
 
 note over System: after doing some processing
 
-System -> Ctrl: postAgent(name, email, phoneNumber, citizenCardNumber(optional))
+System -> Ctrl: postAgent(agentData)
 Ctrl -> App: getAgentService()
 App -> Factory : getAgentRepository()
 Factory --> App: repo
