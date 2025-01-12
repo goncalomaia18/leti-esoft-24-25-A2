@@ -1,36 +1,52 @@
 @startuml
 'https://plantuml.com/sequence-diagram
+
 autoactivate on
 autonumber
 
 actor "Client" as User
 participant ":PlaceOrderView" as System
 participant ":PlaceOrderController" as Ctrl
-participant ":Application" as App
-participant "service:OrderService" as Service
+participant ":Client" as Client
+participant "service:PlaceOrderService" as Service
 participant "factory:RepositoryFactory" as Factory
 participant "repo:OrderRepository" as Repo
-participant "prop:Property" as Property
+participant "listing:Listing" as Listing
+participant "order:Order" as Order
 
 activate User
 
 User -> System: requests to place an order
-System -> Ctrl: createOrder(propertyId, orderDetails)
-Ctrl -> App: getOrderService()
-App -> Factory: getOrderRepository()
-Factory --> App: repo
-App --> Service**: create(repo)
-App --> Ctrl: service
+System --> User: requests data (orderType, orderStatus, cashProposal, listingId)
+User -> System: types requested data
+System -> Ctrl: createOrder(orderDate, orderType, orderStatus, cashProposal, listingId)
+Ctrl -> Client: getOrderService()
+Client -> Factory: getOrdersRepository()
+Factory --> Client: repo
+Client --> Service**: create(repo)
+Client --> Ctrl: service
 
-Ctrl -> Service: createOrder(propertyId, orderDetails)
-Service -> Repo: getPropertyById(propertyId)
-Repo --> Service: prop
-Service -> Property: validateAvailability()
-Property --> Service: availabilityStatus
-Service -> Repo: saveOrder(orderDetails)
+Ctrl -> Service: create(orderDate, orderType, orderStatus, cashProposal)
+Service -> Listing: getListingById(listingId)
+Listing --> Service: listing
+Service -> Listing: validateAvailability()
+Listing --> Service: availabilityStatus
+
+Service -> Order: create(orderDate, orderType, orderStatus, cashProposal)
+Order --> Service: order
+Service -> Repo: save(order)
 Repo --> Service: ok
-Service --> Ctrl: orderConfirmation
-Ctrl --> System: orderConfirmation
-System --> User: confirms order placement
-
+Service --> Ctrl: ok
+Ctrl --> System: ok
+System --> User: shows all data and requests confirmation
+User -> System: confirms the data
+System -> Ctrl: savePlacedOrder()
+Ctrl -> Service: addOrUpdate(order)
+Service -> Service : validate(order)
+Service --> Service : ok
+Service -> Repo: save(order)
+Repo --> Service : ok
+Service --> Ctrl: ok
+Ctrl --> System: ok
+System --> User: informs operation success
 @enduml

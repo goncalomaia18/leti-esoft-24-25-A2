@@ -24,16 +24,16 @@ class Listing {
   -businessType
   -commission
   -status
-  Listing(string publishDate, string businessType,
+  Listing(date publishDate, string businessType,
  double commission,string status)
-  +getPublishDate(): string
+  +getPublishDate():date
   +getBusinessType(): string
   +getCommission(): double
   +getStatus(): string
   +getProperty(): Property
 }
 
-class RepositoryFactory{
+interface RepositoryFactory <<interface>>{
   +getListingsRepository(): ListingRepository
 }
 class Property {
@@ -49,11 +49,11 @@ Property(string type, double area , string location, double distanceFromCityCent
 double price, vector<std::string> photos,bool availability)
 }
 class ListingMemoryRepository {
-+ save(Listing obj): Result
+ +getAll(): List<Listing>
 }
 
 class MemoryRepositoryFactory {
-+ getListingsRepository(): ListingRepository
+ + getListingsRepository(): ListingRepository
 }
 
 ListingMemoryRepository .up.|> ListingRepository

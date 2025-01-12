@@ -1,44 +1,87 @@
 @startuml
+'https://plantuml.com/class-diagram
+
 hide circle
 skinparam classAttributeIconSize 0
 
 class PlaceOrderView {
-  +placeOrder(): void
 }
 
 class PlaceOrderController {
-  +submitOrder(orderDetails: OrderDetails): void
-}
-
-class PlaceOrderService {
-  +processOrder(orderDetails: OrderDetails): boolean
-}
-
-interface OrderRepository <<interface>> {
-  +saveOrder(order: Order): void
-}
-
-
-class Order {
-  +client
-  +listing
-  +orderType
-  +orderDate
-  +cashProposal
+    +createOrder(date orderDate , string orderType, string orderStatus, double cashProposal): void
+    +submitOrder(): Result
 }
 
 class Client {
-   +placeOrder(listing: Listing, orderType: String): void
+  -name
+  -citizenCardNumber
+  -taxIdNumber
+  -email
+  -phoneNumber
+    +getOrderService(): OrderService
 }
-class RepositoryFactory{
-  +getListingRepository(): ListingRepository
+
+class PlaceOrderService {
+    +PlaceOrderService(OrderRepository ordersRepo)
+    +create(date orderDate , string orderType, string orderStatus, double cashProposal): Order
+    +addOrUpdate(Order obj): Result
 }
-Client "1" -down-> "1" RepositoryFactory:  uses
-Client -> PlaceOrderService :  adopts
-OrderRepository "1" -right-> "0..*" Order:  returns
-PlaceOrderController ..> Client
+
+interface OrderRepository <<interface>> {
+    +save(Order obj): Result
+}
+
+interface RepositoryFactory <<interface>> {
+    +getOrdersRepository(): OrderRepository
+}
+
+class Order {
+    -orderDate
+    -orderType
+    -orderStatus
+    -cashProposal
+    Order(date orderDate , string orderType, string orderStatus, double cashProposal)
+    +getOrderDate():date
+    +getOrderType(): string
+    +getOrderStatus(): string
+    +getCashProposal(): double
+    +getListing(): Listing
+
+}
+
+class Listing {
+    -publishDate
+    -businessType
+    -commission
+    -status
+     Listing(date publishDate, string businessType,
+ double commission,string status)
+}
+
+Client "1" -down-> "1" RepositoryFactory: uses
+OrderRepository "1" -right-> "0..*" Order: records
+
 PlaceOrderView ..> PlaceOrderController
+PlaceOrderController ..> Client
 PlaceOrderController ..> PlaceOrderService
 PlaceOrderService ..> OrderRepository
+PlaceOrderService ..> Order
+PlaceOrderController ..> Order
+Order --> Listing
+
+Client -> PlaceOrderService: adopts
 RepositoryFactory .right.> OrderRepository
+
+class OrderMemoryRepository {
+    +save(Order obj): Result
+}
+
+class MemoryRepositoryFactory {
+    +getOrdersRepository(): OrderRepository
+}
+
+OrderMemoryRepository .up.|> OrderRepository
+MemoryRepositoryFactory .up.|> RepositoryFactory
+
+MemoryRepositoryFactory .right.> OrderMemoryRepository
 @enduml
