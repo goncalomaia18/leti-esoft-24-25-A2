@@ -4,7 +4,7 @@
 #include <vector>
 #include <memory>
 #include <string>
-#include "Property.h"
+#include "../Core/headers/domain/model/Property.h"
 
 class PropertyContainer {
 public:
