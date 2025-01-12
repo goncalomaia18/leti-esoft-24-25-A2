@@ -1,20 +1,11 @@
-//
-// Created by pedro on 08/01/2025.
-//
+#ifndef STOREROUTER_H
+#define STOREROUTER_H
 
-#ifndef LETI_ESOFT_24_25_A2_STOREROUTER_H
-#define LETI_ESOFT_24_25_A2_STOREROUTER_H
+#include <../RestAPI/thirdparty/httplib.h>
 
-
-#include "RouterConfig.h"
-#include "../thirdparty/httplib.h"
-
-class StoreRouter : public RouterConfig {
+class StoreRouter {
 public:
-    StoreRouter();
-
-    void configure(httplib::Server &svr);
+    void configure(httplib::Server& svr);
 };
 
-
-#endif //LETI_ESOFT_24_25_A2_STOREROUTER_H
+#endif // STOREROUTER_H
