@@ -3,7 +3,6 @@
 #include "../headers/PropertyRouter.h"
 #include <iostream>
 
-#include "../headers/AgentRouter.h"
 
 namespace json {
     class JSON;
@@ -40,13 +39,15 @@ void TasksServer::run(string host, int port) {
     ServerStatusRouter ssRouter;
     ssRouter.configure(this->svr);
 
-    // ADDING Categories Resource
-    this->log("\t ... configuring categories resource...");
-    AgentRouter catRouter;
-    catRouter.configure(this->svr);
+    /*// ADDING Agent Resource
+    this->log("\t ... configuring agent resource...");
+    AgentRouter agentRouter;
+    agentRouter.configure(this->svr);*/
 
-    // ADD HERE OTHER RESOURCE CONFIGURATIONS
-
+    // ADDING Properties Resource
+    this->log("\t ... configuring properties resource...");
+    PropertyRouter propertyRouter;
+    propertyRouter.configure(this->svr);
 
     // START LISTENING HTTP REQUESTS
     this->log("HTTP Server is listening on port " + std::to_string(port) + ".");
@@ -55,6 +56,7 @@ void TasksServer::run(string host, int port) {
     // SERVER IS STOPPING
     this->log("HTTP Server is stopping.");
 }
+
 
 void TasksServer::log(string message) {
     (*this->logger) << message << std::endl;
