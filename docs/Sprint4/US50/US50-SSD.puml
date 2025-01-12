@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autoactivate on
+autonumber
+
+actor "Network Manager" as User
+participant ":StoreDealsView" as System
+
+activate User
+
+User -> System: requests to view deals by store
+System --> User: displays deals and revenue summary
+
+@enduml

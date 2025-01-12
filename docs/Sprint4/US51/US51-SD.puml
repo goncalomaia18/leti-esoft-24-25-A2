@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autoactivate on
+autonumber
+
+actor "NetworkManager" as User
+participant ":ListAgentView" as System
+participant ":ListAgentController" as Ctrl
+participant ":NetworkManager" as Manager
+participant "container:StoreContainer" as Container
+participant "map:Map<Store, List<Agent>>" as StoreAgentMap
+participant "store:Store" as Store
+participant "list:List<Agent>" as AgentList
+participant "agent:Agent" as Agent
+
+activate User
+
+User -> System: asks to list agents
+System -> Ctrl: getAllGroupedByStore()
+Ctrl -> Manager: getStoreContainer()
+Manager --> Ctrl: container
+Ctrl -> Container: getAllStores()
+Container --> StoreAgentMap**: create()
+loop for each 'store' in 'container.getAllStores()'
+    Ctrl -> Store: getAgents()
+    Store --> AgentList**: create()
+    Ctrl -> AgentList: sort(byName)
+    AgentList --> Store: sortedList
+    StoreAgentMap -> StoreAgentMap: add(store, sortedList)
+end loop
+StoreAgentMap --> Ctrl: map
+Ctrl --> System: map
+loop for each 'store' in 'map'
+    System -> Store: getStoreName()
+    Store --> System: storeName
+    loop for each 'agent' in 'store.getAgents()'
+        System -> Agent: getName()
+        Agent --> System: name
+        System -> Agent: getEmployeeId()
+        Agent --> System: employeeId
+        System --> User: shows name + employeeId
+    end loop
+end loop
+
+@enduml

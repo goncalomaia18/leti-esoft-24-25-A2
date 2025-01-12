@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+hide circle
+hide methods
+
+class Store {
+    - storeId
+    - name
+    - location
+}
+
+class Deal {
+    - dealId
+    - type <<sale/rental>>
+    - amount
+    - date
+}
+
+Store "1" -right-- "0..*" Deal:  records >
+
+@enduml
+

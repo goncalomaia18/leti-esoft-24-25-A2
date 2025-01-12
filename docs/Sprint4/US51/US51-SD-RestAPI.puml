@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autoactivate on
+autonumber
+
+participant ":HTTPClient" as HTTPClient
+participant ":HTTPServer" as HTTPServer
+participant "req:HTTPRequest" as HTTPRequest
+participant "resp:HTTPResponse" as HTTPResponse
+participant "handler:RouteHandler" as System
+participant ":AgentController" as Ctrl
+participant ":NetworkManager" as NetworkManager
+participant "service:AgentService" as Service
+participant "factory:RepositoryFactory" as Factory
+participant "repo:AgentRepository" as Repo
+participant "agents:List<Agent>" as Agents
+participant "result:HttpResult" as Result
+
+activate HTTPClient
+
+HTTPClient -> HTTPServer: GET /agentsByStore
+HTTPServer -> HTTPRequest**: create(...)
+HTTPServer -> HTTPResponse**: create(404)
+HTTPServer -> HTTPServer: findHandler(req)
+HTTPServer --> HTTPServer: handler
+HTTPServer -> System: run(req, resp)
+System -> Ctrl**: create(...)
+System -> Ctrl: getAgentsByStore()
+Ctrl -> NetworkManager: getAgentService()
+NetworkManager -> Factory: getAgentRepository()
+Factory --> NetworkManager: repo
+NetworkManager --> Service**: create(repo)
+NetworkManager --> Ctrl: service
+Ctrl -> Service: fetchAgentsGroupedByStore()
+Service -> Repo: findAllGroupedByStore()
+Repo --> Service: agents
+Service -> Service: sortAlphabetically(agents)
+Service --> Ctrl: agents
+Ctrl --> Result**: create(200, agents)
+Ctrl --> System: result
+System -> System: setHttpResult(resp, result)
+System --> System:
+System --> HTTPServer: resp
+HTTPServer --> HTTPClient: resp
+
+@enduml
