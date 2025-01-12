@@ -25,3 +25,4 @@ void StoreRouter::configure(httplib::Server& svr) {
         }
     });
 }
+

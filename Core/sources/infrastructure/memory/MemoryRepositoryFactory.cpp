@@ -2,7 +2,3 @@
 
 MemoryRepositoryFactory::MemoryRepositoryFactory() {
 }
-
-shared_ptr<CategoryRepository> MemoryRepositoryFactory::getCategoriesRepo() {
-    return this->categories;
-}

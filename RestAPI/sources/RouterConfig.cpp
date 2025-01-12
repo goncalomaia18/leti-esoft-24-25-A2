@@ -3,6 +3,9 @@
 
 RouterConfig::RouterConfig(const string &baseResource) {
     this->baseResource = baseResource;
+    if (!this->baseResource.empty() && this->baseResource.back() == '/') {
+        this->baseResource.pop_back(); // Remove trailing slash
+    }
 }
 
 void RouterConfig::setHttpResponse(httplib::Response &res, HttpResult &result) {

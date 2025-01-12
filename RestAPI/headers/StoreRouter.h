@@ -5,7 +5,7 @@
 
 class StoreRouter {
 public:
-    void configure(httplib::Server& svr);
+    static void configure(httplib::Server& svr);
 };
 
 #endif // STOREROUTER_H
