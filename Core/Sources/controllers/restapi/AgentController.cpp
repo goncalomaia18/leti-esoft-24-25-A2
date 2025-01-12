@@ -8,7 +8,7 @@
 std::unordered_set<std::string> AgentController::agentEmails;
 
 // Helper function to extract a value from a JSON-like string
-std::string AgentController:: extractValue(const std::string& json, const std::string& key) {
+std::string AgentController::extractValue(const std::string& json, const std::string& key) {
     std::size_t keyPos = json.find("\"" + key + "\":");
     if (keyPos == std::string::npos) return "";
 
@@ -20,8 +20,16 @@ std::string AgentController:: extractValue(const std::string& json, const std::s
     if (delimiter && valueEnd == std::string::npos) valueEnd = json.find("}", valueStart);
     if (!delimiter && valueEnd == std::string::npos) valueEnd = json.length();
 
-    return json.substr(valueStart, valueEnd - valueStart);
+    std::string value = json.substr(valueStart, valueEnd - valueStart);
+
+    // Remove any surrounding quotes from the value (if present)
+    if (!value.empty() && value.front() == '"' && value.back() == '"') {
+        value = value.substr(1, value.size() - 2);
+    }
+
+    return value;
 }
+
 // Helper to validate email format
 bool AgentController::isValidEmail(const std::string& email) {
     std::regex emailRegex(R"(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)");
